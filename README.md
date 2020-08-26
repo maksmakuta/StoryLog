@@ -1,4 +1,3 @@
-# Droid
 
 ![](./app/src/main/res/mipmap-xhdpi/ic_launcher.png)
 
