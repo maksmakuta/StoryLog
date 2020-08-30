@@ -3,11 +3,6 @@ package ua.mstudio.droid.data.callback
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 
-interface DroidCallbackHelper{
-
-    fun onItemSwipe(position: Int)
-}
-
 class DroidCallback(helper: DroidCallbackHelper) : ItemTouchHelper.Callback(){
 
     var mAdapter : DroidCallbackHelper = helper

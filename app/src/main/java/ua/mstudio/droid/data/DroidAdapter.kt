@@ -24,7 +24,7 @@ class DroidAdapter(ctx: Context, sheet: BottomSheetBehavior<LinearLayout>, botto
 
     var context : Context = ctx
     lateinit var view : View
-    var data : ArrayList<DroidVersion> = ArrayList()
+    var data : ArrayList<DroidVersion> = DroidJsonParser(context).getArrayData()
     var droidSheet : BottomSheetBehavior<LinearLayout> = sheet
     var sheetLayout : LinearLayout = bottomSheet
     val n = sheetLayout.rootView.findViewById<TextView>(R.id.droidName)
