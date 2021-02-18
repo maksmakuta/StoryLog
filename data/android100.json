@@ -1,0 +1,9 @@
+{
+  "version":{
+    "api":1,
+    "CodeName":"A",
+    "CodeVersion":"1.0"
+  },
+  "date":"September 23, 2008",
+  "changelog":"Android Market, allowing application downloads and updates through the Market application.\nWeb browser to show, zoom and pan full HTML and XHTML web pages – multiple pages show as windows (\"cards\").[38][39]\nCamera support – however, this version lacked the option to change the camera's resolution, white balance, quality, etc.[40]\nFolders allowing the grouping of a number of application icons into a single folder icon on the Home screen.[41]\nAccess to web email servers, supporting POP3, IMAP4, and SMTP.[39]\nGmail synchronization with the Gmail application.\nGoogle Contacts synchronization with the People application.\nGoogle Calendar synchronization with the Calendar application.\nGoogle Maps with Street View to view maps and satellite imagery, as well as find local businesses and obtain driving directions using GPS.[40]\nGoogle Sync, allowing management of over-the-air synchronization of Gmail, People, and Calendar.\nGoogle Search, allowing users to search the Internet and phone applications, contacts, calendar, etc.\nGoogle Talk instant messaging.\nInstant messaging, text messaging, and MMS.\nMedia Player, enabling management, importing, and playback of media files – however, this version lacked video and stereo Bluetooth support.[39][40]\nNotifications appear in the Status bar, with options to set ringtone, LED or vibration alerts.[38][39][42]\nVoice Dialer allows dialing and placing of phone calls without typing a name or number.[39]\nWallpaper allows the user to set the background image or photo behind the Home screen icons and widgets.\nYouTube video player.[43]\nOther applications include: Alarm Clock, Calculator, Dialer (Phone), Home screen (Launcher), Pictures (Gallery), and Settings.\nWi-Fi and Bluetooth support.",
+}
