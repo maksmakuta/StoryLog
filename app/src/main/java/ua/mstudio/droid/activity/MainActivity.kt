@@ -3,25 +3,20 @@ package ua.mstudio.droid.activity
 import android.graphics.Color
 import android.os.Bundle
 import android.view.WindowManager
+import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import ua.mstudio.droid.R
-import ua.mstudio.droid.data.DroidAdapter
-import ua.mstudio.droid.models.DroidVersion
 import ua.mstudio.droid.utils.isDarkTheme
 
 class MainActivity : AppCompatActivity(){
 
-    lateinit var rView : RecyclerView
+    lateinit var mainFrame : FrameLayout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         draw()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        rView = findViewById(R.id.list)
-        rView.layoutManager = LinearLayoutManager(this)
-        rView.adapter = DroidAdapter(ArrayList<DroidVersion>(), this)
+        mainFrame = findViewById(R.id.mainFrame)
     }
 
     private fun draw(){
