@@ -1,0 +1,380 @@
+[
+    {
+    "codename": "a",
+    "codeversion": "1.0",
+    "api": 1,
+    "code": 100
+  },
+  {
+    "codename": "b",
+    "codeversion": "1.1",
+    "api": 2,
+    "code": 110
+  },
+  {
+    "codename": "cupcake",
+    "codeversion": "1.5",
+    "api": 3,
+    "code": 150
+  },
+  {
+    "codename": "donut",
+    "codeversion": "1.6",
+    "api": 4,
+    "code": 160
+  },
+  {
+    "codename": "eclair",
+    "codeversion": "2.0",
+    "api": 5,
+    "code": 200
+  },
+  {
+    "codename": "eclair",
+    "codeversion": "2.0.1",
+    "api": 6,
+    "code": 201
+  },
+  {
+    "codename": "eclair",
+    "codeversion": "2.1",
+    "api": 7,
+    "code": 210
+  },
+  {
+    "codename": "froyo",
+    "codeversion": "2.2",
+    "api": 8,
+    "code": 220
+  },
+  {
+    "codename": "froyo",
+    "codeversion": "2.2.1",
+    "api": 8,
+    "code": 221
+  },
+  {
+    "codename": "froyo",
+    "codeversion": "2.2.2",
+    "api": 8,
+    "code": 222
+  },
+  {
+    "codename": "froyo",
+    "codeversion": "2.2.3",
+    "api": 8,
+    "code": 223
+  },
+  {
+    "codename": "gingerbread",
+    "codeversion": "2.3",
+    "api": 9,
+    "code": 230
+  },
+  {
+    "codename": "gingerbread",
+    "codeversion": "2.3.1",
+    "api": 9,
+    "code": 231
+  },
+  {
+    "codename": "gingerbread",
+    "codeversion": "2.3.2",
+    "api": 9,
+    "code": 232
+      },
+  {
+    "codename": "gingerbread",
+    "codeversion": "2.3.3",
+    "api": 10,
+    "code": 233
+  },
+  {
+    "codename": "gingerbread",
+    "codeversion": "2.3.4",
+    "api": 10,
+    "code": 234
+  },
+  {
+    "codename": "gingerbread",
+    "codeversion": "2.3.5",
+    "api": 10,
+    "code": 235
+  },
+  {
+    "codename": "gingerbread",
+    "codeversion": "2.3.6",
+    "api": 10,
+    "code": 236
+  },
+  {
+    "codename": "gingerbread",
+    "codeversion": "2.3.7",
+    "api": 10,
+    "code": 237
+  },
+  {
+    "codename": "honeycomb",
+    "codeversion": "3.0",
+    "api": 11,
+    "code": 300
+  },
+  {
+    "codename": "honeycomb",
+    "codeversion": "3.1",
+    "api": 12,
+    "code": 310
+      },
+  {
+    "codename": "honeycomb",
+    "codeversion": "3.2",
+    "api": 13,
+    "code": 320
+  },
+  {
+    "codename": "honeycomb",
+    "codeversion": "3.2.1",
+    "api": 13,
+    "code": 321
+  },
+  {
+    "codename": "honeycomb",
+    "codeversion": "3.2.2",
+    "api": 13,
+    "code": 322
+  },
+  {
+    "codename": "honeycomb",
+    "codeversion": "3.2.3",
+    "api": 13,
+    "code": 323
+  },
+  {
+    "codename": "honeycomb",
+    "codeversion": "3.2.4",
+    "api": 13,
+    "code": 324
+  },
+  {
+    "codename": "honeycomb",
+    "codeversion": "3.2.5",
+    "api": 13,
+    "code": 325
+  },
+  {
+    "codename": "honeycomb",
+    "codeversion": "3.2.6",
+    "api": 13,
+    "code": 326
+      },
+  {
+    "codename": "ice cream sandwich",
+    "codeversion": "4.0",
+    "api": 14,
+    "code": 400
+  },
+  {
+    "codename": "ice cream sandwich",
+    "codeversion": "4.0.1",
+    "api": 14,
+    "code": 401
+  },
+  {
+    "codename": "ice cream sandwich",
+    "codeversion": "4.0.2",
+    "api": 14,
+    "code": 402
+  },
+  {
+    "codename": "ice cream sandwich",
+    "codeversion": "4.0.3",
+          "api": 15,
+    "code": 403
+  },
+  {
+    "codename": "ice cream sandwich",
+    "codeversion": "4.0.4",
+    "api": 15,
+    "code": 404
+  },
+  {
+    "codename": "jelly bean",
+    "codeversion": "4.1",
+    "api": 16,
+    "code": 410
+  },
+  {
+    "codename": "jelly bean",
+    "codeversion": "4.1.1",
+    "api": 16,
+          "code": 411
+  },
+  {
+    "codename": "jelly bean",
+    "codeversion": "4.1.2",
+    "api": 16,
+    "code": 412
+  },
+  {
+    "codename": "jelly bean",
+    "codeversion": "4.2",
+    "api": 17,
+    "code": 420
+  },
+  {
+    "codename": "jelly bean",
+    "codeversion": "4.2.1",
+    "api": 17,
+    "code": 421
+  },
+  {
+    "codename": "jelly bean",
+    "codeversion": "4.2.2",
+    "api": 17,
+    "code": 422
+  },
+  {
+    "codename": "jelly bean",
+    "codeversion": "4.3",
+    "api": 18,
+    "code": 430
+  },
+  {
+    "codename": "jelly bean",
+    "codeversion": "4.3.1",
+    "api": 18,
+    "code": 431
+  },
+  {
+    "codename": "kitkat",
+    "codeversion": "4.4",
+    "api": 19,
+    "code": 440
+      },
+  {
+    "codename": "kitkat",
+    "codeversion": "4.4.1",
+    "api": 19,
+    "code": 441
+  },
+  {
+    "codename": "kitkat",
+    "codeversion": "4.4.2",
+    "api": 19,
+    "code": 442
+  },
+  {
+    "codename": "kitkat",
+    "codeversion": "4.4.3",
+    "api": 19,
+    "code": 443
+  },
+  {
+    "codename": "kitkat",
+    "codeversion": "4.4.4",
+    "api": 19,
+    "code": 444
+  },
+  {
+    "codename": "lollipop",
+    "codeversion": "5.0",
+    "api": 21,
+    "code": 500
+  },
+  {
+    "codename": "lollipop",
+    "codeversion": "5.0.1",
+    "api": 21,
+    "code": 501
+  },
+  {
+    "codename": "lollipop",
+    "codeversion": "5.0.2",
+    "api": 21,
+    "code": 502
+  },
+      {
+    "codename": "lollipop",
+    "codeversion": "5.1",
+    "api": 22,
+    "code": 510
+  },
+  {
+    "codename": "lollipop",
+    "codeversion": "5.1.1",
+    "api": 22,
+    "code": 511
+  },
+  {
+    "codename": "marshmallow",
+    "codeversion": "6.0",
+    "api": 23,
+    "code": 600
+  },
+  {
+    "codename": "marshmallow",
+    "codeversion": "6.0.1",
+    "api": 23,
+          "code": 601
+  },
+  {
+    "codename": "nougat",
+    "codeversion": "7.0",
+    "api": 24,
+    "code": 700
+  },
+  {
+    "codename": "nougat",
+    "codeversion": "7.1",
+    "api": 25,
+    "code": 710
+  },
+  {
+    "codename": "nougat",
+    "codeversion": "7.1.1",
+    "api": 25,
+    "code": 711
+  },
+  {
+    "codename": "nougat",
+    "codeversion": "7.1.2",
+    "api": 25,
+    "code": 712
+  },
+  {
+    "codename": "oreo",
+    "codeversion": "8.0",
+    "api": 26,
+    "code": 800
+  },
+  {
+    "codename": "oreo",
+    "codeversion": "8.1.0",
+    "api": 27,
+    "code": 810
+  },
+  {
+    "codename": "pie",
+    "codeversion": "9",
+    "api": 28,
+          "code": 900
+  },
+  {
+    "codename": "q",
+    "codeversion": "10",
+    "api": 29,
+    "code": 1000
+  },
+  {
+    "codename": "r",
+    "codeversion": "11",
+    "api": 30,
+    "code": 1100
+  },
+  {
+    "codename": "s",
+    "codeversion": "12 [dp1]",
+    "api": 31,
+    "code": 1200
+  }
+]
