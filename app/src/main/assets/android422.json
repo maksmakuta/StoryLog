@@ -1,0 +1,5 @@
+{
+  "code":422,
+  "date":"February 11, 2013",
+  "changelog":"Fixed Bluetooth audio streaming bugs.[130]\nLong-pressing the Wi-Fi and Bluetooth icons in Quick Settings now toggles the on/off state.\nNew download notifications, which now show the percentage and estimated time remaining for active application downloads.\nNew sounds for wireless charging and low battery.\nNew Gallery application animation allows faster loading.\nUSB debug whitelist.\nBug fixes and performance enhancements."
+}

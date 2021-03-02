@@ -1,0 +1,5 @@
+{
+  "code":502,
+  "date":"December 19, 2014",
+  "changelog":"Fixes a bug with TRIM support (introduced in Version 4.3), which prevented devices from running on-charger cleanups of file system allocations if the device was turned off at midnight, or if it was charged only when in use.[198]\nChanges how alarms wake the CPU, and how alarms compete for system resources.[199]"
+}
