@@ -11,6 +11,7 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.card.MaterialCardView
 import ua.mstudio.droid.R
+import ua.mstudio.droid.interfaces.OnRecyclerItemClick
 import ua.mstudio.droid.models.DroidVersion
 import ua.mstudio.droid.utils.isDarkTheme
 
@@ -22,18 +23,18 @@ class DroidHolder(context: Context, itemView: View) : RecyclerView.ViewHolder(it
     private var ctx = context
 
     @SuppressLint("ResourceAsColor")
-    fun bind(i: DroidVersion){
-        name.text = i.CodeName
-        ver.text = i.CodeVersion
+    fun bind(i: DroidVersion,onItemClickListener : OnRecyclerItemClick){
+        name.text = i.name
+        ver.text = i.version
 
-        if(i.api == Build.VERSION.SDK_INT){
+        if(i.api == Build.VERSION.SDK_INT && i.version == Build.VERSION.RELEASE){
             if(isDarkTheme(ctx))
                 root.setCardBackgroundColor(Color.DKGRAY)
             else
                 root.setCardBackgroundColor(ContextCompat.getColor(ctx, R.color.primary))
             setTextColor(Color.BLACK)
         }else {
-            if (ctx.resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK == Configuration.UI_MODE_NIGHT_YES){
+            if (isDarkTheme(ctx)){
                 root.setCardBackgroundColor(Color.BLACK)
                 setTextColor(Color.WHITE)
             } else {
@@ -41,6 +42,11 @@ class DroidHolder(context: Context, itemView: View) : RecyclerView.ViewHolder(it
                 setTextColor(Color.BLACK)
             }
         }
+
+        itemView.setOnClickListener {
+            onItemClickListener.onItemClick(i)
+        }
+
     }
     private fun setTextColor(color: Int){
         name.setTextColor(color)

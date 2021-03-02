@@ -5,8 +5,8 @@
     android:layout_height="match_parent"
     tools:context=".activity.MainActivity">
 
-    <FrameLayout
-        android:id="@+id/mainFrame"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/droidList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
