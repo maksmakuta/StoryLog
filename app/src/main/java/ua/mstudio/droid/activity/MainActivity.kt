@@ -28,8 +28,6 @@ class MainActivity : AppCompatActivity(),OnRecyclerItemClick{
         droidList = findViewById(R.id.droidList)
         droidList.layoutManager = LinearLayoutManager(this)
         droidList.adapter = DroidAdapter(mainData,this,this)
-
-        println(" size -> ${mainData.size}")
     }
 
     private fun draw(){
@@ -40,8 +38,7 @@ class MainActivity : AppCompatActivity(),OnRecyclerItemClick{
 
     override fun onItemClick(obj: DroidVersion) {
         val intent = Intent(this,InfoActivity::class.java)
-        val story = GsonUtils().loadStory(this,obj)
-        intent.putExtra("story",story)
+        intent.putExtra("version",obj)
         startActivity(intent)
     }
 
