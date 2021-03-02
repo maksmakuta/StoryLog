@@ -13,7 +13,7 @@ import com.google.android.material.card.MaterialCardView
 import ua.mstudio.droid.R
 import ua.mstudio.droid.interfaces.OnRecyclerItemClick
 import ua.mstudio.droid.models.DroidVersion
-import ua.mstudio.droid.utils.isDarkTheme
+import ua.mstudio.droid.utils.ThemeUtils
 
 class DroidHolder(context: Context, itemView: View) : RecyclerView.ViewHolder(itemView){
 
@@ -28,13 +28,13 @@ class DroidHolder(context: Context, itemView: View) : RecyclerView.ViewHolder(it
         ver.text = i.version
 
         if(i.api == Build.VERSION.SDK_INT && i.version == Build.VERSION.RELEASE){
-            if(isDarkTheme(ctx))
+            if(ThemeUtils().isDarkTheme(ctx))
                 root.setCardBackgroundColor(Color.DKGRAY)
             else
                 root.setCardBackgroundColor(ContextCompat.getColor(ctx, R.color.primary))
             setTextColor(Color.BLACK)
         }else {
-            if (isDarkTheme(ctx)){
+            if (ThemeUtils().isDarkTheme(ctx)){
                 root.setCardBackgroundColor(Color.BLACK)
                 setTextColor(Color.WHITE)
             } else {

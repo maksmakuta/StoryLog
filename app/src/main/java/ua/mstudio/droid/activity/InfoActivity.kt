@@ -7,6 +7,7 @@ import ua.mstudio.droid.R
 import ua.mstudio.droid.models.DroidStory
 import ua.mstudio.droid.models.DroidVersion
 import ua.mstudio.droid.utils.GsonUtils
+import ua.mstudio.droid.utils.ThemeUtils
 
 class InfoActivity : AppCompatActivity() {
 
@@ -18,6 +19,7 @@ class InfoActivity : AppCompatActivity() {
     private lateinit var droidChangelog : MaterialTextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        ThemeUtils().draw(this)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.info_activity)
 
