@@ -1,0 +1,5 @@
+{
+  "code":234,
+  "date":"April 28, 2011",
+  "changelog":"Support for voice or video chat using Google Talk.[72]\nOpen Accessory Library support. Open Accessory was introduced in 3.1 (Honeycomb) but the Open Accessory Library grants 2.3.4 added support when connecting to a USB peripheral with compatible software and a compatible application on the device.[73]\nSwitched the default encryption for SSL from AES256-SHA to RC4-MD5.[74][75]\nFixed a spontaneous reboot on Samsung Galaxy S Plus."
+}
