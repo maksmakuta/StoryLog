@@ -26,9 +26,7 @@ class MainActivity : AppCompatActivity(),OnRecyclerItemClick{
         droidList.layoutManager = LinearLayoutManager(this)
         droidList.adapter = DroidAdapter(mainData,this,this)
     }
-
-
-
+    
     override fun onItemClick(obj: DroidVersion) {
         val intent = Intent(this,InfoActivity::class.java)
         intent.putExtra("version",obj)
