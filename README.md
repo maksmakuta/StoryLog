@@ -1,8 +1,11 @@
 
-<div style="text-align:center"><img src="./app/src/main/res/mipmap-xhdpi/ic_launcher.png" /></div>
+<center>
+ <img src="./app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+</center>
 
- App that tell you about Android Story...
+App that tell you about Android Story...
 
 # About
-Maks Makuta (lakeFm) 2021 (C)
+
+Maks Makuta (``` maksmakuta ```) 2021 (C)
 
