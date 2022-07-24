@@ -2,11 +2,11 @@
 
 App that tell you about Android Story...
 
-<div style="margin: auto; width: 30%;">
- <img style="margin: auto; width: 30%;" src="./screenshots/1.png" />
- <img style=" float: left; margin: auto; width: 30%;" src="./screenshots/2.png" />
- <img style=" float: left; margin: auto; width: 30%;" src="./screenshots/3.png" />
- <img style=" float: left; margin: auto; width: 30%;" src="./screenshots/4.png" />
+<div style="margin: auto; width: 50%;">
+ <img style="margin: auto; width: 20%;" src="./screenshots/1.png" />
+ <img style=" float: left; margin: auto; width: 20%;" src="./screenshots/2.png" />
+ <img style=" float: left; margin: auto; width: 20%;" src="./screenshots/3.png" />
+ <img style=" float: left; margin: auto; width: 20%;" src="./screenshots/4.png" />
 </div>
 
 # About
