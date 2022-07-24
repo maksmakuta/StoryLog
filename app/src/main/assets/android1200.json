@@ -1,5 +1,5 @@
 {
   "code":1200,
-  "date":"September , 2021",
-  "changelog": "In Development \n[Beta 1 (May, 2021)]\n\n\t\nEasier Wi-Fi sharing.\nAVIF image support.\nAndroid 12 UI.\nMaterial Design “3.0”.\nAndroid Runtime (ART) module added to the updatable core OS components via Google Play, added functionality to existing modules.[281][282]"
+  "date":"October 4, 2021",
+  "changelog": "Easier Wi-Fi sharing.\nAVIF image support.\nMaterial You, an updated design language based on Material Design.\nScrolling Screenshot.[281]\nOne Handed Mode.[282]\nAndroid Runtime (ART) module added to the updatable core OS components via Google Play, added functionality to existing modules.[283][284]\nArea Magnification can zoom in any content on device.[285]\nExtra Dim reduces brightness below minimum level.[286]\nBold Text.\nGreyscale.\nMic and Camera indicator and toggle.[citation needed]\nOption to choose precise or approximate location.[287]\nPrivacy Dashboard.[288]\nGestures can work in immersive mode.[289]\nPerformance improvements to system services to improve transitions, power efficiency, and reduce app startup times.[290]\nThird party app stores now have the ability to update apps without constantly asking the user for permission."
 }
