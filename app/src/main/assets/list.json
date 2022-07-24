@@ -376,5 +376,11 @@
     "version": "12",
     "api": 31,
     "code": 1200
+  },
+  {
+    "name": "S",
+    "version": "12L",
+    "api": 32,
+    "code": 1210
   }
 ]
