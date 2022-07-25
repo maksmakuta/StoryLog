@@ -1,12 +1,13 @@
 package ua.mstudio.droid
 
 import android.app.Application
-import android.content.Context
+import com.google.android.material.color.DynamicColors
 
-public class Droid : Application() {
+class Droid : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        DynamicColors.applyToActivitiesIfAvailable(this)
     }
 
 }

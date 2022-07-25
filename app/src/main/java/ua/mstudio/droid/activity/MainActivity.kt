@@ -1,36 +1,44 @@
 package ua.mstudio.droid.activity
 
-import android.content.Intent
 import android.os.Bundle
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import androidx.fragment.app.commit
 import ua.mstudio.droid.R
-import ua.mstudio.droid.data.DroidAdapter
-import ua.mstudio.droid.interfaces.OnRecyclerItemClick
-import ua.mstudio.droid.models.DroidVersion
-import ua.mstudio.droid.utils.GsonUtils
-import ua.mstudio.droid.utils.ThemeUtils
+import ua.mstudio.droid.core.CoreFragment
+import ua.mstudio.droid.fragments.droid_list.FList
 
-class MainActivity : AppCompatActivity(),OnRecyclerItemClick{
+class MainActivity : AppCompatActivity(), MainContract.IView {
 
-    lateinit var droidList: RecyclerView
-    lateinit var mainData : ArrayList<DroidVersion>
+    private lateinit var presenter: MainPresenter
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        ThemeUtils().draw(this)
-        mainData = GsonUtils().loadData(this)
+        presenter = MainPresenter(this)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        droidList = findViewById(R.id.droidList)
-        droidList.layoutManager = LinearLayoutManager(this)
-        droidList.adapter = DroidAdapter(mainData,this,this)
-    }
-    
-    override fun onItemClick(obj: DroidVersion) {
-        val intent = Intent(this,InfoActivity::class.java)
-        intent.putExtra("version",obj)
-        startActivity(intent)
+        presenter.checkConnection(this)
     }
 
+    private fun setFragment(fragment : CoreFragment){
+        supportFragmentManager.commit{
+            replace(R.id.container,fragment)
+            setCustomAnimations(android.R.anim.fade_in,android.R.anim.fade_out)
+        }
+    }
+
+    override fun connectionExist(hasConnection: Boolean) {
+        if(hasConnection){
+            val listFragment = FList()
+            setFragment(listFragment)
+        }else{
+            AlertDialog.Builder(this)
+                .setMessage(R.string.connect_message)
+                .setCancelable(false)
+                .setPositiveButton(R.string.exit){dialog,_ ->
+                    dialog.dismiss()
+                    finishAffinity()
+                }
+                .show()
+        }
+    }
 }

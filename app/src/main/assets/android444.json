@@ -1,5 +1,0 @@
-{
-  "code":444,
-  "date":"June 19 , 2014",
-  "changelog":"CVE-2014-0224 fixed, eliminating an OpenSSL man-in-the-middle vulnerability.[170]"
-}

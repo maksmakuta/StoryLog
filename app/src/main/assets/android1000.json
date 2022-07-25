@@ -1,6 +1,0 @@
-{
-  "code":1000,
-  "date":"September 3, 2019",
-  "changelog": "New permissions required to access location in background and to access photo, video and audio files.[249]\nBackground apps can no longer jump into the foreground.[249]\nLimited access to non-resettable device identifiers.[249]\nBackground (idle) access to camera, microphone and sensors disabled for more privacy protection with the side effect of disabling antitheft software.[250][251][252]\nSharing shortcuts, which allow sharing content with a contact directly.[249]\nFloating settings panel, that allows changing system settings directly from apps.[249]\nDynamic depth format for photos, which allow changing background blur after taking a photo.[249]\nSupport for the AV1 video codec, the HDR10+ video format and the Opus audio codec.[249]\nSupport for aptX Adaptive, LHDC, LLAC, CELT and AAC LATM codecs[253][254]\nA native MIDI API, allowing interaction with music controllers.[249]\nBetter support for biometric authentication in apps.[249]\nSupport for the WPA3 Wi-Fi security protocol.[249]\nSupport for foldable phones.[249]\nSupport for Notification Bubbles.[255][256]\nNew system-wide dark theme/mode[257][258]\nProject Mainline, allows core OS components to be updated via the Google Play Store, without requiring a complete system update[259]"
- 
-}

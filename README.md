@@ -11,5 +11,5 @@ App that tell you about Android Story...
 
 # About
 
-Maks Makuta (``` maksmakuta ```) 2021 (C)
+Maks Makuta (``` maksmakuta ```) 2022 (C)
 

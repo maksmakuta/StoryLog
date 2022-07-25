@@ -1,5 +1,0 @@
-{
-  "code":160,
-  "date":"September 15, 2009",
-  "changelog":"Voice and text entry search enhanced to include bookmark history, contacts, and the web.\nAbility for developers to include their content in search results.\nMulti-lingual speech synthesis engine to allow any Android application to \"speak\" a string of text.\nEasier searching and the ability to view app screenshots in Android Market.\nGallery, Camera and camcorder more fully integrated, with faster camera access.\nAbility for users to select multiple photos for deletion.\nUpdated technology support for CDMA/EVDO, 802.1x, VPNs, and a text-to-speech engine.\nSupport for WVGA screen resolutions.\nSpeed improvements in searching and camera applications.\nExpanded Gesture framework and a new GestureBuilder development tool."
-}
