@@ -1,5 +1,0 @@
-{
-  "code":443,
-  "date":"June 2 , 2014",
-  "changelog":"Refreshed the Dialer app's interface.[167]\nUpdated the Chromium-based WebView to version 33 (screencasting to DevTools, HTML5 Canvas hardware acceleration performance improvements, vibration API, HTML5 form validation, and an HTML5 datalist).[168]\nMiscellaneous improvements and bug fixes."
-}

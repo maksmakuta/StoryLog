@@ -1,5 +1,0 @@
-{
-  "code":710,
-  "date":"October 4, 2016",
-  "changelog":"Rearranged notification shade.\nTouch/display performance improvements.\nMoves (Fingerprint swipe down gesture – opt-in).\nOpt-in with new hardware required:\nSeamless A/B system updates.\nDaydream VR mode.\nDeveloper features:\nShortcut manager APIs.\nCircular app icons support.\nKeyboard image insertion.\nFingerprint sensor gesture to open/close notification shade.\nManual storage manager Intent for apps.\nImproved VR thread scheduling.\nEnhanced wallpaper metadata.\nMulti-endpoint call support.\nSupport for various MNO requirements.\nPCDMA voice privacy property.\nSource type support for Visual Voicemail.\nCarrier config options for managing telephone videos.\nManual storage manager – identifies files and apps using storage."
-}

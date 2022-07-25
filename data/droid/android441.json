@@ -1,0 +1,4 @@
+{
+  "date":"December 5, 2013",
+  "changelog":"Better application compatibility for the experimental Android Runtime (ART).\nCamera application now loads Google+ Photos instead of Gallery when swiping away from the camera view.\nMiscellaneous improvements and bug fixes."
+}

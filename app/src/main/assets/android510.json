@@ -1,5 +1,0 @@
-{
-  "code":510,
-  "date":"March 9, 2015",
-  "changelog":"Improvements and bug fixes to the Overview screen.\nAbility to join Wi-Fi networks and control paired Bluetooth devices from quick settings.\nOfficial support for multiple SIM cards.[201]\nDevice protection: if a device is lost or stolen it will remain locked until the owner signs into their Google account, even if the device is reset to factory settings.\nHigh-definition voice calls, available between compatible 4G LTE devices running Android 5.1.[201]\nImprovements to the notification priority system, to more closely replicate the silent mode that was removed from Android 5.0.[202]\n"
-}
