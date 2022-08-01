@@ -1,4 +1,0 @@
-{
-  "date":"November 27, 2012",
-  "changelog":"Fixed a bug in the People application where December was not displayed on the date selector when adding an event to a contact.[128]\nAdded Bluetooth gamepads and joysticks as supported HIDs (Human interface devices)."
-}
