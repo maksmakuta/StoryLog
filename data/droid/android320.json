@@ -1,4 +1,0 @@
-{
-  "date":"July 15, 2011",
-  "changelog":"Improved hardware support, including optimizations for a wider range of tablets.\nIncreased ability of applications to access files on the SD card, e.g. for synchronization.\nCompatibility display mode for applications that have not been optimized for tablet screen resolutions.\nNew display support functions, giving developers more control over display appearance on different Android devices.[92]"
-}
