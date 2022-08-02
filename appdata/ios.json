@@ -1,0 +1,23 @@
+[
+  {
+    "api": 1,
+    "codename": "1A543a",
+    "date": "June 29, 2007",
+    "logs": "iPod: Create playlists, organized by albums, artists, and genres, listen to songs and audiobooks, and watch videos and podcasts\nPhone: Call people, add people to favorites, and group chat\nMore apps, including Text, Photos, Mail, Safari, Maps, Stocks, and Weather\nSwitch between EDGE and Wi-Fi\nApple's integrated YouTube video player",
+    "version": "1.0"
+  },
+  {
+    "api": 1,
+    "codename": "1C25",
+    "date": "July 31, 2007",
+    "logs": "Security update for Safari.",
+    "version": "1.0.1"
+  },
+  {
+    "api": 1,
+    "codename": "1C28",
+    "date": "August 21, 2007;",
+    "logs": "Bug fixes:\n\nItems deleted on a user's iPhone are no longer re-synced after they have been deleted.\n\nMulti-line addresses can now be processed in Maps.\n\nCustom ringtones are no longer lost when an iPhone is restored.",
+    "version": "1.0.2"
+  }
+]

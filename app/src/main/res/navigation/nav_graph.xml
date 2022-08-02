@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
     app:startDestination="@id/FWellcome">
 
     <fragment
         android:id="@+id/FWellcome"
+        tools:layout="@layout/fragment_wellcome"
         android:name="ua.makuta.storylog.fragment.wellcome.FWellcome"
-        android:label="FWellcome" />
+        android:label="FWellcome" >
+        <action
+            android:id="@+id/action_FWellcome_to_FLicenses"
+            app:destination="@id/FLicenses" />
+    </fragment>
     <fragment
         android:id="@+id/FInfo"
         android:name="ua.makuta.storylog.fragment.info.FInfo"
@@ -30,4 +36,8 @@
             app:destination="@id/FInfo"
             app:popUpToInclusive="true"/>
     </fragment>
+    <fragment
+        android:id="@+id/FLicenses"
+        android:name="ua.makuta.storylog.fragment.licenses.FLicenses"
+        android:label="FLicenses" />
 </navigation>
