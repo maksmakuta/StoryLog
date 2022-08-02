@@ -3,4 +3,7 @@
     <string name="android">Android</string>
     <string name="ios">IOS</string>
     <string name="home">Home</string>
+    <string name="released">Release date</string>
+    <string name="api">API</string>
+    <string name="changelog">Changelog</string>
 </resources>

@@ -1,0 +1,23 @@
+[
+  {
+    "api": 1,
+    "codename": "A",
+    "date": "September 23, 2008",
+    "logs": "Android Market, allowing application downloads and updates through the Market application.\nWeb browser to show, zoom and pan full HTML and XHTML web pages – multiple pages show as windows (\"cards\").\nCamera support – however, this version lacked the option to change the camera's resolution, white balance, quality, etc.\nFolders allowing the grouping of a number of application icons into a single folder icon on the Home screen.\nAccess to web email servers, supporting POP3, IMAP4, and SMTP.\nGmail synchronization with the Gmail application.\nGoogle Contacts synchronization with the People application.\nGoogle Calendar synchronization with the Calendar application.\nGoogle Maps with Street View to view maps and satellite imagery, as well as find local businesses and obtain driving directions using GPS.\nGoogle Sync, allowing management of over-the-air synchronization of Gmail, People, and Calendar.\nGoogle Search, allowing users to search the Internet and phone applications, contacts, calendar, etc.\nGoogle Talk instant messaging.\nInstant messaging, text messaging, and MMS.\nMedia Player, enabling management, importing, and playback of media files – however, this version lacked video and stereo Bluetooth support.\nNotifications appear in the Status bar, with options to set ringtone, LED or vibration alerts.\nVoice Dialer allows dialing and placing of phone calls without typing a name or number.\nWallpaper allows the user to set the background image or photo behind the Home screen icons and widgets.\nYouTube video player.\nOther applications include: Alarm Clock, Calculator, Dialer (Phone), Home screen (Launcher), Pictures (Gallery), and Settings.\nWi-Fi and Bluetooth support.",
+    "version": "1.0"
+  },
+  {
+    "api": 2,
+    "codename": "B",
+    "date": "February 9, 2009",
+    "logs": "Details and reviews available when a user searches for businesses on Maps.\nLonger in-call screen timeout by default when using the speakerphone, plus the ability to show/hide the dialpad.\nAbility to save attachments in messages.\nSupport added for marquee in system layouts.",
+    "version": "1.1"
+  },
+  {
+    "api": 3,
+    "codename": "Cupcake",
+    "date": "April 27, 2009",
+    "logs": "Support for third-party virtual keyboards with text prediction and a user dictionary for custom words.\nSupport for Widgets – miniature application views that can be embedded in other applications (such as the Home screen) and receive periodic updates.\nVideo recording and playback in MPEG-4 and 3GP formats.\nAuto-pairing and stereo support for Bluetooth (A2DP and AVRCP profiles).\nCopy and paste features in web browser.\nUser pictures shown for Favorites in Contacts.\nSpecific date/time stamp shown for events in call log, and one-touch access to a contact card from a call log event.\nAnimated screen transitions.\nAuto-rotation option.\nNew stock boot animation.\nAbility to upload videos to YouTube.\nAbility to upload photos to Picasa.\nAbility to check phone usage history.",
+    "version": "1.5"
+  }
+]
