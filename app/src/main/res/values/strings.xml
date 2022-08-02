@@ -6,4 +6,5 @@
     <string name="released">Release date</string>
     <string name="api">API</string>
     <string name="changelog">Changelog</string>
+    <string name="description">All information about version of Android and IOS taken from wikipedia</string>
 </resources>
