@@ -3,21 +3,140 @@
     "api": 1,
     "codename": "A",
     "date": "September 23, 2008",
-    "logs": "Android Market, allowing application downloads and updates through the Market application.\nWeb browser to show, zoom and pan full HTML and XHTML web pages – multiple pages show as windows (\"cards\").\nCamera support – however, this version lacked the option to change the camera's resolution, white balance, quality, etc.\nFolders allowing the grouping of a number of application icons into a single folder icon on the Home screen.\nAccess to web email servers, supporting POP3, IMAP4, and SMTP.\nGmail synchronization with the Gmail application.\nGoogle Contacts synchronization with the People application.\nGoogle Calendar synchronization with the Calendar application.\nGoogle Maps with Street View to view maps and satellite imagery, as well as find local businesses and obtain driving directions using GPS.\nGoogle Sync, allowing management of over-the-air synchronization of Gmail, People, and Calendar.\nGoogle Search, allowing users to search the Internet and phone applications, contacts, calendar, etc.\nGoogle Talk instant messaging.\nInstant messaging, text messaging, and MMS.\nMedia Player, enabling management, importing, and playback of media files – however, this version lacked video and stereo Bluetooth support.\nNotifications appear in the Status bar, with options to set ringtone, LED or vibration alerts.\nVoice Dialer allows dialing and placing of phone calls without typing a name or number.\nWallpaper allows the user to set the background image or photo behind the Home screen icons and widgets.\nYouTube video player.\nOther applications include: Alarm Clock, Calculator, Dialer (Phone), Home screen (Launcher), Pictures (Gallery), and Settings.\nWi-Fi and Bluetooth support.",
+    "logs": "Android Market, allowing application downloads and updates through the Market application.*Web browser to show, zoom and pan full HTML and XHTML web pages – multiple pages show as windows (\"cards\").*Camera support – however, this version lacked the option to change the camera's resolution, white balance, quality, etc.*Folders allowing the grouping of a number of application icons into a single folder icon on the Home screen.*Access to web email servers, supporting POP3, IMAP4, and SMTP.*Gmail synchronization with the Gmail application.*Google Contacts synchronization with the People application.*Google Calendar synchronization with the Calendar application.*Google Maps with Street View to view maps and satellite imagery, as well as find local businesses and obtain driving directions using GPS.*Google Sync, allowing management of over-the-air synchronization of Gmail, People, and Calendar.*Google Search, allowing users to search the Internet and phone applications, contacts, calendar, etc.*Google Talk instant messaging.*Instant messaging, text messaging, and MMS.*Media Player, enabling management, importing, and playback of media files – however, this version lacked video and stereo Bluetooth support.*Notifications appear in the Status bar, with options to set ringtone, LED or vibration alerts.*Voice Dialer allows dialing and placing of phone calls without typing a name or number.*Wallpaper allows the user to set the background image or photo behind the Home screen icons and widgets.*YouTube video player.*Other applications include: Alarm Clock, Calculator, Dialer (Phone), Home screen (Launcher), Pictures (Gallery), and Settings.*Wi-Fi and Bluetooth support.",
     "version": "1.0"
   },
   {
     "api": 2,
     "codename": "B",
     "date": "February 9, 2009",
-    "logs": "Details and reviews available when a user searches for businesses on Maps.\nLonger in-call screen timeout by default when using the speakerphone, plus the ability to show/hide the dialpad.\nAbility to save attachments in messages.\nSupport added for marquee in system layouts.",
+    "logs": "Details and reviews available when a user searches for businesses on Maps.*Longer in-call screen timeout by default when using the speakerphone, plus the ability to show/hide the dialpad.*Ability to save attachments in messages.*Support added for marquee in system layouts.",
     "version": "1.1"
   },
   {
     "api": 3,
     "codename": "Cupcake",
     "date": "April 27, 2009",
-    "logs": "Support for third-party virtual keyboards with text prediction and a user dictionary for custom words.\nSupport for Widgets – miniature application views that can be embedded in other applications (such as the Home screen) and receive periodic updates.\nVideo recording and playback in MPEG-4 and 3GP formats.\nAuto-pairing and stereo support for Bluetooth (A2DP and AVRCP profiles).\nCopy and paste features in web browser.\nUser pictures shown for Favorites in Contacts.\nSpecific date/time stamp shown for events in call log, and one-touch access to a contact card from a call log event.\nAnimated screen transitions.\nAuto-rotation option.\nNew stock boot animation.\nAbility to upload videos to YouTube.\nAbility to upload photos to Picasa.\nAbility to check phone usage history.",
+    "logs": "Support for third-party virtual keyboards with text prediction and a user dictionary for custom words.*Support for Widgets – miniature application views that can be embedded in other applications (such as the Home screen) and receive periodic updates.*Video recording and playback in MPEG-4 and 3GP formats.*Auto-pairing and stereo support for Bluetooth (A2DP and AVRCP profiles).*Copy and paste features in web browser.*User pictures shown for Favorites in Contacts.*Specific date/time stamp shown for events in call log, and one-touch access to a contact card from a call log event.*Animated screen transitions.*Auto-rotation option.*New stock boot animation.*Ability to upload videos to YouTube.*Ability to upload photos to Picasa.*Ability to check phone usage history.",
     "version": "1.5"
+  },
+  {
+    "api": 4,
+    "codename": "Donut",
+    "date": "September 15, 2009",
+    "logs": "Voice and text entry search enhanced to include bookmark history, contacts, and the web.*Ability for developers to include their content in search results.*Multi-lingual speech synthesis engine to allow any Android application to \"speak\" a string of text.*Easier searching and the ability to view app screenshots in Android Market.*Gallery, Camera and camcorder more fully integrated, with faster camera access.*Ability for users to select multiple photos for deletion.*Updated technology support for CDMA/EVDO, 802.1x, VPNs, and a text-to-speech engine.*Support for WVGA screen resolutions.*Speed improvements in searching and camera applications.*Expanded Gesture framework and a new GestureBuilder development tool.",
+    "version": "1.6"
+  },
+  {
+    "api": 5,
+    "codename": "Eclair",
+    "date": "October 27, 2009",
+    "logs": "Expanded Account sync, allowing users to add multiple accounts to a device for synchronization of an email and contacts.*Microsoft Exchange email support, with a combined inbox to browse an email from multiple accounts in one page.*Bluetooth 2.1 support.*Ability to tap a Contacts photo and select to call, SMS, or email the person.*Ability to search all saved SMS and MMS messages, with the added ability to delete the oldest messages in a conversation automatically deleted when a defined limit is reached.*Numerous new camera features, including flash support, digital zoom, scene mode, white balance, color effect and macro focus.*Improved typing speed on a virtual keyboard, with a smarter dictionary that learns from word usage and includes contact names as suggestions.*Refreshed browser UI with bookmark thumbnails, double-tap zoom and support for HTML5.*Calendar agenda view enhanced, showing attending status for each invitee, and the ability to invite new guests to events.*Optimized hardware speed and revamped UI.*Support for more screen sizes and resolutions, with better contrast ratio.*Improved Google Maps 3.1.2.*MotionEvent class enhanced to track multi-touch events.*Pressure-sensitive touch support in API, even though no according hardware existed at that time.*Addition of live wallpapers, allowing the animation of home-screen background images to show movement.",
+    "version": "2.0"
+  },
+  {
+    "api": 6,
+    "codename": "Eclair",
+    "date": "December 3, 2009",
+    "logs": "Minor API changes, bug fixes and framework behavioral changes.",
+    "version": "2.0.1"
+  },
+  {
+    "api": 7,
+    "codename": "Eclair",
+    "date": "January 11, 2010",
+    "logs": "Minor amendments to the API and bug fixes.",
+    "version": "2.1"
+  },
+  {
+    "api": 8,
+    "codename": "Froyo",
+    "date": "May 20, 2010",
+    "logs": "Speed, memory, and performance optimizations.*Additional application speed improvements, implemented through JIT compilation.*Integration of Chrome's V8 JavaScript engine into the Browser application.*Support for the Android Cloud to Device Messaging (C2DM) service, enabling push notifications.*Improved Microsoft Exchange support, including security policies, auto-discovery, GAL look-up, calendar synchronization and remote wipe.*Improved application launcher with shortcuts to Phone and Browser applications.*USB tethering and Wi-Fi hotspot functionality*Option to disable data access over a mobile network.*Updated Market application with batch and automatic update features.*Quick switching between multiple keyboard languages and their dictionaries.*Support for Bluetooth-enabled car and desk docks.*Support for numeric and alphanumeric passwords.*Support for file upload fields in the Browser application.*The browser now shows all frames of animated GIFs instead of just the first frame only.*Support for installing applications to expandable memory.*Adobe Flash support.*Support for high-PPI displays (up to 320 ppi), such as four-inch 720p screens.*Gallery allows users to view picture stacks using a zoom gesture.",
+    "version": "2.2"
+  },
+  {
+    "api": 8,
+    "codename": "Froyo",
+    "date": "September 27, 2010",
+    "logs": "Bug fixes, security updates and performance improvements.",
+    "version": "2.2.1"
+  },
+  {
+    "api": 8,
+    "codename": "Froyo",
+    "date": "January 21, 2011",
+    "logs": "Minor bug fixes, including SMS routing issues that affected the Nexus One.",
+    "version": "2.2.2"
+  },
+  {
+    "api": 8,
+    "codename": "Froyo",
+    "date": "November 21, 2011",
+    "logs": "Two security updates.",
+    "version": "2.2.3"
+  },
+  {
+    "api": 9,
+    "codename": "Gingerbread",
+    "date": "December 6, 2010",
+    "logs": "Updated user interface design with increased simplicity and speed.*Support for extra-large screen sizes and resolutions (WXGA and higher).*Native support for SIP VoIP internet telephones.*Faster, more intuitive text input on a virtual keyboard, with improved accuracy, better suggested text and voice input mode.*Enhanced copy/paste functionality, allowing users to select a word by press-holding, copying, and pasting.*Support for Near Field Communication (NFC), allowing the user to read an NFC tag embedded in a poster, sticker, or advertisement.*New audio effects such as reverb, equalization, headphone virtualization, and bass boost.*New Download Manager, giving users easy access to any file downloaded from the browser, email, or another application.*Support for multiple cameras on the device, including a front-facing camera, if available.*Support for WebM/VP8 video playback, and AAC audio encoding.*Improved power management with a more active role in managing applications that are keeping the device awake for too long.*Enhanced support for native code development.*Switched from YAFFS to ext4 on newer devices.*Audio, graphical, and input enhancements for game developers.*Concurrent garbage collection for increased performance.*Native support for more sensors (such as gyroscopes and barometers).*First Android version to feature an Easter egg. It was an image of the Bugdroid standing next to a zombie gingerbread man, with many more zombies in the background.",
+    "version": "2.3"
+  },
+  {
+    "api": 9,
+    "codename": "Gingerbread",
+    "date": "December 22, 2010",
+    "logs": "Improvements and bug fixes for the Nexus S.",
+    "version": "2.3.1"
+  },
+  {
+    "api": 9,
+    "codename": "Gingerbread",
+    "date": "January 21, 2011",
+    "logs": "Improvements and bug fixes for the Nexus S.",
+    "version": "2.3.2"
+  },
+  {
+    "api": 10,
+    "codename": "Gingerbread",
+    "date": "February 9, 2011",
+    "logs": "Several improvements and API fixes.",
+    "version": "2.3.3"
+  },
+  {
+    "api": 10,
+    "codename": "Gingerbread",
+    "date": "April 28, 2011",
+    "logs": "Support for voice or video chat using Google Talk.*Open Accessory Library support. Open Accessory was introduced in 3.1 (Honeycomb) but the Open Accessory Library grants 2.3.4 added support when connecting to a USB peripheral with compatible software and a compatible application on the device.*Switched the default encryption for SSL from AES256-SHA to RC4-MD5.*Fixed a spontaneous reboot on Samsung Galaxy S Plus.",
+    "version": "2.3.4"
+  },
+  {
+    "api": 10,
+    "codename": "Gingerbread",
+    "date": "July 25, 2011",
+    "logs": "Improved network performance for the Nexus S 4G, among other fixes and improvements.*Fixed a Bluetooth bug on Samsung Galaxy S.*Fixed a Wi-Fi crash on Samsung Galaxy S Plus.*Improved the Gmail application.*Shadow animations for list scrolling.*Camera software enhancements.*Improved battery efficiency.",
+    "version": "2.3.5"
+  },
+  {
+    "api": 10,
+    "codename": "Gingerbread",
+    "date": "September 2, 2011",
+    "logs": "Fixed a voice search bug",
+    "version": "2.3.6"
+  },
+  {
+    "api": 10,
+    "codename": "Gingerbread",
+    "date": "September 21, 2011",
+    "logs": "Google Wallet support for the Nexus S 4G.",
+    "version": "2.3.7"
+  },
+  {
+    "api": 11,
+    "codename": "Honeycomb",
+    "date": "February 22, 2011",
+    "logs": "Optimized tablet support with a new “holographic” user interface (removed again the following year with version 4.2).*New Easter egg, an image of a Tron-themed bumblebee.*Added System Bar, featuring quick access to notifications, status, and soft navigation buttons, available at the bottom of the screen.*Added the Action Bar, giving access to contextual options, navigation, widgets, or other types of content at the top of the screen.*Simplified multitasking – tapping Recent Applications in the System Bar allows users to see snapshots of the tasks underway and quickly jump from one application to another.*Redesigned the keyboard, making typing fast, efficient and accurate on larger screen sizes*Simplified, more intuitive copy/paste interface.*Multiple browser tabs replacing browser windows, plus form auto-fill and a new “incognito” mode allowing somewhat anonymous browsing.*Quick access to camera exposure, focus, flash, zoom, front-facing camera, time-lapse, and other camera features.*Ability to view albums and other collections in full-screen mode in Gallery, with easy access to thumbnails for other photos.*New two-pane Contacts UI and Fast Scroll to let users easily organize and locate contacts.*New two-pane Email UI to make viewing and organizing messages more efficient, allowing users to select one or more messages.*Hardware acceleration.*Support for multi-core processors.*Ability to encrypt all user data.*HTTPS stack improved with Server Name Indication (SNI).*Filesystem in Userspace (FUSE; kernel module).*Disallows applications from having to write access to secondary storage (memory cards on devices with internal primary storage) outside of designated, application-specific directories. Full access to primary internal storage is still allowed through a separate application-level permission.",
+    "version": "3.0"
   }
 ]
