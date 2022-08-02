@@ -14,28 +14,30 @@
             android:id="@+id/action_FWellcome_to_FLicenses"
             app:destination="@id/FLicenses" />
     </fragment>
+
     <fragment
         android:id="@+id/FInfo"
         android:name="ua.makuta.storylog.fragment.info.FInfo"
         android:label="FInfo" />
+
     <fragment
         android:id="@+id/FAndroid"
         android:name="ua.makuta.storylog.fragment.android.FAndroid"
         android:label="FAndroid" >
         <action
             android:id="@+id/action_FAndroid_to_FInfo"
-            app:destination="@id/FInfo"
-            app:popUpToInclusive="true" />
+            app:destination="@id/FInfo" />
     </fragment>
+
     <fragment
         android:id="@+id/FIos"
         android:name="ua.makuta.storylog.fragment.ios.FIos"
         android:label="FIos" >
         <action
             android:id="@+id/action_FIos_to_FInfo"
-            app:destination="@id/FInfo"
-            app:popUpToInclusive="true"/>
+            app:destination="@id/FInfo"/>
     </fragment>
+
     <fragment
         android:id="@+id/FLicenses"
         android:name="ua.makuta.storylog.fragment.licenses.FLicenses"

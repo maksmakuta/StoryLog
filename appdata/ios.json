@@ -22,44 +22,65 @@
   },
   {
     "api": 1,
-    "codename": "3A100a\n3A101a",
+    "codename": "3A100a*3A101a",
     "date": "September 14, 2007",
     "logs": "Initial release on iPod Touch (1st generation); added iTunes Store.",
     "version": "1.1"
   },
   {
     "api": 1,
-    "codename": "3A109a\n3A110a",
+    "codename": "3A109a*3A110a",
     "date": "September 27, 2007",
-    "logs": "Louder speakerphone and receiver volume.\nHome button double-click shortcut to phone favorites or music controls.\nSpacebar double-tap shortcut to insert full stop and space (\". \").\nMail attachments are viewable in portrait and landscape modes.\nStocks and cities in Stocks and Weather can be reordered.\nBattery status for the Apple Bluetooth Headset is now shown in the status bar.\nSupport for TV out.\nPreferences to turn off EDGE/GPRS when roaming internationally (Data Roaming on/off option).\nNew Passcode lock time intervals.\nAdjustable alert volume.\nThe interface for the Calculator was redesigned.",
+    "logs": "Louder speakerphone and receiver volume.*Home button double-click shortcut to phone favorites or music controls.*Spacebar double-tap shortcut to insert full stop and space (\". \").*Mail attachments are viewable in portrait and landscape modes.*Stocks and cities in Stocks and Weather can be reordered.*Battery status for the Apple Bluetooth Headset is now shown in the status bar.*Support for TV out.*Preferences to turn off EDGE/GPRS when roaming internationally (Data Roaming on/off option).*New Passcode lock time intervals.*Adjustable alert volume.*The interface for the Calculator was redesigned.",
     "version": "1.1.1"
   },
   {
     "api": 1,
     "codename": "3B48b",
     "date": "November 12, 2007",
-    "logs": "iTunes now shows the device's current battery level.\nInternational language and keyboard support.\nPatched the TIFF security bug.\nAdds custom ringtone field.\nBug fixes.",
+    "logs": "iTunes now shows the device's current battery level.*International language and keyboard support.*Patched the TIFF security bug.*Adds custom ringtone field.*Bug fixes.",
     "version": "1.1.2"
   },
   {
     "api": 1,
     "codename": "4A93",
     "date": "January 15, 2008",
-    "logs": "Recent calls contact details now show most recent call times.\n'Locate Me' feature for Maps; determines the phone's approximate location using a combination of cellular triangulation and Wi-Fi data from Skyhook Wireless. Also adds hybrid map support and the 'Drop Pin' feature.\nIcons on the home screen can be rearranged and placed on multiple home screens (up to nine).\niTunes gift cards can be redeemed on the iTunes Store.\nMovies downloaded through iTunes have chapter support.\nMusic now supports lyrics.\nWeb Clips can be added to (and subsequently removed from) the home screen.\nSMS messages can be sent to multiple contacts using messages.\nSMS storage capacity increased from 1,000 to 75,000 messages.\nDefaults to IMAP for new Gmail accounts (formerly defaulted to POP3).\nMulti-touch keyboard (e.g. simultaneously pressing \"Shift\" + \"a\").\nThe clock timer now remembers the last used options (bug fix).\nIncoming SMS messages now prompts the user to \"Close\" or \"Reply\" (formerly \"Ignore\" or \"Reply\"). Pressing either option now marks the message as \"seen\".\nLabels for contact data can now be deleted.\nApplications on the phone no longer run as root; they run as the user \"mobile\" instead.\nThe ability to listen to music through a Bluetooth headset by going to Voicemail and choosing \"Bluetooth\" as the audio source no longer works (still works as long as phone is not locked or voicemail screen is active).",
+    "logs": "Recent calls contact details now show most recent call times.*'Locate Me' feature for Maps; determines the phone's approximate location using a combination of cellular triangulation and Wi-Fi data from Skyhook Wireless. Also adds hybrid map support and the 'Drop Pin' feature.*Icons on the home screen can be rearranged and placed on multiple home screens (up to nine).*iTunes gift cards can be redeemed on the iTunes Store.*Movies downloaded through iTunes have chapter support.*Music now supports lyrics.*Web Clips can be added to (and subsequently removed from) the home screen.*SMS messages can be sent to multiple contacts using messages.*SMS storage capacity increased from 1,000 to 75,000 messages.*Defaults to IMAP for new Gmail accounts (formerly defaulted to POP3).*Multi-touch keyboard (e.g. simultaneously pressing \"Shift\" + \"a\").*The clock timer now remembers the last used options (bug fix).*Incoming SMS messages now prompts the user to \"Close\" or \"Reply\" (formerly \"Ignore\" or \"Reply\"). Pressing either option now marks the message as \"seen\".*Labels for contact data can now be deleted.*Applications on the phone no longer run as root; they run as the user \"mobile\" instead.*The ability to listen to music through a Bluetooth headset by going to Voicemail and choosing \"Bluetooth\" as the audio source no longer works (still works as long as phone is not locked or voicemail screen is active).",
     "version": "1.1.3"
   },
   {
     "api": 1,
     "codename": "4A102",
     "date": "February 26, 2008",
-    "logs": "Bug fixes and enhancements.\nSMS scramble order fix.\nMore carriers names now fit without scrolling (for roaming on other carriers).\nThe camera received several performance improvements.\nInterface speed improvements.",
+    "logs": "Bug fixes and enhancements.*SMS scramble order fix.*More carriers names now fit without scrolling (for roaming on other carriers).*The camera received several performance improvements.*Interface speed improvements.",
     "version": "1.1.4"
   },
   {
     "api": 1,
     "codename": "4B1",
     "date": "February 26, 2008",
-    "logs": "Bug fixes and enhancements.\nSMS scramble order fix.\nMore carriers names now fit without scrolling (for roaming on other carriers).\nThe camera received several performance improvements.\nInterface speed improvements.",
+    "logs": "Security update for iPod Touch users who chose not to upgrade to the previously released iPhone OS 2.0.",
     "version": "1.1.5"
+  },
+  {
+    "api": 2,
+    "codename": "5A347",
+    "date": "July 11, 2008",
+    "logs": "Added language support.*Norwegian, Swedish, Danish, Finnish, Polish, Dutch, Korean, and Brazilian Portuguese are now supported on iPhone after having been available on iPod Touch since the v1.1.1 update.*Extra keyboard languages including Chinese, Korean, and Russian.*Support for Traditional and Simplified Chinese handwriting recognition.*Mail, contacts, calendars_Grouped settings._Mail+Support for Push e-mail.+Ability to select an outgoing email account within Mail application.+Support for blind carbon copy (BCC) in Mail.+Ability to move / delete multiple emails.+Ability to view Microsoft Office attachments.+Ability to view iWork attachments, including Pages, Numbers, and Keynote._Contacts+Contacts icon on \"Home\" screen (iPhone only, it was formerly on the iPod Touch).+Ability to search contacts.+Global Address List.+Push contacts.+Ability to import SIM contacts._Calendar+Multiple calendars supported in Calendar with colour-coding (desktop colours only preserved if using Mobile Me).+New \"Calendar\" menu in \"Settings\".+Push calendar.*Enterprise enhancements_Enforced security policies._Device configuration._Remote wipe.*iPod_Video can be shown in either landscape orientation (instead of just landscape left)._Videos in playlists and music videos can be shown in portrait or landscape orientation._Sound fade-out when exiting a video.*Other_App Store, a digital storefront allowing users to buy or download apps._Certificates and Identities._WPA2 / 802.1X._Ability to turn Wi-Fi back on while in Airplane mode._Cisco IPsec VPN support._Ability to take screen captures._Ability to save pictures from Safari or Mail to Photos._Support for the Bonjour service discovery protocol._Support for the SVG vector graphics format._Addition of Parental controls._Password letters are momentarily visible while typing._Ability to turn Location Services on or off._Applications that use Location Services now prompt user for confirmation 3 times._Tapping status bar to scroll to top shortcut._Updated calculator with extra features in portrait mode, a scientific calculator in landscape mode and an updated icon._Updated iTunes with a new icon and reordered category icons within iTunes application._Camera now supports Geotagging._YouTube plugin for Safari.",
+    "version": "2.0"
+  },
+  {
+    "api": 2,
+    "codename": "5B108",
+    "date": "August 4, 2008",
+    "logs": "Bug fixes_Performance and stability of Contacts and Calendar applications dramatically improved._Performance while flipping to landscape mode in Safari improved._Performance in Mail app improved._Release improves application crash rates._Keyboard responsiveness improved.",
+    "version": "2.0.1"
+  },
+  {
+    "api": 2,
+    "codename": "5C1",
+    "date": "August 18, 2008",
+    "logs": "Bug fixes_Improved communication with 3G networks._Transition from music list to Cover Flow has changed._Tilt to left from landscape no longer switch to portrait when watching video, fixes 2.0 bug._The \"Update All\" button in the App Store's update tab has been removed.",
+    "version": "2.0.2"
   }
 ]

@@ -12,9 +12,12 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import ua.makuta.storylog.Utils.invisible
+import ua.makuta.storylog.Utils.visible
 import ua.makuta.storylog.databinding.ActivityMainBinding
+import ua.makuta.storylog.listener.NavBarListener
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(),NavBarListener {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var navBar : BottomNavigationView
@@ -29,10 +32,9 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         navBar.setupWithNavController(navController)
 
-        //supportActionBar?.isHideOnContentScrollEnabled = true
-
         navBar.setOnItemSelectedListener {
             navController.navigate(it.itemId)
+            navController.popBackStack(it.itemId,false)
             true
         }
     }
@@ -40,5 +42,13 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp() || super.onSupportNavigateUp()
+    }
+
+    override fun onShow() {
+        navBar.visible()
+    }
+
+    override fun onHide() {
+        navBar.invisible()
     }
 }

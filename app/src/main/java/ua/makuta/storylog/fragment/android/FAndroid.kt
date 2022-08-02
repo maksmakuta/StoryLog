@@ -1,9 +1,12 @@
 package ua.makuta.storylog.fragment.android
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.progressindicator.CircularProgressIndicator
@@ -13,11 +16,17 @@ import ua.makuta.storylog.Utils.snack
 import ua.makuta.storylog.Utils.visible
 import ua.makuta.storylog.adapter.ModelAdapter
 import ua.makuta.storylog.core.CoreFragment
+import ua.makuta.storylog.enum.OS
+import ua.makuta.storylog.listener.ItemClickListener
+import ua.makuta.storylog.listener.NavBarListener
 import ua.makuta.storylog.model.Model
+import java.lang.ClassCastException
+import java.lang.Exception
 
-class FAndroid : CoreFragment(),FAndroidContract.IView {
+class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
 
     private lateinit var presenter: FAndroidPresenter
+    private lateinit var listener: NavBarListener
 
     private lateinit var recycler : RecyclerView
     private lateinit var loader : CircularProgressIndicator
@@ -37,6 +46,8 @@ class FAndroid : CoreFragment(),FAndroidContract.IView {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        listener.onShow()
+
         recycler = view.findViewById(R.id.list)
         loader = view.findViewById(R.id.loader)
 
@@ -46,7 +57,7 @@ class FAndroid : CoreFragment(),FAndroidContract.IView {
 
     override fun onLoadSuccess(data: ArrayList<Model>) {
         requireActivity().runOnUiThread {
-            adapter = ModelAdapter()
+            adapter = ModelAdapter(this)
             adapter.update(data)
 
             recycler.adapter = adapter
@@ -73,6 +84,26 @@ class FAndroid : CoreFragment(),FAndroidContract.IView {
         requireActivity().runOnUiThread {
             recycler.visible()
             loader.invisible()
+        }
+    }
+
+    override fun onItemClick(item: Model) {
+        listener.onHide()
+        findNavController().navigate(
+            R.id.action_FAndroid_to_FInfo,
+            bundleOf(
+                Pair("model",item),
+                Pair("type", true)
+            )
+        )
+    }
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        listener = try{
+            context as NavBarListener
+        }catch (e : Exception){
+            throw ClassCastException("NavBarListener")
         }
     }
 
