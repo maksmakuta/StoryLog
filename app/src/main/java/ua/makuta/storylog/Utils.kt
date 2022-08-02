@@ -19,6 +19,7 @@ object Utils {
 
     fun String.toLog() : String{
         var temp = this
+        temp = temp.replace("+","\n\t\t - ")
         temp = temp.replace("_","\n\t - ")
         temp = temp.replace("*","\n - ")
         return temp
