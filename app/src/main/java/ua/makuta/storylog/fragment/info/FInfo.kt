@@ -44,7 +44,7 @@ class FInfo : CoreFragment() {
             api.text = model.api.toString()
         }else{
             view.findViewById<TextView>(R.id.view_api).text = "Build"
-            api.text = model.codename.toLog()
+            api.text = model.codename
         }
         log.text = " - ${model.logs.toLog()}"
     }
