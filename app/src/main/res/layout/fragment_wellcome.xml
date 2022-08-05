@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ContentDescription">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/view_card"
@@ -79,10 +80,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:src="@drawable/ic_android_black_24dp"
-                android:layout_margin="16dp"
                 android:layout_width="0dp"
-                android:layout_height="0dp"
-                tools:ignore="ContentDescription" />
+                android:layout_height="?actionBarSize" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -112,8 +111,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:src="@drawable/ic_apple"
-                android:layout_margin="8dp"
-                android:layout_width="?actionBarSize"
+                android:layout_width="0dp"
                 android:layout_height="?actionBarSize"
                 tools:ignore="ContentDescription" />
 
