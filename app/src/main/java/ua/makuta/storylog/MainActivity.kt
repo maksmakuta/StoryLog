@@ -10,6 +10,8 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import androidx.navigation.NavController
+import androidx.navigation.NavDestination
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import ua.makuta.storylog.Utils.invisible
@@ -34,7 +36,6 @@ class MainActivity : AppCompatActivity(),NavBarListener {
 
         navBar.setOnItemSelectedListener {
             navController.navigate(it.itemId)
-            navController.popBackStack(it.itemId,false)
             true
         }
     }
