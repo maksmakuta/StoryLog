@@ -16,19 +16,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/nav"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_height="0dp"
         app:defaultNavHost="true"
         app:navGraph="@navigation/nav_graph" />
-
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:id="@+id/nav"
-        app:labelVisibilityMode="unlabeled"
-        app:menu="@menu/menu_main"
-        android:layout_width="match_parent"
-        android:layout_height="?actionBarSize"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

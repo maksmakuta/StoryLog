@@ -13,6 +13,12 @@
         <action
             android:id="@+id/action_FWellcome_to_FLicenses"
             app:destination="@id/FLicenses" />
+        <action
+            android:id="@+id/action_FWellcome_to_FIos"
+            app:destination="@id/FIos" />
+        <action
+            android:id="@+id/action_FWellcome_to_FAndroid"
+            app:destination="@id/FAndroid" />
     </fragment>
 
     <fragment
