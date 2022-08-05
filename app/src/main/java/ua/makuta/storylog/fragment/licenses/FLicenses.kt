@@ -36,10 +36,10 @@ class FLicenses : CoreFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        listener.onShow()
-
         recycler = view.findViewById(R.id.list)
         loader = view.findViewById(R.id.loader)
+
+        listener.onHide()
 
         onHide()
         onLoad()

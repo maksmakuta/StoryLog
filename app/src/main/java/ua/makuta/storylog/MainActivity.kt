@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity(),NavBarListener {
         navBar.setupWithNavController(navController)
 
         navBar.setOnItemSelectedListener {
+            onShow()
             navController.navigate(it.itemId)
             true
         }
