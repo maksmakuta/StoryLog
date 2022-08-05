@@ -1,22 +1,23 @@
 package ua.makuta.storylog.fragment.wellcome
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.navigation.fragment.findNavController
+import ua.makuta.storylog.BuildConfig
 import ua.makuta.storylog.R
 import ua.makuta.storylog.core.CoreFragment
-import ua.makuta.storylog.listener.NavBarListener
-import java.lang.ClassCastException
-import java.lang.Exception
 
 class FWellcome : CoreFragment() {
 
-    private lateinit var listener: NavBarListener
     private lateinit var info : CardView
+    private lateinit var ver : TextView
+
+    private lateinit var cardDroid : CardView
+    private lateinit var cardApple : CardView
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -30,23 +31,23 @@ class FWellcome : CoreFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         info = view.findViewById(R.id.view_card)
+        ver = view.findViewById(R.id.view_ver)
+
+        cardDroid = view.findViewById(R.id.card_android)
+        cardApple = view.findViewById(R.id.card_ios)
+
+        cardDroid.setOnClickListener {
+            findNavController().navigate(R.id.action_FWellcome_to_FAndroid)
+        }
+
+        cardApple.setOnClickListener {
+            findNavController().navigate(R.id.action_FWellcome_to_FIos)
+        }
+
         info.setOnClickListener {
             findNavController().navigate(R.id.action_FWellcome_to_FLicenses)
         }
-    }
 
-    override fun onResume() {
-        super.onResume()
-        listener.onShow()
+        ver.text = "v. ${BuildConfig.VERSION_NAME}"
     }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        listener = try{
-            context as NavBarListener
-        }catch (e : Exception){
-            throw ClassCastException("NavBarListener")
-        }
-    }
-
 }

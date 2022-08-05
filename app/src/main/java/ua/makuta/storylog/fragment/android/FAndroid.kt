@@ -1,6 +1,5 @@
 package ua.makuta.storylog.fragment.android
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -16,17 +15,12 @@ import ua.makuta.storylog.Utils.snack
 import ua.makuta.storylog.Utils.visible
 import ua.makuta.storylog.adapter.ModelAdapter
 import ua.makuta.storylog.core.CoreFragment
-import ua.makuta.storylog.enum.OS
 import ua.makuta.storylog.listener.ItemClickListener
-import ua.makuta.storylog.listener.NavBarListener
 import ua.makuta.storylog.model.Model
-import java.lang.ClassCastException
-import java.lang.Exception
 
 class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
 
     private lateinit var presenter: FAndroidPresenter
-    private lateinit var listener: NavBarListener
 
     private lateinit var recycler : RecyclerView
     private lateinit var loader : CircularProgressIndicator
@@ -45,8 +39,6 @@ class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        listener.onShow()
 
         recycler = view.findViewById(R.id.list)
         loader = view.findViewById(R.id.loader)
@@ -88,7 +80,6 @@ class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
     }
 
     override fun onItemClick(item: Model) {
-        listener.onHide()
         findNavController().navigate(
             R.id.action_FAndroid_to_FInfo,
             bundleOf(
@@ -97,14 +88,4 @@ class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
             )
         )
     }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        listener = try{
-            context as NavBarListener
-        }catch (e : Exception){
-            throw ClassCastException("NavBarListener")
-        }
-    }
-
 }

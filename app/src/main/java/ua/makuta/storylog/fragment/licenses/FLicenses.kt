@@ -1,6 +1,5 @@
 package ua.makuta.storylog.fragment.licenses
 
-import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -15,11 +14,8 @@ import ua.makuta.storylog.Utils.invisible
 import ua.makuta.storylog.Utils.visible
 import ua.makuta.storylog.adapter.LibraryAdapter
 import ua.makuta.storylog.core.CoreFragment
-import ua.makuta.storylog.listener.NavBarListener
 
 class FLicenses : CoreFragment() {
-
-    private lateinit var listener: NavBarListener
 
     private lateinit var recycler : RecyclerView
     private lateinit var loader : CircularProgressIndicator
@@ -39,7 +35,6 @@ class FLicenses : CoreFragment() {
         recycler = view.findViewById(R.id.list)
         loader = view.findViewById(R.id.loader)
 
-        listener.onHide()
 
         onHide()
         onLoad()
@@ -62,15 +57,6 @@ class FLicenses : CoreFragment() {
     private fun onHide(){
         recycler.invisible()
         loader.visible()
-    }
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        listener = try{
-            context as NavBarListener
-        }catch (e : Exception){
-            throw ClassCastException("NavBarListener")
-        }
     }
 
 }
