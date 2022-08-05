@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.cardview.widget.CardView
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.navigation.fragment.findNavController
 import ua.makuta.storylog.R
 import ua.makuta.storylog.core.CoreFragment
@@ -29,7 +28,6 @@ class FWellcome : CoreFragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        //listener.onShow()
 
         info = view.findViewById(R.id.view_card)
         info.setOnClickListener {
@@ -37,6 +35,10 @@ class FWellcome : CoreFragment() {
         }
     }
 
+    override fun onResume() {
+        super.onResume()
+        listener.onShow()
+    }
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
