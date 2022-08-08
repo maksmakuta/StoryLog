@@ -119,14 +119,15 @@
 
     </androidx.cardview.widget.CardView>
 
-    <TextView
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_margin="8dp"
-        android:textSize="14sp"
-        android:text="@string/description"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"/>
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6587896317641494/8758986255"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
