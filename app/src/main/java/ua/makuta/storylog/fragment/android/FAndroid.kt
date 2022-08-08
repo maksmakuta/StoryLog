@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.core.os.bundleOf
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -24,6 +25,7 @@ class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
 
     private lateinit var recycler : RecyclerView
     private lateinit var loader : CircularProgressIndicator
+    private lateinit var title : TextView
 
     private lateinit var adapter: ModelAdapter
 
@@ -42,6 +44,9 @@ class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
 
         recycler = view.findViewById(R.id.list)
         loader = view.findViewById(R.id.loader)
+
+        title = view.findViewById(R.id.title)
+        title.text = getString(R.string.android)
 
         showLoader()
         presenter.onLoad()

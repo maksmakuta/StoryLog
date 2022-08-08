@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:hardwareAccelerated="true"
         android:name=".StoryLogApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,6 +18,7 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:hardwareAccelerated="true"
             android:name=".MainActivity"
             android:theme="@style/AppTheme"
             android:exported="true">
@@ -25,6 +27,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6587896317641494~6324394605"/>
     </application>
 
 </manifest>
