@@ -21,3 +21,5 @@ appdata/test.json
 app/release/
 
 keys/
+
+app/google-services.json
