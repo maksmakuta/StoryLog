@@ -53,7 +53,7 @@ class FIos : CoreFragment(),FIosContract.IView, ItemClickListener {
 
     override fun onLoadSuccess(data: ArrayList<Model>) {
         requireActivity().runOnUiThread {
-            adapter = ModelAdapter(this)
+            adapter = ModelAdapter(this,true)
             adapter.update(data)
 
             recycler.adapter = adapter

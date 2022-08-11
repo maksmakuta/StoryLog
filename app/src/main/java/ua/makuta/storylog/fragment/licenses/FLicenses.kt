@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.progressindicator.CircularProgressIndicator
@@ -18,6 +19,7 @@ import ua.makuta.storylog.core.CoreFragment
 class FLicenses : CoreFragment() {
 
     private lateinit var recycler : RecyclerView
+    private lateinit var title : TextView
     private lateinit var loader : CircularProgressIndicator
 
     override fun onCreateView(
@@ -32,9 +34,11 @@ class FLicenses : CoreFragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        title = view.findViewById(R.id.title)
         recycler = view.findViewById(R.id.list)
         loader = view.findViewById(R.id.loader)
 
+        title.text = getString(R.string.libs)
 
         onHide()
         onLoad()
