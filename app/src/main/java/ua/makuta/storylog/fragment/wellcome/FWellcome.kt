@@ -1,5 +1,6 @@
 package ua.makuta.storylog.fragment.wellcome
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -27,6 +28,7 @@ class FWellcome : CoreFragment() {
         return inflater.inflate(R.layout.fragment_wellcome, container, false)
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
