@@ -13,6 +13,7 @@ class OSAdapter : RecyclerView.Adapter<OSAdapter.Holder>() {
 
     private val data = ArrayList<ModelOSItem>()
 
+
     fun update(list: ArrayList<ModelOSItem>) {
         data.clear()
         data.addAll(list)
