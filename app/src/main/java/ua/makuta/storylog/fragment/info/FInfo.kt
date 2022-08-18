@@ -6,6 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
 import ua.makuta.storylog.R
 import ua.makuta.storylog.Utils.toLog
 import ua.makuta.storylog.core.CoreFragment
@@ -17,6 +19,7 @@ class FInfo : CoreFragment() {
     private lateinit var date   : TextView
     private lateinit var api    : TextView
     private lateinit var log    : TextView
+    private lateinit var ad     : AdView
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -34,6 +37,9 @@ class FInfo : CoreFragment() {
         date = view.findViewById(R.id.info_date)
         api = view.findViewById(R.id.info_api)
         log = view.findViewById(R.id.info_log)
+        ad = view.findViewById(R.id.ad_info)
+
+        ad.loadAd(AdRequest.Builder().build())
 
         val type = requireArguments().getBoolean("type")
         val model : Model = requireArguments().getSerializable("model") as Model
