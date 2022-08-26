@@ -23,10 +23,12 @@
 
     <fragment
         android:id="@+id/FInfo"
+        tools:layout="@layout/fragment_info"
         android:name="ua.makuta.storylog.fragment.info.FInfo"
         android:label="FInfo" />
 
     <fragment
+        tools:layout="@layout/list"
         android:id="@+id/FAndroid"
         android:name="ua.makuta.storylog.fragment.android.FAndroid"
         android:label="FAndroid" >
@@ -37,6 +39,7 @@
 
     <fragment
         android:id="@+id/FIos"
+        tools:layout="@layout/list"
         android:name="ua.makuta.storylog.fragment.ios.FIos"
         android:label="FIos" >
         <action
@@ -45,6 +48,7 @@
     </fragment>
 
     <fragment
+        tools:layout="@layout/list"
         android:id="@+id/FLicenses"
         android:name="ua.makuta.storylog.fragment.licenses.FLicenses"
         android:label="FLicenses" />
