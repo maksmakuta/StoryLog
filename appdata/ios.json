@@ -817,5 +817,194 @@
     "date": "July 9, 2018",
     "logs": "Bug Fixes_Fixes an issue where some users could be prevented from viewing the last known location of their AirPods in the Find My iPhone app._Improves reliability when syncing data sources such as Mail and Contacts with Exchange accounts.",
     "version": "11.4.1"
+  },
+  {
+    "api": 12,
+    "codename": "16A366",
+    "date": "September 17, 2018",
+    "logs": "Initial release on iPhone XS, iPhone XS Max and iPhone XR*Apple Books (formerly iBooks)_iBooks has been renamed to Apple Books. A continuation of Apple's phasing out of the \"i\" prefix for its services. Rebranding also includes a redesign, featuring a new introduction, a Reading Now screen that's like Apple Music and the App Store in being more editorialized, and new cards for individual books._Apple Books settings preferences have been updated. More options and a change of layout when looking at Books under the Settings app.*Compass_Leveler has been removed and the function moved to the Measure app as one of its features, still working the same way as previous versions.*Measure_The new app built using ARKit 2.0, which allows users to measure the dimensions of real-world objects viewed through the iOS device's camera._Measure app only works with A9 devices and later.*News_Redesigned to have three tabs at the bottom of the iPhone version including Spotlight section. A new tab was added, named Channels, which provides a browsable list of followed topics and outlets.*Stocks_Redesigned for easier-to-view stocks on a new welcome screen, as well as interactive charts. One of a number of first-party iOS apps that have also been ported to macOS Mojave, using new tools still under development._Apple News integration, this allows you to see news in a panel at the bottom of the app. Expanding the news panel shows stocks in a ticker at the top of the app._Now available on iPad.*Voice Memos_Redesigned; immediately shows a clear list of existing recordings when opening the app, with new recordings produced in a compact pop-up panel at the bottom of the app, complete with repositioned waveform graphic._Now available on iPad.*Weather_Air quality settings preferences to track air quality. Scrolling to the bottom of the day's weather shows a general \"Air Quality\" category (\"Good\" etc.) for the location._Weather app now tracks the air quality index. As with the general air quality feature, the \"Air Quality Index\" figure for the detected location is provided at the bottom of the day's weather report.*Phone_Field test mode now supports landscape view.*Settings_Redesigned app notifications_New wallpaper; removed older wallpapers_Screen Time added_Automatic updates toggle added in Software Update tab_Bedtime Feature in Do Not Disturb_Stocks section added_New Measure section_New app limits page_New Battery Statistics Chart_More battery information: Battery Health out of Beta for more accurate battery capacity readings_Improved Safari privacy",
+    "version": "12.0"
+  },
+  {
+    "api": 12,
+    "codename": "16A404\n16A405",
+    "date": "October 8, 2018",
+    "logs": "Fixes Lightning charging issue with iPhone XS\nFixes iPhone XS rejoining Wi-Fi networks at 2.4 GHz rather than 5 GHz\nPuts the \".?123\" key back to its original position on the iPad keyboard\nFixes subtitles not appearing in some video apps\nFixes issue where Bluetooth becomes unavailable",
+    "version": "12.0.1"
+  },
+  {
+    "api": 12,
+    "codename": "16B92\n16B93\n16B94",
+    "date": "October 30, 2018",
+    "logs": "Initial release on iPad Pro (3rd generation, 12.9-inch) and iPad Pro (11-inch)*Group FaceTime_Adds support for video and audio calls with up to 32 participants simultaneously_Encrypted end-to-end so your conversations remain private_Start Group FaceTime directly from a group Messages conversation or join an active call at any time*Emoji_Over 70 new emoji, including new characters with red hair, grey hair and curly hair, new emoji for bald people, more emotive smiley faces and additional emojis representing animals, sport and food*Dual SIM support_Introduces Dual SIM with eSIM, which allows two numbers in one device for iPhone XS, iPhone XS Max and iPhone XR*Other improvements and fixes_Introduces Depth Control in Camera preview for iPhone XS, iPhone XS Max and iPhone XR_Improves mobile connectivity for iPhone XS, iPhone XS Max and iPhone XR_Adds the ability to change or reset your child's Screen Time passcode using Face ID or Touch ID_Fixes an issue where the sharpest reference frame was not always selected in front-facing photos for iPhone XS, iPhone XS Max and iPhone XR_Fixes an issue that caused messages to be merged into one thread when two users were signed in with the same Apple ID on multiple iPhones_Fixes an issue that prevented some voicemails from appearing in the Phone app_Fixes an issue in the Phone app that could cause phone numbers to appear without their corresponding contact name_Fixes an issue that could prevent Screen Time from reporting specific websites in the activity report_Fixes an issue that could prevent adding or removing family members from Family Sharing_Improves reliability of VoiceOver in Camera, Siri and Safari_Fixes an issue that could cause MDM Device Enrolment to report an Invalid Profile error for some enterprise users",
+    "version": "12.1"
+  },
+  {
+    "api": 12,
+    "codename": "16C50",
+    "date": "December 5, 2018",
+    "logs": "Features and improvements_Notification preview using haptic touch on iPhone XR_Dual SIM with eSIM for additional service providers on iPhone XR, iPhone XS and iPhone XS Max_One-tap to flip between the rear and front-facing camera during a FaceTime call_Live Photo capture during one-to-one FaceTime calls_The option to hide the sidebar in News on iPad in landscape orientation_National Relay Service (NRS) when using Wi-Fi calling on iPad and iPod touch_Stability improvements for dictation and VoiceOver*Bug fixes_Fixes an issue where Face ID may temporarily become unavailable_Fixes an issue that prevented visual voicemail from downloading for some customers_Fixes an issue in Messages that could prevent predictive text suggestions when typing on the Chinese or Japanese keyboards_Fixes an issue that could prevent Voice Memos recordings from uploading to iCloud_Fixes an issue where time zones may not have updated automatically*HomePod compatibility_Support in Mainland China and Hong Kong_HomePod LEDs illuminate during Group FaceTime calls",
+    "version": "12.1.1"
+  },
+  {
+    "api": 12,
+    "codename": "16C104",
+    "date": "December 20, 2018",
+    "logs": "iPhone only*Bug fixes_Fixes bugs with eSIM activation for iPhone XR, iPhone XS, and iPhone XS Max_Fixes an issue that could affect cellular connectivity in Turkey for iPhone XR, iPhone XS, and iPhone XS Max",
+    "version": "12.1.2"
+  },
+  {
+    "api": 12,
+    "codename": "16D39\n16D40",
+    "date": "January 22, 2019",
+    "logs": "Bug fixes_Fixes an issue in Messages that could impact scrolling through photos in the Details view_Fixes an issue where photos could have striped artifacts after being sent from the Share Sheet_Fixes an issue that may cause audio distortion when using external audio input devices on iPad Pro (2018)_Fixes an issue that could cause certain CarPlay systems to disconnect from iPhone XR, iPhone XS, and iPhone XS Max*HomePod bug fixes_Fixes an issue that could cause HomePod to restart_Fixes an issue that could cause Siri to stop listening",
+    "version": "12.1.3"
+  },
+  {
+    "api": 12,
+    "codename": "16D57",
+    "date": "February 7, 2019",
+    "logs": "Security fixes",
+    "version": "12.1.4"
+  },
+  {
+    "api": 12,
+    "codename": "16E227",
+    "date": "March 25, 2019",
+    "logs": "Initial release on iPad Mini (5th generation) and iPad Air (3rd generation)*Apple News+ released and Apple News in Canada*New Animoji*Air Quality information in US, UK, India and can turn off weather information in Apple Maps*New Screen Time scheduling options*Wallet layout changes, Apple Pay Cash can transfer to a bank account*Third party support for AirPlay 2*Apple TV remote layout redesigned*AT&T 5G E icon added*Redesigned About page in Settings*Warranty information available in Settings*Safari_Enables TLS 1.3 support_Stronger messages for non-secure sites_Do Not Track removed, motion data privacy option_Password autofill submits the form automatically*Siri_Hey Siri support on AirPods_Play videos on Apple TV_Inline music playback",
+    "version": "12.2"
+  },
+  {
+    "api": 12,
+    "codename": "16F156",
+    "date": "May 13, 2019",
+    "logs": "Redesigned Apple TV App*AirPlay 2 support for Smart TVs*iOS now disables Bluetooth accessories with insecure connections.*Now you can follow a magazine with Apple News+ catalog view*Updates throughout the day for Apple Music's For You tab*Other bug fixes and stability improvements",
+    "version": "12.3"
+  },
+  {
+    "api": 12,
+    "codename": "16F203/16F8202",
+    "date": "May 24, 2019",
+    "logs": "Initial release on iPod Touch (7th generation)*Fixes an issue that could prevent making or receiving VoLTE calls*Fixes issues in Messages that could cause messages from unknown senders to appear in your conversation list even though Filter Unknown Senders is enabled*Fixes an issue that could prevent the Report Junk link from appearing in Messages threads from unknown senders",
+    "version": "12.3.1"
+  },
+  {
+    "api": 12,
+    "codename": "16F250",
+    "date": "June 10, 2019",
+    "logs": "iPhone 8 Plus only*Fixes an issue with taking pictures in portrait mode",
+    "version": "12.3.2"
+  },
+  {
+    "api": 12,
+    "codename": "16G77",
+    "date": "July 22, 2019",
+    "logs": "Support for wirelessly transferring data between iPhones during initial set up*Important security fix for Apple Watch Walkie-Talkie app concerning eavesdropping*HomePod support in Japan and Taiwan*Other bug fixes and improvements",
+    "version": "12.4"
+  },
+  {
+    "api": 12,
+    "codename": "16G102",
+    "date": "August 26, 2019",
+    "logs": "Security update: patches a vulnerability that was accidentally unpatched in the previous update, allowing jailbreaks and hacking attempts to take place.",
+    "version": "12.4.1"
+  },
+  {
+    "api": 12,
+    "codename": "16G114",
+    "date": "September 26, 2019",
+    "logs": "Security update: patches a vulnerability that permitted an attacker to access a user's phone and terminate running applications and potentially execute an arbitrary code execution attack.",
+    "version": "12.4.2"
+  },
+  {
+    "api": 12,
+    "codename": "16G130",
+    "date": "October 28, 2019",
+    "logs": "Security update: Corrected an issue where AirDrop file transfers could be unexpectedly accepted while the user has permitted AirDrop file transfer requests from everyone.",
+    "version": "12.4.3"
+  },
+  {
+    "api": 12,
+    "codename": "16G140",
+    "date": "December 10, 2019",
+    "logs": "Security update: patches a vulnerability that permitted an attacker to access a user's phone and execute an arbitrary code with a malicious FaceTime video.",
+    "version": "12.4.4"
+  },
+  {
+    "api": 12,
+    "codename": "16G161",
+    "date": "January 28, 2020",
+    "logs": "Security update; no published CVE entries",
+    "version": "12.4.5"
+  },
+  {
+    "api": 12,
+    "codename": "16G183",
+    "date": "March 24, 2020",
+    "logs": "Security update; no published CVE entries",
+    "version": "12.4.6"
+  },
+  {
+    "api": 12,
+    "codename": "16G192",
+    "date": "May 20, 2020",
+    "logs": "Security Update:*Corrected an issue where a maliciously crafted email could unexpectedly lead to heap corruption*Corrected an issue where a maliciously crafted email could unexpectedly modify memory or terminate applications*Corrected a vulnerability where a remote attacker could unexpectedly corrupt kernel memory or cause system termination.",
+    "version": "12.4.7"
+  },
+  {
+    "api": 12,
+    "codename": "16G201",
+    "date": "July 15, 2020",
+    "logs": "Security update; no published CVE entries",
+    "version": "12.4.8"
+  },
+  {
+    "api": 12,
+    "codename": "16H5",
+    "date": "November 5, 2020",
+    "logs": "Security update",
+    "version": "12.4.9"
+  },
+  {
+    "api": 12,
+    "codename": "16H20",
+    "date": "December 14, 2020",
+    "logs": "Support for COVID-19 Exposure Notifications*Security fixes",
+    "version": "12.5"
+  },
+  {
+    "api": 12,
+    "codename": "16H22",
+    "date": "January 11, 2021",
+    "logs": "Fixes an issue where Exposure Notifications could incorrectly display logging profile language.",
+    "version": "12.5.1"
+  },
+  {
+    "api": 12,
+    "codename": "16H30",
+    "date": "March 26, 2021",
+    "logs": "Security fixes",
+    "version": "12.5.2"
+  },
+  {
+    "api": 12,
+    "codename": "16H41",
+    "date": "May 3, 2021",
+    "logs": "Security fixes",
+    "version": "12.5.3"
+  },
+  {
+    "api": 12,
+    "codename": "16H50",
+    "date": "June 14, 2021",
+    "logs": "Security fixes",
+    "version": "12.5.4"
+  },
+  {
+    "api": 12,
+    "codename": "16H62",
+    "date": "September 23, 2021",
+    "logs": "Final release supported on iPhone 5S, iPhone 6/6 Plus, iPad Air, iPad Mini 2, iPad Mini 3, and iPod Touch (6th generation)*Security fixes addressing actively exploited vulnerabilities in the CoreGraphics (PDF), WebKit (web content) and XNU (kernel) leading to arbitrary code execution",
+    "version": "12.5.5"
   }
 ]

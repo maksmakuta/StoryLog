@@ -38,7 +38,6 @@ class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
         return inflater.inflate(R.layout.list, container, false)
     }
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
