@@ -1006,5 +1006,131 @@
     "date": "September 23, 2021",
     "logs": "Final release supported on iPhone 5S, iPhone 6/6 Plus, iPad Air, iPad Mini 2, iPad Mini 3, and iPod Touch (6th generation)*Security fixes addressing actively exploited vulnerabilities in the CoreGraphics (PDF), WebKit (web content) and XNU (kernel) leading to arbitrary code execution",
     "version": "12.5.5"
+  },
+  {
+    "api": 13,
+    "codename": "17A577",
+    "date": "September 19, 2019",
+    "logs": "Initial release on iPhone 11 and iPhone 11 Pro / iPhone 11 Pro Max*The OS on the iPad 2017, 2018, Air 2, Air 3, Mini 4, Mini 5, and Pro line has been renamed to iPadOS. It is similar to iOS 13, but has some features exclusively for iPad.*Dark Mode_When enabled, the UI, native apps, and supported third-party apps undergo a basic light-on-dark color scheme, and the iOS 13 wallpapers have a darker color scheme. The user can also set a schedule for what time Dark Mode comes on, and what time Light Mode comes back on.*Siri_Siri's voice is now done by software called \"Neural TTS\" instead of human voice clips, making Siri sound much more natural._Siri can now play audio, including music, podcasts, audio books, and radio, with third-party apps._There is now an option for an Indian-English voice._Siri now offers personalized suggestions in Apple Podcasts, Safari, and Maps. Siri can also now detect reminders in messages and events in third-party apps._Siri can now tune into radio shows on command.*Keyboard_The QuickType keyboard now includes QuickPath, which allows the user to type in a word by sliding a finger between the letters without moving it up. QuickPath supports English, Simplified Chinese, Spanish, German, French, Italian, and Portuguese._Swiping or tapping to type works interchangeably, even mid-sentence._Alternate word options now appear in the predictive bar._Dictation will automatically detect what language a user is speaking. This language will be chosen from up to four keyboard languages enabled on the device.*Camera_After taking a picture in Portrait Mode, the user can adjust the position and intensity of each Portrait lighting effect._A new Portrait Lighting effect, called High-Key Mono, \"creates a beautiful, classic look with a monochromatic subject on a white background.\"_Portrait Segmentation API now has skin, hair, and teeth segmentation._All-new Camera app on the iPhone 11 series*App Store_Apple Arcade: A new subscription service with over 100 new games, with no ads or additional purchases._The Updates tab found in iOS 12 and earlier has been removed and merged into the Account bottom sheet._The App Store now has support for Arabic and Hebrew in stories, collections and lists, product pages, and searches._Apps with large sizes (especially games) can now be downloaded over a cellular connection, but the user will be warned if the file size exceeds a certain threshold.*Maps_The map itself has been redone from the ground up. According to Apple, it features \"significantly improved and more realistic details\" for areas like roads, beaches, parks, buildings, and more._The user can now explore the area they are going to before they arrive with a 3D, 360-degree experience._Collections of favorite locations can be built and shared with others._The user can now make a list of places they visit often to access them quickly._A feature called Junction View helps drivers in China eliminate wrong turns and directional misses by lining them up in the correct lane before they need to turn or enter an elevated road._The process of submitting customer feedback has been redesigned to be faster._Siri's navigation uses more natural language. For example, instead of saying \"in x feet turn left,\" it says \"turn left at the next traffic light\". Navigation is also more accurate._The user can now see departure times live, the location of their bus or train on its route, and a more detailed schedule of transit stops._Flight details now include info about a terminal, gate locations, departure times, and more._Place cards have more improved info, such as Today @ Apple sessions at Apple Store locations, and movie theater time listings._MapKit now has vector overlays, point-of-interest filtering, camera zoom and pan limits, and Dark Mode support._CarPlay now has easier route planning, search, and navigation. It also includes Junction View (China only), Favorites, and Collections.*Apple Music_Introduces support for lyrics synchronized to the song a user is currently listening to. Not all songs support this feature._Redesigns the Now Playing bottom sheet, moving the Up Next queue to a dedicated action, while moving the Shuffle and Repeat actions to the Up Next view._Adds over 100,000 live radio stations to the service.*Performance_Apps can now launch up to twice as fast as on iOS 12._Unlocking the iPhone X, XS, XS Max, and XR using Face ID is up to 30% faster compared to iOS 12._Apps from the App Store are packaged in a new way, making them as small as half the size compared to iOS 12, which makes them download faster and take up less storage._App updates are on average 60% smaller compared to iOS 12, allowing for faster downloads.*Other Changes_Introduces support for pinch to zoom in the Voice Memos app when editing voice recordings._Adds support for the DualShock 4 and Xbox One wireless controllers.",
+    "version": "13.0"
+  },
+  {
+    "api": 13,
+    "codename": "17A844",
+    "date": "September 24, 2019",
+    "logs": "Initial release on iPad (7th generation)*New Features and Improvements_AirDrop_Shortcuts_Maps_Battery Health*Bug Fixes",
+    "version": "13.1"
+  },
+  {
+    "api": 13,
+    "codename": "17A854",
+    "date": "September 27, 2019",
+    "logs": "Bug Fixes",
+    "version": "13.1.1"
+  },
+  {
+    "api": 13,
+    "codename": "17A860/17A861",
+    "date": "September 30, 2019",
+    "logs": "Bug Fixes",
+    "version": "13.1.2"
+  },
+  {
+    "api": 13,
+    "codename": "17A878",
+    "date": "October 15, 2019",
+    "logs": "Bug Fixes",
+    "version": "13.1.3"
+  },
+  {
+    "api": 13,
+    "codename": "17B84",
+    "date": "October 28, 2019",
+    "logs": "Camera_Better representation of colors and lighting_Ability to adjust video resolution and framerate within the Camera app P11 P11P P11PM_Deep Fusion on the iPhone 11 series*Volume HUD and Control Center_The volume indicator disappears from view quicker_When connected to an audio device, an icon of the device will appear within the volume indicator*3D Touch/Haptic Touch_New sound when invoking 3D Touch/Haptic Touch, reminiscent of sounds made when typing on the keyboard_Icons on the Home screen can be deleted directly from the 3D Touch/Haptic Touch menu*Multitasking line is smaller if there are 3 apps or less*Emoji_59 new emoji_Some emoji, specifically couples, use a new emoji picker to select different skin tones or genders*Reintroduced \"Announce Messages with Siri\"*Bug Fixes_Delete Event is now available again for Calendar invites originating from emails_Provides support for new HomePod features [Update Pulled for HomePod][178]_The ability for HomePod to recognize the voices of different family members to provide a personalized experience_Handoff music, podcasts or phone calls by bringing the iPhone close to HomePod_Add music to HomeKit scenes_Play relaxing high-quality soundtracks with Ambient Sounds_Set sleep timers to fall asleep to music or Ambient Sounds",
+    "version": "13.2"
+  },
+  {
+    "api": 13,
+    "codename": "17B90",
+    "date": "October 30, 2019",
+    "logs": "HomePod-only update*Fixes an issue caused by iOS 13.2 that bricked HomePod devices when installed or after a reset.",
+    "version": "13.2.1"
+  },
+  {
+    "api": 13,
+    "codename": "17B102",
+    "date": "November 7, 2019",
+    "logs": "Bug fixes and improvements.",
+    "version": "13.2.2"
+  },
+  {
+    "api": 13,
+    "codename": "17B111",
+    "date": "November 18, 2019",
+    "logs": "Bug fixes and improvements.",
+    "version": "13.2.3"
+  },
+  {
+    "api": 13,
+    "codename": "17C54",
+    "date": "December 10, 2019",
+    "logs": "Screen Time_Communication Limits: In the Screen Time app, time limits can now be set for phone calls, messages, and FaceTime calls. Individual limits can be set for each contact.*Apple News_There is a new layout for Apple News+ stories from some \"leading newspapers\" such as the Wall Street Journal._There is now a quick option to like or dislike a story from the main page.*Stocks_Stories from Apple News have been made available in Canada in English and French._There is a new \"continue reading\" option with links to more stories that are related or from the same publisher._New \"Breaking\" and \"Developing\" labels for Top Stories*Safari*Bug Fixes & Other Improvements",
+    "version": "13.3"
+  },
+  {
+    "api": 13,
+    "codename": "17D50",
+    "date": "January 28, 2020",
+    "logs": "Bug fixes and improvements.",
+    "version": "13.3.1"
+  },
+  {
+    "api": 13,
+    "codename": "17E255\n17E8255",
+    "date": "March 24, 2020",
+    "logs": "Memoji*Files*Mail*App Store with Apple Arcade*CarPlay*Augmented Reality*Keyboard*Bug Fixes and Improvements",
+    "version": "13.4"
+  },
+  {
+    "api": 13,
+    "codename": "17E262\n17E8258",
+    "date": "April 7, 2020",
+    "logs": "Bug fixes, including an issue that prevented FaceTime calls with devices running iOS 9.3.6 or OS X El Capitan 10.11.6 or older",
+    "version": "13.4.1"
+  },
+  {
+    "api": 13,
+    "codename": "17F75",
+    "date": "May 20, 2020",
+    "logs": "Face ID and Passcode*Exposure Notification API*FaceTime*Emergency Services*Bug Fixes and Other Improvements",
+    "version": "13.5"
+  },
+  {
+    "api": 13,
+    "codename": "17F80",
+    "date": "June 1, 2020",
+    "logs": "Security Update*Patches CVE-2020-9859, a memory consumption vulnerability that can be used by an application to perform arbitrary code execution with kernel privileges.This vulnerability was used by the unc0ver jailbreak.",
+    "version": "13.5.1"
+  },
+  {
+    "api": 13,
+    "codename": "17G68",
+    "date": "July 15, 2020",
+    "logs": "CarKey*Allows users to unlock, lock, and start compatible cars with an iPhone.*Uses NFC to communicate with compatible vehicles.*Can be found in the Wallet app.*Features_iCloud integration: Allows the removal of digital keys from devices that have been lost._iMessage: Share digital keys with contacts using iMessage, potentially with restrictions._Power Reserve: Allows users to unlock / start their car up to five hours after their iPhone has run out of battery.*Health_New 'Symptoms' section in the Health app.*News_Apple News+ Audio: Allows the user to listen to news stories as opposed to reading them, if subscribed to Apple News+.*Bug Fixes & Other Improvements_Settings Improvements+Automatic Updates+Renamed to \"Customize Automatic Updates\" from \"Automatic Updates\".+The \"Automatic Updates\" toggle was renamed to \"Download iOS Updates\".+If this toggle is enabled, an additional toggle labelled \"Install iOS Updates\" becomes visible, allowing users to automatically install new updates.*COVID-19 Exposure Logging_Enabled in more regions and states.+If not available in a given user's region, a notice letting the user know that the feature is \"not currently available in their region\" as well as a description of what the feature does is now visible.*Bug Fixes_Fixes an issue that could cause apps to become unresponsive while syncing from iCloud Drive._Fixes an issue that could cause calls originating from Saskatchewan to appear as originating from the United States.",
+    "version": "13.6"
+  },
+  {
+    "api": 13,
+    "codename": "17G80",
+    "date": "August 12, 2020",
+    "logs": "Bug Fixes & Other Improvements*Addresses an issue where unneeded system data files might not be automatically deleted when available storage is low*Fixes a thermal management issue that caused some displays to exhibit a green tint*Fixes an issue where Exposure Notifications could be disabled for some users",
+    "version": "13.6.1"
+  },
+  {
+    "api": 13,
+    "codename": "17H35",
+    "date": "September 1, 2020",
+    "logs": "Support Exposure Notifications Express.*Allows to opt-in to COVID-19 exposure notifications without the need to download an app*Depends on local health authority*An app is still required to report positivity to COVID-19",
+    "version": "13.7"
   }
 ]
