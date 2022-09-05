@@ -432,5 +432,12 @@
     "date": "March 7, 2022",
     "logs": "Improvements specific for foldable phones, tablets, desktop-sized screens and Chromebooks, and modifications to the user interface to tailor it to larger screens.",
     "version": "12L"
+  },
+  {
+    "api": 33,
+    "codename": "T",
+    "date": "(BETA)",
+    "logs": "(BETA)",
+    "version": "13 (BETA)"
   }
 ]
