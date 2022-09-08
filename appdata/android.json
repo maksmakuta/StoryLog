@@ -436,8 +436,8 @@
   {
     "api": 33,
     "codename": "T",
-    "date": "(BETA)",
-    "logs": "(BETA)",
-    "version": "13 (BETA)"
+    "date": "August 16, 2022",
+    "logs": "Apps are now required to request permission from the user before they are able to send notifications.*The number of active apps is now shown at the bottom of the notifications panel, a tap on it opens a detailed panel which lets the user stop each of them.*Support for Bluetooth LE Audio and the LC3 audio codec.*ART update with a new garbage collector (GC) utilizing the Linux userfaultfd system call.It reduces memory pressure, compiled code size, jank and prevents the risk of killing apps because of low memory during GC. Other changes also improve app startup, reduce jank and improve performance. Because of the Mainline project, Android 12 ART will also be updated.",
+    "version": "13"
   }
 ]
