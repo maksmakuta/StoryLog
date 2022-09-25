@@ -11,6 +11,7 @@ import com.google.android.gms.ads.AdView
 import ua.makuta.storylog.R
 import ua.makuta.storylog.Utils.toLog
 import ua.makuta.storylog.core.CoreFragment
+import ua.makuta.storylog.enum.OS
 import ua.makuta.storylog.model.Model
 
 class FInfo : CoreFragment() {
@@ -41,25 +42,35 @@ class FInfo : CoreFragment() {
 
         ad.loadAd(AdRequest.Builder().build())
 
-        val type = requireArguments().getBoolean("type")
+        val type = requireArguments().getInt("type")
         val model : Model = requireArguments().getSerializable("model") as Model
 
         title.text = os(type) + " " + model.version
         date.text = model.date
-        if(type) {
+        if(type == 0) {
             api.text = model.api.toString()
-        }else{
+        }else if (type == 1){
             view.findViewById<TextView>(R.id.view_api).text = "Build"
+            api.text = model.codename
+        }else{
+            view.findViewById<TextView>(R.id.view_api).text = "Based on"
             api.text = model.codename
         }
         log.text = " - ${model.logs.toLog()}"
     }
 
-    private fun os(type : Boolean) : String{
-        return if(type){
-            getString(R.string.android)
-        }else{
-            getString(R.string.ios)
+    private fun os(type : Int) : String{
+        return when(type){
+            0    -> getString(R.string.android)
+            1    -> getString(R.string.ios)
+            2    -> {
+                if (requireArguments().getBoolean("old")) {
+                    getString(R.string.wear_os_old)
+                }else{
+                    getString(R.string.wear_os)
+                }
+            }
+            else -> getString(R.string.app_name)
         }
     }
 

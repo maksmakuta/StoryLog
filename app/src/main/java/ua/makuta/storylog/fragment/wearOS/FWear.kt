@@ -29,6 +29,7 @@ class FWear: CoreFragment(), FWearContract.IView, ItemClickListener {
     private lateinit var title : TextView
 
     private lateinit var adapter: ModelAdapter
+    private val models = ArrayList<Model>()
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -55,8 +56,10 @@ class FWear: CoreFragment(), FWearContract.IView, ItemClickListener {
     override fun onLoadSuccess(data: ArrayList<Model>) {
         if(isAdded) {
             requireActivity().runOnUiThread {
+                models.clear()
                 adapter = ModelAdapter(this, OS.WEAR_OS)
                 adapter.update(data)
+                models.addAll(data)
 
                 recycler.adapter = adapter
                 recycler.layoutManager = LinearLayoutManager(requireContext())
@@ -90,13 +93,21 @@ class FWear: CoreFragment(), FWearContract.IView, ItemClickListener {
         }
     }
 
+    private fun checkOld(item: Model) : Boolean{
+        val middle = models.indexOfFirst { it -> it.api == 1 }
+        val pos = models.indexOf(item)
+        return pos < middle
+    }
+
     override fun onItemClick(item: Model) {
         if(isAdded) {
+            val isOld = checkOld(item)
             findNavController().navigate(
-                R.id.action_FIos_to_FInfo,
+                R.id.action_FWear_to_FInfo,
                 bundleOf(
                     Pair("model", item),
-                    Pair("type", false)
+                    Pair("type", 2),
+                    Pair("old",isOld)
                 )
             )
         }

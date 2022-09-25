@@ -21,6 +21,7 @@ class FWellcome : CoreFragment() {
 
     private lateinit var cardDroid : CardView
     private lateinit var cardApple : CardView
+    private lateinit var cardWear  : CardView
 
     private lateinit var ad : AdView
 
@@ -43,6 +44,7 @@ class FWellcome : CoreFragment() {
 
         cardDroid = view.findViewById(R.id.card_android)
         cardApple = view.findViewById(R.id.card_ios)
+        cardWear  = view.findViewById(R.id.card_wearOS)
 
         cardDroid.setOnClickListener {
             findNavController().navigate(R.id.action_FWellcome_to_FAndroid)
@@ -50,6 +52,10 @@ class FWellcome : CoreFragment() {
 
         cardApple.setOnClickListener {
             findNavController().navigate(R.id.action_FWellcome_to_FIos)
+        }
+
+        cardWear.setOnClickListener{
+            findNavController().navigate(R.id.action_FWellcome_to_FWear)
         }
 
         info.setOnClickListener {

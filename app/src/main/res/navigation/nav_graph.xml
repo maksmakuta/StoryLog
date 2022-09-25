@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_FWellcome_to_FAndroid"
             app:destination="@id/FAndroid" />
+        <action
+            android:id="@+id/action_FWellcome_to_FWear"
+            app:destination="@id/FWear" />
     </fragment>
 
     <fragment
@@ -52,4 +55,13 @@
         android:id="@+id/FLicenses"
         android:name="ua.makuta.storylog.fragment.licenses.FLicenses"
         android:label="FLicenses" />
+    <fragment
+        tools:layout="@layout/list"
+        android:id="@+id/FWear"
+        android:name="ua.makuta.storylog.fragment.wearOS.FWear"
+        android:label="FWear" >
+        <action
+            android:id="@+id/action_FWear_to_FInfo"
+            app:destination="@id/FInfo" />
+    </fragment>
 </navigation>

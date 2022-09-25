@@ -16,6 +16,7 @@ import ua.makuta.storylog.Utils.snack
 import ua.makuta.storylog.Utils.visible
 import ua.makuta.storylog.adapter.ModelAdapter
 import ua.makuta.storylog.core.CoreFragment
+import ua.makuta.storylog.enum.OS
 import ua.makuta.storylog.listener.ItemClickListener
 import ua.makuta.storylog.model.Model
 
@@ -97,7 +98,7 @@ class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
                 R.id.action_FAndroid_to_FInfo,
                 bundleOf(
                     Pair("model", item),
-                    Pair("type", true)
+                    Pair("type", 0)
                 )
             )
         }
