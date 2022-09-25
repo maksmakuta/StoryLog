@@ -71,13 +71,6 @@
   },
   {
     "api"     : 0,
-    "version" : "2.6 (Oreo Edition)",
-    "date"    : "December 2017",
-    "logs"    : "Brings Android 8.0 Oreo features to smartwatches*Notification vibration strength setting*Touch lock option for wet conditions*Support for 7 new countries/languages*Notification Channels*Battery saving background limits",
-    "codename": "Android 8.0"
-  },
-  {
-    "api"     : 0,
     "version" : "2.7",
     "date"    : "December 2017",
     "logs"    : "Improved typefaces and font weights*Complications now work with Talkback*Text size of notifications adapts to message length*Swipe down in Quick Settings to see connection type (Wi-Fi, Bluetooth, or mobile)*Download progress notifications*Recent App complication*Better prevention of accidental side-swipe and long-press gestures",

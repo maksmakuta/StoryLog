@@ -96,7 +96,7 @@ class FIos : CoreFragment(),FIosContract.IView, ItemClickListener {
                 R.id.action_FIos_to_FInfo,
                 bundleOf(
                     Pair("model", item),
-                    Pair("type", false)
+                    Pair("type", 1)
                 )
             )
         }

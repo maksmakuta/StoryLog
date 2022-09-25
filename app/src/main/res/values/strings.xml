@@ -1,12 +1,16 @@
 <resources>
     <string name="app_name">StoryLog</string>
-    <string name="android">Android</string>
-    <string name="ios">IOS</string>
     <string name="home">Home</string>
+
     <string name="released">Release date</string>
     <string name="api">API</string>
     <string name="changelog">Changelog</string>
     <string name="description">All information about version of Android and IOS taken from wikipedia</string>
+
     <string name="libs">Used Libraries</string>
-    <string name="wear_os">WearOS (Android Wear)</string>
+
+    <string name="android">Android</string>
+    <string name="ios">IOS</string>
+    <string name="wear_os_old">Android Wear</string>
+    <string name="wear_os">WearOS</string>
 </resources>
