@@ -119,6 +119,37 @@
 
     </androidx.cardview.widget.CardView>
 
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_wearOS"
+        app:layout_constraintStart_toStartOf="@id/card_android"
+        app:layout_constraintEnd_toEndOf="@id/card_android"
+        app:layout_constraintTop_toBottomOf="@id/card_android"
+        app:cardCornerRadius="5dp"
+        android:elevation="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="100dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:tint="?colorOnSurface"
+                android:src="@drawable/ic_wear_os"
+                android:layout_width="0dp"
+                android:layout_height="?actionBarSize"
+                tools:ignore="ContentDescription" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
     <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
         android:id="@+id/adView"

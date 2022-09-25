@@ -8,10 +8,11 @@ import androidx.recyclerview.widget.RecyclerView
 import ua.makuta.storylog.R
 import ua.makuta.storylog.Utils.invisible
 import ua.makuta.storylog.Utils.visible
+import ua.makuta.storylog.enum.OS
 import ua.makuta.storylog.listener.ItemClickListener
 import ua.makuta.storylog.model.Model
 
-class ModelAdapter(private val listener: ItemClickListener,private val isIOS : Boolean = false) : RecyclerView.Adapter<ModelAdapter.Holder>() {
+class ModelAdapter(private val listener: ItemClickListener,private val os : OS = OS.ANDROID) : RecyclerView.Adapter<ModelAdapter.Holder>() {
 
     private val data = ArrayList<Model>()
 
@@ -27,7 +28,7 @@ class ModelAdapter(private val listener: ItemClickListener,private val isIOS : B
     }
 
     override fun onBindViewHolder(holder: Holder, pos: Int) {
-        holder.bind(data[pos],listener,isIOS)
+        holder.bind(data[pos],listener,os)
     }
 
     override fun getItemCount(): Int = data.size
@@ -37,8 +38,8 @@ class ModelAdapter(private val listener: ItemClickListener,private val isIOS : B
         val version : TextView = view.findViewById(R.id.item_ver)
         val name    : TextView = view.findViewById(R.id.item_name)
 
-        fun bind(model: Model,listener: ItemClickListener,isIOS : Boolean){
-            if(isIOS){
+        fun bind(model: Model,listener: ItemClickListener,os : OS){
+            if(os == OS.IOS){
                 name.invisible()
             }
             version.text = model.version
