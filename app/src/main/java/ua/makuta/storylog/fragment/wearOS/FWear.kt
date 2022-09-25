@@ -1,4 +1,4 @@
-package ua.makuta.storylog.fragment.ios
+package ua.makuta.storylog.fragment.wearOS
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -20,9 +20,9 @@ import ua.makuta.storylog.enum.OS
 import ua.makuta.storylog.listener.ItemClickListener
 import ua.makuta.storylog.model.Model
 
-class FIos : CoreFragment(),FIosContract.IView, ItemClickListener {
+class FWear: CoreFragment(), FWearContract.IView, ItemClickListener {
 
-    private lateinit var presenter: FIosPresenter
+    private lateinit var presenter: FWearPresenter
 
     private lateinit var recycler: RecyclerView
     private lateinit var loader: CircularProgressIndicator
@@ -35,7 +35,7 @@ class FIos : CoreFragment(),FIosContract.IView, ItemClickListener {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        presenter = FIosPresenter(this)
+        presenter = FWearPresenter(this)
         return inflater.inflate(R.layout.list, container, false)
     }
 
@@ -46,7 +46,7 @@ class FIos : CoreFragment(),FIosContract.IView, ItemClickListener {
         loader = view.findViewById(R.id.loader)
 
         title = view.findViewById(R.id.title)
-        title.text = getString(R.string.ios)
+        title.text = getString(R.string.wear_os)
 
         showLoader()
         presenter.onLoad()
@@ -55,7 +55,7 @@ class FIos : CoreFragment(),FIosContract.IView, ItemClickListener {
     override fun onLoadSuccess(data: ArrayList<Model>) {
         if(isAdded) {
             requireActivity().runOnUiThread {
-                adapter = ModelAdapter(this, OS.IOS)
+                adapter = ModelAdapter(this, OS.WEAR_OS)
                 adapter.update(data)
 
                 recycler.adapter = adapter

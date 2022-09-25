@@ -5,5 +5,6 @@ object API {
     const val BASE_URL  = "https://raw.githubusercontent.com/maksmakuta/StoryLog"
     const val DROID     = "/app/appdata/android.json"
     const val IOS       = "/app/appdata/ios.json"
+    const val WEAR       = "/app/appdata/wearOS.json"
 
 }

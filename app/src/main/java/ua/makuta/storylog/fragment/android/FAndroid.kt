@@ -52,44 +52,54 @@ class FAndroid : CoreFragment(),FAndroidContract.IView, ItemClickListener {
     }
 
     override fun onLoadSuccess(data: ArrayList<Model>) {
-        requireActivity().runOnUiThread {
-            adapter = ModelAdapter(this)
-            adapter.update(data)
+        if(isAdded) {
+            requireActivity().runOnUiThread {
+                adapter = ModelAdapter(this)
+                adapter.update(data)
 
-            recycler.adapter = adapter
-            recycler.layoutManager = LinearLayoutManager(requireContext())
-            hideLoader()
+                recycler.adapter = adapter
+                recycler.layoutManager = LinearLayoutManager(requireContext())
+                hideLoader()
+            }
         }
     }
 
     override fun onLoadFailed(msg: String) {
-        requireActivity().runOnUiThread {
-            requireView().snack(msg)
-            hideLoader()
+        if(isAdded) {
+            requireActivity().runOnUiThread {
+                requireView().snack(msg)
+                hideLoader()
+            }
         }
     }
 
     override fun showLoader() {
-        requireActivity().runOnUiThread {
-            recycler.invisible()
-            loader.visible()
+        if(isAdded) {
+            requireActivity().runOnUiThread {
+                recycler.invisible()
+                loader.visible()
+            }
         }
     }
 
     override fun hideLoader() {
-        requireActivity().runOnUiThread {
-            recycler.visible()
-            loader.invisible()
+        if(isAdded) {
+            requireActivity().runOnUiThread {
+                recycler.visible()
+                loader.invisible()
+            }
         }
     }
 
     override fun onItemClick(item: Model) {
-        findNavController().navigate(
-            R.id.action_FAndroid_to_FInfo,
-            bundleOf(
-                Pair("model",item),
-                Pair("type", true)
+        if (isAdded) {
+            findNavController().navigate(
+                R.id.action_FAndroid_to_FInfo,
+                bundleOf(
+                    Pair("model", item),
+                    Pair("type", true)
+                )
             )
-        )
+        }
     }
 }

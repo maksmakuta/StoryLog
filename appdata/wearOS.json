@@ -1,0 +1,177 @@
+[
+  {
+    "api"     : 0,
+    "version" : "4.4W1",
+    "date"    : "June 2014",
+    "logs"    : "Announced at Google I/O 2014*Initial release",
+    "codename": "Android 4.4"
+  },
+  {
+    "api"     : 0,
+    "version" : "4.4W2",
+    "date"    : "October 2014",
+    "logs"    : "Offline music playback over Bluetooth*Watch GPS support (for watches with built-in GPS)*New music control UI",
+    "codename": "Android 4.4"
+  },
+  {
+    "api"     : 0,
+    "version" : "1.0",
+    "date"    : "December 2014",
+    "logs"    : "This version changed the numbering scheme to be independent from the underlying Android OS version.*Official watch face API*Sunlight mode (brightness boost)*Theater mode*Settings shade from top*Battery stats in Android Wear app*Recently used actions added to the top in drawer*Ability to undo dismissed notification",
+    "codename": "Android 5.0.1"
+  },
+  {
+    "api"     : 0,
+    "version" : "1.1",
+    "date"    : "May 2015",
+    "logs"    : "Wi-Fi support (for watches with built-in Wi-Fi)*Drawable Emojis (as response to messages)*Heads up notifications*Pattern lock screen*Ability to change font size*Add swipe left from watch face to access app drawer*Always on apps*More wrist gestures",
+    "codename": "Android 5.1.1"
+  },
+  {
+    "api"     : 0,
+    "version" : "1.3",
+    "date"    : "August 2015",
+    "logs"    : "Interactive watch faces*Google Translate for Wear",
+    "codename": "Android 5.1.1"
+  },
+  {
+    "api"     : 0,
+    "version" : "1.4",
+    "date"    : "February 2016",
+    "logs"    : "More wrist gestures*Speaker support for watches with built-in speaker*Send voice messages directly from the watch",
+    "codename": "Android 6.0.1"
+  },
+  {
+    "api"     : 0,
+    "version" : "1.5",
+    "date"    : "June 2016",
+    "logs"    : "Brought back restart watch option*Added Android security patch level to About screen",
+    "codename": "Android 6.0.1"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.0",
+    "date"    : "February 2017",
+    "logs"    : "Revamped UI with Material Design, darker colors, and a more circular user interface for round watches.*Standalone apps with Google Play Store on watch*Complications for watch faces*Built-in keyboard*Handwriting recognition*Stackable notifications*Smarter notifications*Cellular Support",
+    "codename": "Android 7.1.1"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.6",
+    "date"    : "November 2017",
+    "logs"    : "Text size of notifications adapts to message length*New download progress indicator*New complication for launching previously-used app",
+    "codename": "Android 7.1.1"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.6 (Oreo Edition)",
+    "date"    : "December 2017",
+    "logs"    : "Brings Android 8.0 Oreo features to smartwatches*Notification vibration strength setting*Touch lock option for wet conditions*Support for 7 new countries/languages*Notification Channels*Battery saving background limits",
+    "codename": "Android 8.0"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.6 (Oreo Edition)",
+    "date"    : "December 2017",
+    "logs"    : "Brings Android 8.0 Oreo features to smartwatches*Notification vibration strength setting*Touch lock option for wet conditions*Support for 7 new countries/languages*Notification Channels*Battery saving background limits",
+    "codename": "Android 8.0"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.7",
+    "date"    : "December 2017",
+    "logs"    : "Improved typefaces and font weights*Complications now work with Talkback*Text size of notifications adapts to message length*Swipe down in Quick Settings to see connection type (Wi-Fi, Bluetooth, or mobile)*Download progress notifications*Recent App complication*Better prevention of accidental side-swipe and long-press gestures",
+    "codename": "Android 8.0"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.8",
+    "date"    : "January 2018",
+    "logs"    : "Improved notification glanceability with a new layout which shows more of the user's message at a glance*Darker background for better readability and less battery usage",
+    "codename": "Android 8.0"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.9",
+    "date"    : "February 2018",
+    "logs"    : "New notification preview complication which allows you to preview messages*Improved glanceability in notification cards with longer titles",
+    "codename": "Android 8.0"
+  },
+  {
+    "api"     : 1,
+    "version" : "WearOS",
+    "date"    : "",
+    "logs"    : "",
+    "codename": ""
+  },
+  {
+    "api"     : 0,
+    "version" : "1.0",
+    "date"    : "March 2018",
+    "logs"    : "Version number reset to \"1.0\".*Wear OS App version: 2.10*Rebranding to Wear OS*Expand Google Pay Support in more countries",
+    "codename": "Android 8.0"
+  },
+  {
+    "api"     : 0,
+    "version" : "1.4",
+    "date"    : "July 2018",
+    "logs"    : "Wear OS App version: 2.14*Faster Google Pay startup*More glanceable design for events and appointments*Time zone sync bug fix",
+    "codename": "Android 8.0"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.0",
+    "date"    : "September 2018",
+    "logs"    : "Wear OS App version: 2.18*Swipe actions for faster access to Google Assistant and Google Fit[31]*Google Assistant feed with proactive personalized information*New design for quick toggles and notifications stream*New music controls with physical button support*Bolder font in the app launcher",
+    "codename": "Android 8.0"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.2",
+    "date"    : "November 2018",
+    "logs"    : "Wear OS App version: 2.20*New features for System version H MR1:_Brings Android 9.0 Pie features to smartwatches_Enables Battery Saver mode to only display the time once the battery falls below 10%_Improves restoring the state of previously used apps_Watches now enter a deep sleep mode after 30 minutes of inactivity_Holding down the power button now provides options for shutting down or restarting the watch",
+    "codename": "Android 9"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.6",
+    "date"    : "May 2019",
+    "logs"    : "Wear OS App version: 2.24*Tiles functionality when swiping left, providing access to next calendar events, weather forecast, heart rate, news headlines and timer functionality.",
+    "codename": "Android 9"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.7",
+    "date"    : "June 2019",
+    "logs"    : "Wear OS App version: 2.25*Bugfixes",
+    "codename": "Android 9"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.9",
+    "date"    : "July 2019",
+    "logs"    : "Wear OS App version: 2.26*Notifications",
+    "codename": "Android 9"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.17",
+    "date"    : "April 2020",
+    "logs"    : "Wear OS App version: 2.35*New 'Wash hands' timer regarding coronavirus.*New UI and Tiles for Google Fit",
+    "codename": "Android 9"
+  },
+  {
+    "api"     : 0,
+    "version" : "2.23",
+    "date"    : "December 2020",
+    "logs"    : "Wear OS App version: 2.41*Changes in System H MR2:_CPU core improvements: app launch and boot time up to 20% faster_SysUI improvements: more intuitive controls for managing different watch modes and workouts_Increased performance with the Qualcomm Snapdragon Wear 4100 and 4100+ platforms_Improved LTE support_Simplified pairing process_Better battery life_Support for an increased numbers of Tiles_New Weather Tile_Ability to turn off Long Press Power Button to activate Google Assistant_Ability to set the screen off time limit_New screen brightness layout_YouTube Music App_Google Fit: Workouts & Breathe Tiles + New home screen & New Sleep features_Social share and challenge",
+    "codename": "Android 9"
+  },
+  {
+    "api"     : 0,
+    "version" : "3.0",
+    "date"    : "August 2021",
+    "logs"    : "Wear OS App version: 2.50*Brings Android 11 features to smartwatches_New Design UI_New features_New improvements*Google & Fitbit partnership might bring advanced features: _Health features to Google Fit:+Stress management+Compatible ECG app+Skin temperature+SpO2 levels+Sleep tracking+Wake up_Hardware improvements:+Long battery life with Bluetooth improvements (up to a week)_Social integration:+Social challenges",
+    "codename": "Android 11"
+  }
+]

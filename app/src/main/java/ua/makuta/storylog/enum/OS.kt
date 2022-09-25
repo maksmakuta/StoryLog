@@ -1,5 +1,7 @@
 package ua.makuta.storylog.enum
 
 enum class OS {
-    ANDROID,IOS
+    ANDROID,
+    IOS,
+    WEAR_OS
 }
