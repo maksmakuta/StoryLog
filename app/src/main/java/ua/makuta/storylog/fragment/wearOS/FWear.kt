@@ -47,7 +47,7 @@ class FWear: CoreFragment(), FWearContract.IView, ItemClickListener {
         loader = view.findViewById(R.id.loader)
 
         title = view.findViewById(R.id.title)
-        title.text = getString(R.string.wear_os)
+        title.text = getString(R.string.wear_os_old)
 
         showLoader()
         presenter.onLoad()
