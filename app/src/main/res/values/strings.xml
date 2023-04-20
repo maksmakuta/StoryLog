@@ -13,4 +13,5 @@
     <string name="ios">IOS</string>
     <string name="wear_os_old">Android Wear</string>
     <string name="wear_os">WearOS</string>
+    <string name="watch_os">WatchOS</string>
 </resources>
