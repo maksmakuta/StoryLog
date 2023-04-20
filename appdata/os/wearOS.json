@@ -166,5 +166,12 @@
     "date"    : "August 2021",
     "logs"    : "Wear OS App version: 2.50*Brings Android 11 features to smartwatches_New Design UI_New features_New improvements*Google & Fitbit partnership might bring advanced features: _Health features to Google Fit:+Stress management+Compatible ECG app+Skin temperature+SpO2 levels+Sleep tracking+Wake up_Hardware improvements:+Long battery life with Bluetooth improvements (up to a week)_Social integration:+Social challenges",
     "codename": "Android 11"
+  },
+  {
+    "api"     : 0,
+    "version" : "3.5",
+    "date"    : "October 2022",
+    "logs"    : "Integration with Fitbit*Improved Google Assistant*Added new watch faces*Removed:+Compatibility with iPhones",
+    "codename": "Android 11"
   }
 ]

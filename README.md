@@ -1,9 +1,7 @@
 # StoryLog
 
-[![Get it on Google Play](https://lisk.com/sites/default/files/pictures/2020-01/download_on_the_play_store_badge.svg)](https://play.google.com/store/apps/details?id=ua.makuta.storylog)
-
- Full changelog of Android and IOS taken from Wikipedia
- 
+<a href='https://play.google.com/store/apps/details?id=ua.makuta.storylog&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/></a>
+ Full changelog of Android, IOS, WearOS and Android Wear taken from Wikipedia
 
 ## Author 
  
