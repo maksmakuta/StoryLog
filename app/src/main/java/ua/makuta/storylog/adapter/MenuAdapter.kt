@@ -16,7 +16,8 @@ class MenuAdapter : CoreAdapter<ModelMenuItem,IItemBinding>() {
     ) = IItemBinding.inflate(inflater,parent,false)
 
     override fun onBind(binding: IItemBinding, item: ModelMenuItem) {
-        binding.projectIcon.load(item.icon)
+        if(item.icon.isNotEmpty())
+            binding.projectIcon.load(item.icon)
         binding.projectTitle.text = item.title
         binding.projectDesc.text = item.desc
     }
