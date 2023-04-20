@@ -27,7 +27,7 @@ class FAndroidPresenter(private val view : FAndroidContract.IView) : FAndroidCon
                 response.use {
                     if (!response.isSuccessful) throw IOException("Unexpected code $response")
                     else {
-                        val resp = response.body!!.string()
+                        val resp = response.body.string()
                         Log.i("WTF", resp)
                         val array = Utils.GSON().fromJson(resp,Array<Model>::class.java).toCollection(ArrayList())
                         view.onLoadSuccess(array)
