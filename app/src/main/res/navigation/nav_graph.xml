@@ -2,4 +2,26 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph" />
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FMain">
+    <fragment
+        android:id="@+id/FMain"
+        android:name="ua.makuta.storylog.fragment.main.FMain"
+        android:label="FMain" >
+        <action
+            android:id="@+id/action_FMain_to_FList"
+            app:destination="@id/FList" />
+    </fragment>
+    <fragment
+        android:id="@+id/FInfo"
+        android:name="ua.makuta.storylog.fragment.info.FInfo"
+        android:label="FInfo" />
+    <fragment
+        android:id="@+id/FList"
+        android:name="ua.makuta.storylog.fragment.list.FList"
+        android:label="FList" >
+        <action
+            android:id="@+id/action_FList_to_FInfo"
+            app:destination="@id/FInfo" />
+    </fragment>
+</navigation>

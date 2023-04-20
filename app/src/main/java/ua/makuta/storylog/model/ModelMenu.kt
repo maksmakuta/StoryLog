@@ -1,7 +1,7 @@
 package ua.makuta.storylog.model
 
 data class ModelMenu(
-    val icon    : String,
-    val title   : String,
-    val desc    : String
+    val os : ArrayList<ModelMenuItem>,
+    val app : ArrayList<ModelMenuItem>,
+    val game : ArrayList<ModelMenuItem>,
 )
