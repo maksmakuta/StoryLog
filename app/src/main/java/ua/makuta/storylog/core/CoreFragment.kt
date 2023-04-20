@@ -10,7 +10,7 @@ import androidx.viewbinding.ViewBinding
 abstract class CoreFragment<VB : ViewBinding> : Fragment(){
 
     private var _binding : VB? = null
-    //val binding : VB = _binding!!
+    lateinit var binding : VB
 
     abstract fun onBinding(
         inflater: LayoutInflater,
@@ -23,6 +23,7 @@ abstract class CoreFragment<VB : ViewBinding> : Fragment(){
         savedInstanceState: Bundle?
     ): View? {
         _binding = onBinding(inflater,container)
+        binding = _binding!!
         return _binding?.root
     }
 

@@ -8,6 +8,7 @@
         android:id="@+id/FMain"
         android:name="ua.makuta.storylog.fragment.main.FMain"
         android:label="FMain" >
+        <argument android:name="type" android:defaultValue="0"/>
         <action
             android:id="@+id/action_FMain_to_FList"
             app:destination="@id/FList" />
