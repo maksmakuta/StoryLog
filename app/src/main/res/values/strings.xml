@@ -14,4 +14,7 @@
     <string name="wear_os_old">Android Wear</string>
     <string name="wear_os">WearOS</string>
     <string name="watch_os">WatchOS</string>
+    <string name="menu_os">OS</string>
+    <string name="menu_game">Games</string>
+    <string name="menu_app">Apps</string>
 </resources>

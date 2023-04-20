@@ -1,0 +1,32 @@
+{
+  "os" : [
+    {
+      "icon" :  "",
+      "title" : "Android",
+      "desc" : "Mobile OS made by Google",
+      "file" : "os/android.json"
+    },
+    {
+      "icon" :  "",
+      "title" : "iOS",
+      "desc" : "Mobile OS made by Apple",
+      "file"  : "os/ios.json"
+    }
+  ],
+  "app" : [
+    {
+      "icon": "",
+      "title": "StoryLog",
+      "desc": "App that show software evolution OS, apps and games",
+      "file" : ""
+    }
+  ],
+  "game" : [
+    {
+      "icon" :  "",
+      "title" : "Minecraft",
+      "desc" : "Game from Mojang Studios",
+      "file" : ""
+    }
+  ]
+}

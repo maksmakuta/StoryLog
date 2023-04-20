@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_os"
+        android:enabled="true"
+        android:title="@string/menu_os"
+        android:icon="@drawable/baseline_devices_24"/>
+
+    <item
+        android:id="@+id/menu_game"
+        android:enabled="true"
+        android:title="@string/menu_game"
+        android:icon="@drawable/baseline_gamepad_24"/>
+
+    <item
+        android:id="@+id/menu_app"
+        android:enabled="true"
+        android:title="@string/menu_app"
+        android:icon="@drawable/baseline_grid_view_24"/>
+
+</menu>
