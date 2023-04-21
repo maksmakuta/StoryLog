@@ -6,16 +6,17 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.setupWithNavController
 import com.google.android.gms.ads.MobileAds
 import ua.makuta.storylog.R
 import ua.makuta.storylog.databinding.AMainBinding
 import ua.makuta.storylog.enums.DataType
-import ua.makuta.storylog.fragment.main.FMainDirections
+import ua.makuta.storylog.listeners.OnNavigationListener
 import ua.makuta.storylog.utils.Utils.ARGS_LIST
+import ua.makuta.storylog.utils.Utils.gone
 import ua.makuta.storylog.utils.Utils.load
+import ua.makuta.storylog.utils.Utils.visible
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), OnNavigationListener {
 
     private val vm : MainViewModel by viewModels()
     private lateinit var binding: AMainBinding
@@ -59,6 +60,18 @@ class MainActivity : AppCompatActivity() {
         super.onStop()
         vm.data.removeObservers(this)
         vm.data.value = null
+    }
+
+    override fun onHide() {
+        runOnUiThread {
+            binding.navBar.gone()
+        }
+    }
+
+    override fun onShow() {
+        runOnUiThread {
+            binding.navBar.visible()
+        }
     }
 
 }

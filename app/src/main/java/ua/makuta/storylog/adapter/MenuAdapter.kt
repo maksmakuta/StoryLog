@@ -5,9 +5,12 @@ import android.view.ViewGroup
 import coil.load
 import ua.makuta.storylog.core.CoreAdapter
 import ua.makuta.storylog.databinding.IItemBinding
+import ua.makuta.storylog.listeners.OnItemClickListener
 import ua.makuta.storylog.model.ModelMenuItem
 
-class MenuAdapter : CoreAdapter<ModelMenuItem,IItemBinding>() {
+class MenuAdapter(
+    private val listener : OnItemClickListener<ModelMenuItem>? = null
+) : CoreAdapter<ModelMenuItem,IItemBinding>() {
 
     override fun onCreate(
         inflater: LayoutInflater,
@@ -20,6 +23,9 @@ class MenuAdapter : CoreAdapter<ModelMenuItem,IItemBinding>() {
             binding.projectIcon.load(item.icon)
         binding.projectTitle.text = item.title
         binding.projectDesc.text = item.desc
+        binding.root.setOnClickListener{
+            listener?.onItemClick(item)
+        }
     }
 
 }
