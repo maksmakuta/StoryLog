@@ -24,7 +24,7 @@ interface RepoAPI {
 
 }
 
-private const val BASE_URL = "https://raw.githubusercontent.com/maksmakuta/StoryLog/dev/" //
+const val BASE_URL = "https://raw.githubusercontent.com/maksmakuta/StoryLog/dev/"
 
 val storyNet : RepoAPI = Retrofit.Builder()
     .baseUrl(BASE_URL)
