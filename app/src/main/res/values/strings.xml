@@ -17,4 +17,8 @@
     <string name="menu_os">OS</string>
     <string name="menu_game">Games</string>
     <string name="menu_app">Apps</string>
+    <string name="error_no_file">Data isn\'t available for this %s</string>
+    <string name="type_os">OS</string>
+    <string name="type_app">app</string>
+    <string name="type_game">game</string>
 </resources>

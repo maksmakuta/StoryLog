@@ -1,7 +1,7 @@
 {
   "os" : [
     {
-      "icon" :  "",
+      "icon" :  "image/android.svg",
       "title" : "Android",
       "desc" : "Mobile OS made by Google",
       "file" : "os/android.json"
@@ -17,7 +17,7 @@
     {
       "icon": "",
       "title": "StoryLog",
-      "desc": "App that show software evolution OS, apps and games",
+      "desc": "App that show software evolution of OS, apps and games",
       "file" : ""
     }
   ],

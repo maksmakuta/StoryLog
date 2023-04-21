@@ -6,7 +6,7 @@
     app:startDestination="@id/FMain">
     <fragment
         android:id="@+id/FMain"
-        android:name="ua.makuta.storylog.fragment.main.FMain"
+        android:name="ua.makuta.storylog.fragment.FMain"
         android:label="FMain" >
         <argument android:name="type" android:defaultValue="0"/>
         <action
@@ -15,11 +15,11 @@
     </fragment>
     <fragment
         android:id="@+id/FInfo"
-        android:name="ua.makuta.storylog.fragment.info.FInfo"
+        android:name="ua.makuta.storylog.fragment.FInfo"
         android:label="FInfo" />
     <fragment
         android:id="@+id/FList"
-        android:name="ua.makuta.storylog.fragment.list.FList"
+        android:name="ua.makuta.storylog.fragment.FList"
         android:label="FList" >
         <action
             android:id="@+id/action_FList_to_FInfo"
