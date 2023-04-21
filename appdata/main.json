@@ -1,7 +1,7 @@
 {
   "os" : [
     {
-      "icon" :  "image/android.svg",
+      "icon" :  "appdata/image/android.svg",
       "title" : "Android",
       "desc" : "Mobile OS made by Google",
       "file" : "os/android.json"
