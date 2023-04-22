@@ -4,9 +4,12 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import ua.makuta.storylog.core.CoreAdapter
 import ua.makuta.storylog.databinding.IVersionBinding
-import ua.makuta.storylog.model.ModelApp
+import ua.makuta.storylog.listeners.OnItemClickListener
+import ua.makuta.storylog.model.ModelVersion
 
-class AppAdapter : CoreAdapter<ModelApp,IVersionBinding>() {
+class AppAdapter(
+    private val listener : OnItemClickListener<ModelVersion>? = null
+) : CoreAdapter<ModelVersion,IVersionBinding>() {
 
     override fun onCreate(
         inflater: LayoutInflater,
@@ -14,8 +17,11 @@ class AppAdapter : CoreAdapter<ModelApp,IVersionBinding>() {
         viewType: Int
     ) = IVersionBinding.inflate(inflater,parent,false)
 
-    override fun onBind(binding: IVersionBinding, item: ModelApp) {
+    override fun onBind(binding: IVersionBinding, item: ModelVersion) {
         binding.textVersion.text = item.version
+        binding.root.setOnClickListener{
+            listener?.onItemClick(item)
+        }
     }
 
 }

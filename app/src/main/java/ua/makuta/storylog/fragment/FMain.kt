@@ -65,7 +65,7 @@ class FMain : CoreFragment<FMainBinding>(), OnItemClickListener<ModelMenuItem> {
 
     override fun onItemClick(item: ModelMenuItem) {
         if(item.file.isNotEmpty()) {
-            mainVM.loadFile(item.file, type)
+            mainVM.loadFile(item.file)
             findNavController().navigate(
                 R.id.action_FMain_to_FList,
                 bundleOf(
@@ -74,13 +74,7 @@ class FMain : CoreFragment<FMainBinding>(), OnItemClickListener<ModelMenuItem> {
                 )
             )
         }else{
-            val t = when(type){
-                DataType.OS.ordinal -> getString(R.string.type_os)
-                DataType.APP.ordinal -> getString(R.string.type_app)
-                DataType.GAME.ordinal -> getString(R.string.type_game)
-                else -> "item"
-            }
-            snack(R.string.error_no_file,t)
+            snack(R.string.error_no_file)
         }
     }
 
