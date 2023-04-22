@@ -8,18 +8,18 @@ import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import ua.makuta.storylog.activity.MainViewModel
 import ua.makuta.storylog.adapter.AppAdapter
-import ua.makuta.storylog.adapter.VersionAdapter
 import ua.makuta.storylog.core.CoreFragment
 import ua.makuta.storylog.databinding.FListBinding
-import ua.makuta.storylog.enums.DataType
+import ua.makuta.storylog.listeners.OnItemClickListener
+import ua.makuta.storylog.model.ModelVersion
 import ua.makuta.storylog.utils.Utils.ARGS_TITLE
 import ua.makuta.storylog.utils.Utils.ARGS_TYPE
+import ua.makuta.storylog.utils.Utils.load
 
-class FList: CoreFragment<FListBinding>() {
+class FList: CoreFragment<FListBinding>(), OnItemClickListener<ModelVersion> {
 
     private val mainVM : MainViewModel by activityViewModels()
-    private val versionAdapter = VersionAdapter()
-    private val appAdapter = AppAdapter()
+    private val appAdapter = AppAdapter(this)
     private var type = 0
 
     override fun onBinding(inflater: LayoutInflater, container: ViewGroup?) =
@@ -31,53 +31,28 @@ class FList: CoreFragment<FListBinding>() {
         type = requireArguments().getInt(ARGS_TYPE,0)
         binding.title.text = requireArguments().getString(ARGS_TITLE,"")
         binding.list.apply {
-            adapter = if(type == DataType.OS.ordinal) versionAdapter else appAdapter
+            adapter = appAdapter
             layoutManager = LinearLayoutManager(requireContext())
         }
+        binding.adView.load()
     }
 
     override fun onResume() {
         super.onResume()
-        when(type){
-            DataType.OS.ordinal -> {
-                mainVM.osData.observe(this) {
-                    if (!it.isNullOrEmpty()) {
-                        versionAdapter.addAll(it)
-                    }
-                }
-            }
-            DataType.APP.ordinal -> {
-                mainVM.appData.observe(this) {
-                    if (!it.isNullOrEmpty()) {
-                        appAdapter.addAll(it)
-                    }
-                }
-            }
-            DataType.GAME.ordinal -> {
-                mainVM.gameData.observe(this) {
-                    if (!it.isNullOrEmpty()) {
-                        appAdapter.addAll(it)
-                    }
-                }
+        mainVM.arrData.observe(this) {
+            if (!it.isNullOrEmpty()) {
+                appAdapter.addAll(it)
             }
         }
     }
 
     override fun onStop() {
         super.onStop()
-        (if(type == DataType.OS.ordinal) versionAdapter else appAdapter).clear()
-        when(type){
-            DataType.OS.ordinal -> {
-                mainVM.osData.removeObservers(this)
-            }
-            DataType.APP.ordinal -> {
-                mainVM.appData.removeObservers(this)
-            }
-            DataType.GAME.ordinal -> {
-                mainVM.gameData.removeObservers(this)
-            }
-        }
+        appAdapter.clear()
+        mainVM.arrData.removeObservers(this)
     }
 
-
+    override fun onItemClick(item: ModelVersion) {
+        mainVM.item.postValue(item)
+    }
 }

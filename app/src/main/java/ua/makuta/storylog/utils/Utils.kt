@@ -4,13 +4,15 @@ import android.util.Log
 import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
+import android.widget.TextView
+import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.material.snackbar.Snackbar
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import ua.makuta.storylog.core.CoreFragment
+import io.noties.markwon.Markwon
 
 object Utils {
 
@@ -30,12 +32,20 @@ object Utils {
         this.loadAd(AdRequest.Builder().build())
     }
 
+    fun TextView.markdown(text : String){
+        val markwon = Markwon.create(this.context)
+        markwon.setMarkdown(this,text)
+    }
+
     fun logger(msg : String){
         Log.d("App",msg)
     }
 
-    fun Fragment.snack(str : Int, vararg args : Any){
-        Snackbar.make(this.requireView(),getString(str,args),Snackbar.LENGTH_SHORT).show()
+    fun Fragment.snack(@StringRes str : Int,anchor : View? = null){
+        val s = Snackbar
+            .make(this.requireView(),getString(str),Snackbar.LENGTH_SHORT)
+            if(anchor != null) s.anchorView = anchor
+            s.show()
     }
 
     val gson : Gson

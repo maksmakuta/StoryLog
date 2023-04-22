@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import ua.makuta.storylog.core.CoreFragment
 import ua.makuta.storylog.databinding.FInfoBinding
+import ua.makuta.storylog.utils.Utils.load
 
 class FInfo : CoreFragment<FInfoBinding>() {
 
@@ -15,6 +16,7 @@ class FInfo : CoreFragment<FInfoBinding>() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         listener.onHide()
+        binding.adView.load()
     }
 
 }
