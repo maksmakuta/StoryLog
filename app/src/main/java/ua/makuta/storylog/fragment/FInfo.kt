@@ -33,7 +33,6 @@ class FInfo : CoreFragment<FInfoBinding>() {
             adapter = detailsAdapter
             layoutManager = LinearLayoutManager(requireContext())
         }
-        binding.adView.load()
     }
 
     @SuppressLint("SetTextI18n")
