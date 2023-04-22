@@ -1,5 +1,6 @@
 package ua.makuta.storylog.adapter
 
+import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import ua.makuta.storylog.core.CoreAdapter
@@ -19,8 +20,15 @@ class AppAdapter(
 
     override fun onBind(binding: IVersionBinding, item: ModelVersion) {
         binding.textVersion.text = item.version
-        binding.root.setOnClickListener{
-            listener?.onItemClick(item)
+        if(item.args.containsKey("header")){
+            if(item.args["header"] == "true"){
+                binding.textVersion.gravity = Gravity.CENTER
+            }
+        }else{
+            binding.textVersion.gravity = Gravity.START
+            binding.root.setOnClickListener{
+                listener?.onItemClick(item)
+            }
         }
     }
 

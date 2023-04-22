@@ -3,11 +3,11 @@
     {
       "icon": ["appdata/image/android.svg"],
       "title": "Android",
-      "desc": "Mobile OS made by Google [in progress]",
+      "desc": "Mobile OS made by Google",
       "file": "appdata/os/android.json"
     },
     {
-      "icon": ["appdata/image/ios.svg"],
+      "icon": ["appdata/image/ios_dark.svg","appdata/image/ios_light.svg"],
       "title": "iOS",
       "desc": "Mobile OS made by Apple [in progress]",
       "file": ""
@@ -15,8 +15,8 @@
     {
       "icon": ["appdata/image/wear_os.svg"],
       "title": "WearOS",
-      "desc": "OS for smartwatches made by Google [in progress]",
-      "file": ""
+      "desc": "OS for smartwatches made by Google",
+      "file": "appdata/os/wear_os.json"
     },
     {
       "icon": ["appdata/image/watch_os_dark.svg","appdata/image/watch_os_light.svg"],
