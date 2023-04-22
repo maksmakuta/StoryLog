@@ -8,6 +8,8 @@ import ua.makuta.storylog.databinding.IItemBinding
 import ua.makuta.storylog.listeners.OnItemClickListener
 import ua.makuta.storylog.model.ModelMenuItem
 import ua.makuta.storylog.net.BASE_URL
+import ua.makuta.storylog.utils.Utils.ctx
+import ua.makuta.storylog.utils.Utils.isDarkTheme
 
 class MenuAdapter(
     private val listener : OnItemClickListener<ModelMenuItem>? = null
@@ -20,8 +22,19 @@ class MenuAdapter(
     ) = IItemBinding.inflate(inflater,parent,false)
 
     override fun onBind(binding: IItemBinding, item: ModelMenuItem) {
-        if(item.icon.isNotEmpty())
-            binding.projectIcon.load("$BASE_URL${item.icon}")
+        if(item.icon.isNotEmpty()) {
+            item.icon.apply {
+                if(size == 1){
+                    binding.projectIcon.load("$BASE_URL${this[0]}")
+                }else{
+                    if(!binding.ctx().isDarkTheme()){
+                        binding.projectIcon.load("$BASE_URL${this[0]}")
+                    }else{
+                        binding.projectIcon.load("$BASE_URL${this[1]}")
+                    }
+                }
+            }
+        }
         binding.projectTitle.text = item.title
         binding.projectDesc.text = item.desc
         binding.root.setOnClickListener{

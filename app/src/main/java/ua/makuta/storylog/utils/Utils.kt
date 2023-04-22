@@ -1,5 +1,7 @@
 package ua.makuta.storylog.utils
 
+import android.content.Context
+import android.content.res.Configuration
 import android.util.Log
 import android.view.View
 import android.view.View.GONE
@@ -7,6 +9,7 @@ import android.view.View.VISIBLE
 import android.widget.TextView
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
+import androidx.viewbinding.ViewBinding
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.material.snackbar.Snackbar
@@ -44,8 +47,18 @@ object Utils {
     fun Fragment.snack(@StringRes str : Int,anchor : View? = null){
         val s = Snackbar
             .make(this.requireView(),getString(str),Snackbar.LENGTH_SHORT)
-            if(anchor != null) s.anchorView = anchor
+            if(anchor != null)
+                s.anchorView = anchor
             s.show()
+    }
+
+    fun Context.isDarkTheme(): Boolean {
+        return this.resources.configuration.uiMode and
+                Configuration.UI_MODE_NIGHT_MASK == Configuration.UI_MODE_NIGHT_YES
+    }
+
+    fun ViewBinding.ctx() : Context{
+        return this.root.context
     }
 
     val gson : Gson

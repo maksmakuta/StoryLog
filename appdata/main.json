@@ -1,25 +1,25 @@
 {
   "os": [
     {
-      "icon": "appdata/image/android.svg",
+      "icon": ["appdata/image/android.svg"],
       "title": "Android",
       "desc": "Mobile OS made by Google [in progress]",
       "file": "appdata/os/android.json"
     },
     {
-      "icon": "appdata/image/ios.svg",
+      "icon": ["appdata/image/ios.svg"],
       "title": "iOS",
       "desc": "Mobile OS made by Apple [in progress]",
       "file": ""
     },
     {
-      "icon": "appdata/image/wear_os.svg",
+      "icon": ["appdata/image/wear_os.svg"],
       "title": "WearOS",
       "desc": "OS for smartwatches made by Google [in progress]",
       "file": ""
     },
     {
-      "icon": "appdata/image/watch_os.svg",
+      "icon": ["appdata/image/watch_os_dark.svg","appdata/image/watch_os_light.svg"],
       "title": "WatchOS",
       "desc": "OS for smartwatches made by Apple [in progress]",
       "file": ""
@@ -27,7 +27,7 @@
   ],
   "app": [
     {
-      "icon": "appdata/image/storylog.png",
+      "icon": ["appdata/image/storylog.png"],
       "title": "StoryLog",
       "desc": "App that show software evolution of OS, apps and games [in progress]",
       "file": ""
@@ -35,7 +35,7 @@
   ],
   "game": [
     {
-      "icon": "appdata/image/minecraft.svg",
+      "icon": ["appdata/image/minecraft.svg"],
       "title": "Minecraft",
       "desc": "Game from Mojang Studios [in progress]",
       "file": ""

@@ -4,8 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.os.bundleOf
 import androidx.fragment.app.activityViewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import ua.makuta.storylog.R
 import ua.makuta.storylog.activity.MainViewModel
 import ua.makuta.storylog.adapter.AppAdapter
 import ua.makuta.storylog.core.CoreFragment
@@ -21,6 +24,7 @@ class FList: CoreFragment<FListBinding>(), OnItemClickListener<ModelVersion> {
     private val mainVM : MainViewModel by activityViewModels()
     private val appAdapter = AppAdapter(this)
     private var type = 0
+    private var title = ""
 
     override fun onBinding(inflater: LayoutInflater, container: ViewGroup?) =
         FListBinding.inflate(inflater,container,false)
@@ -29,7 +33,8 @@ class FList: CoreFragment<FListBinding>(), OnItemClickListener<ModelVersion> {
         super.onViewCreated(view, savedInstanceState)
         listener.onHide()
         type = requireArguments().getInt(ARGS_TYPE,0)
-        binding.title.text = requireArguments().getString(ARGS_TITLE,"")
+        title = requireArguments().getString(ARGS_TITLE,"")
+        binding.title.text = title
         binding.list.apply {
             adapter = appAdapter
             layoutManager = LinearLayoutManager(requireContext())
@@ -54,5 +59,9 @@ class FList: CoreFragment<FListBinding>(), OnItemClickListener<ModelVersion> {
 
     override fun onItemClick(item: ModelVersion) {
         mainVM.item.postValue(item)
+        findNavController().navigate(
+            R.id.action_FList_to_FInfo,
+            bundleOf(ARGS_TITLE to title)
+        )
     }
 }
