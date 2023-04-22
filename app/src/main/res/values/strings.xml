@@ -6,4 +6,6 @@
     <string name="menu_app">Apps</string>
 
     <string name="error_no_file">No data available for this category</string>
+    <string name="title_details">Details :</string>
+    <string name="title_changelog">Changelog :</string>
 </resources>
