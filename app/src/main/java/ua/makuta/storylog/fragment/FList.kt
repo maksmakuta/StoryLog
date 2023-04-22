@@ -39,7 +39,6 @@ class FList: CoreFragment<FListBinding>(), OnItemClickListener<ModelVersion> {
             adapter = appAdapter
             layoutManager = LinearLayoutManager(requireContext())
         }
-        binding.adView.load()
     }
 
     override fun onResume() {

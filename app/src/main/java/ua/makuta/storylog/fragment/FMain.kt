@@ -43,6 +43,7 @@ class FMain : CoreFragment<FMainBinding>(), OnItemClickListener<ModelMenuItem> {
 
     override fun onStart() {
         super.onStart()
+        mainVM.arrData.value = null
         mainVM.data.observe(this){
             if(it != null){
                 menuAdapter.addAll(
