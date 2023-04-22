@@ -104,13 +104,13 @@
       "Codename" : "Gingerbread"
     },
     "version" : "2.3",
-    "logs" : "-   Updated user interface design with increased simplicity and speed.\n-   Support for extra-large screen sizes and resolutions ([WXGA](https://en.wikipedia.org/wiki/WXGA_(graphics) \"WXGA (graphics)\") and higher).\n-   Native support for [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol \"Session Initiation Protocol\") [VoIP](https://en.wikipedia.org/wiki/Voice_over_IP \"Voice over IP\") internet telephones.\n-   Faster, more intuitive text input on a virtual keyboard, with improved accuracy, better suggested text and voice input mode.\n-   Enhanced [copy/paste](https://en.wikipedia.org/wiki/Cut,_copy,_and_paste \"Cut, copy, and paste\") functionality, allowing users to select a word by press-holding, copying, and pasting.\n-   Support for [Near Field Communication](https://en.wikipedia.org/wiki/Near_Field_Communication \"Near Field Communication\") (NFC), allowing the user to read an NFC tag embedded in a poster, sticker, or advertisement.\n-   New audio effects such as reverb, equalization, headphone virtualization, and bass boost.\n-   New [Download Manager](https://en.wikipedia.org/wiki/Download_Manager \"Download Manager\"), giving users easy access to any file downloaded from the browser, email, or another application.\n-   Support for multiple cameras on the device, including a front-facing camera, if available.\n-   Support for [WebM](https://en.wikipedia.org/wiki/WebM \"WebM\")/VP8 video playback, and [AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding \"Advanced Audio Coding\") audio encoding.\n-   Improved [power management](https://en.wikipedia.org/wiki/Power_management \"Power management\") with a more active role in managing applications that are keeping the device awake for too long.\n-   Enhanced support for native code development.\n-   Switched from [YAFFS](https://en.wikipedia.org/wiki/YAFFS \"YAFFS\") to [ext4](https://en.wikipedia.org/wiki/Ext4 \"Ext4\") on newer devices.\n-   Audio, graphical, and input enhancements for game developers.\n-   Concurrent [garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science) \"Garbage collection (computer science)\") for increased performance.\n-   Native support for more sensors (such as [gyroscopes](https://en.wikipedia.org/wiki/Gyroscope \"Gyroscope\") and [barometers](https://en.wikipedia.org/wiki/Barometer \"Barometer\")).\n-   First Android version to feature an Easter egg. It was an image of the Bugdroid standing next to a zombie gingerbread man, with many more zombies in the background.",
+    "logs" : "-   Updated user interface design with increased simplicity and speed.\n-   Support for extra-large screen sizes and resolutions ([WXGA](https://en.wikipedia.org/wiki/WXGA_(graphics) \"WXGA (graphics)\") and higher).\n-   Native support for [SIP](https://en.wikipedia.org/wiki/Session_Initiation_Protocol \"Session Initiation Protocol\") [VoIP](https://en.wikipedia.org/wiki/Voice_over_IP \"Voice over IP\") internet telephones.\n-   Faster, more intuitive text input on a virtual keyboard, with improved accuracy, better suggested text and voice input mode.\n-   Enhanced [copy/paste](https://en.wikipedia.org/wiki/Cut,_copy,_and_paste \"Cut, copy, and paste\") functionality, allowing users to select a word by press-holding, copying, and pasting.\n-   Support for [Near Field Communication](https://en.wikipedia.org/wiki/Near_Field_Communication \"Near Field Communication\") (NFC), allowing the user to read an NFC tag embedded in a poster, sticker, or advertisement.\n-   New audio effects such as reverb, equalization, headphone virtualization, and bass boost.\n-   New [Download Manager](https://en.wikipedia.org/wiki/Download_Manager \"Download Manager\"), giving users easy access to any file downloaded from the browser, email, or another application.\n-   Support for multiple cameras on the device, including a front-facing camera, if available.\n-   Support for [WebM](https://en.wikipedia.org/wiki/WebM \"WebM\")/VP8 video playback, and [AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding \"Advanced Audio Coding\") audio encoding.\n-   Improved [power management](https://en.wikipedia.org/wiki/Power_management \"Power management\") with a more active role in managing applications that are keeping the device awake for too long.\n-   Enhanced support for native code development.\n-   Switched from [YAFFS](https://en.wikipedia.org/wiki/YAFFS \"YAFFS\") to [ext4](https://en.wikipedia.org/wiki/Ext4 \"Ext4\") on newer devices.\n-   Audio, graphical, and input enhancements for game developers.\n-   Concurrent [garbage collection](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science) \"Garbage collection (computer science)\") for increased performance.\n-   Native support for more sensors (such as [gyroscopes](https://en.wikipedia.org/wiki/Gyroscope \"Gyroscope\") and [barometers](https://en.wikipedia.org/wiki/Barometer \"Barometer\")).\n-   First Android version to feature an Easter egg. It was an image of the Bugdroid standing next to a zombie gingerbread man, with many more zombies in the background.",
     "date" : "December 6, 2010"
   },
   {
     "args" : {
       "API" : "9",
-      "Codename" : "Froyo"
+      "Codename" : "Gingerbread"
     },
     "version" : "2.3.1",
     "logs" : "-   Improvements and bug fixes for the Nexus S.",
@@ -119,10 +119,451 @@
   {
     "args" : {
       "API" : "9",
-      "Codename" : "Froyo"
+      "Codename" : "Gingerbread"
     },
     "version" : "2.3.2",
     "logs" : "-   Improvements and bug fixes for the Nexus S.",
     "date" : "January 21, 2011"
+  },
+  {
+    "args" : {
+      "API" : "10",
+      "Codename" : "Gingerbread"
+    },
+    "version" : "2.3.3",
+    "logs" : "-   Several improvements and API fixes.",
+    "date" : "February 9, 2011"
+  },
+  {
+    "args" : {
+      "API" : "10",
+      "Codename" : "Gingerbread"
+    },
+    "version" : "2.3.4",
+    "logs" : "-   Support for voice or video chat using [Google Talk](https://en.wikipedia.org/wiki/Google_Talk \"Google Talk\").\n-   Open Accessory Library support. Open Accessory was introduced in 3.1 (Honeycomb) but the Open Accessory Library grants 2.3.4 added support when connecting to a USB peripheral with compatible software and a compatible application on the device.\n-   Switched the default encryption for SSL from AES256-SHA to RC4-MD5.\n-   Fixed a spontaneous reboot on [Samsung Galaxy S Plus](https://en.wikipedia.org/wiki/Samsung_Galaxy_S_Plus \"Samsung Galaxy S Plus\").",
+    "date" : "April 28, 2011"
+  },
+  {
+    "args" : {
+      "API" : "10",
+      "Codename" : "Gingerbread"
+    },
+    "version" : "2.3.5",
+    "logs" : "-   Improved network performance for the [Nexus S](https://en.wikipedia.org/wiki/Nexus_S \"Nexus S\") 4G, among other fixes and improvements.\n-   Fixed a Bluetooth bug on [Samsung Galaxy S](https://en.wikipedia.org/wiki/Samsung_Galaxy_S_(2010_smartphone) \"Samsung Galaxy S (2010 smartphone)\").\n-   Fixed a Wi-Fi crash on [Samsung Galaxy S Plus](https://en.wikipedia.org/wiki/Samsung_Galaxy_S_Plus \"Samsung Galaxy S Plus\").\n-   Improved the Gmail application.\n-   Shadow animations for list scrolling.\n-   Camera software enhancements.\n-   Improved battery efficiency.",
+    "date" : "July 25, 2011"
+  },
+  {
+    "args" : {
+      "API" : "10",
+      "Codename" : "Gingerbread"
+    },
+    "version" : "2.3.6",
+    "logs" : "-   Fixed a voice search bug.",
+    "date" : "September 2, 2011"
+  },
+  {
+    "args" : {
+      "API" : "10",
+      "Codename" : "Gingerbread"
+    },
+    "version" : "2.3.7",
+    "logs" : "-   [Google Wallet](https://en.wikipedia.org/wiki/Google_Wallet) support for the Nexus S 4G.",
+    "date" : "September 21, 2011"
+  },
+  {
+    "args" : {
+      "API" : "11",
+      "Codename" : "Honeycomb"
+    },
+    "version" : "3.0",
+    "logs" : "-   Optimized tablet support with a new \"holographic\" user interface (removed again the following year with version 4.2).\n-   New Easter egg, an image of a [Tron](https://en.wikipedia.org/wiki/Tron \"Tron\")-themed bumblebee.\n-   Added System Bar, featuring quick access to notifications, status, and soft navigation buttons, available at the bottom of the screen.\n-   Added the Action Bar, giving access to contextual options, navigation, widgets, or other types of content at the top of the screen.\n-   Simplified multitasking -- tapping Recent Applications in the System Bar allows users to see snapshots of the tasks underway and quickly jump from one application to another.\n-   Redesigned the keyboard, making typing fast, efficient and accurate on larger screen sizes\n-   Simplified, more intuitive copy/paste interface.\n-   Multiple browser tabs replacing browser windows, plus form auto-fill and a new \"incognito\" mode allowing somewhat anonymous browsing.\n-   Quick access to camera exposure, focus, flash, zoom, front-facing camera, time-lapse, and other camera features.\n-   Ability to view albums and other collections in full-screen mode in Gallery, with easy access to thumbnails for other photos.\n-   New two-pane Contacts UI and Fast Scroll to let users easily organize and locate contacts.\n-   New two-pane Email UI to make viewing and organizing messages more efficient, allowing users to select one or more messages.\n-   Hardware acceleration.\n-   Support for [multi-core processors](https://en.wikipedia.org/wiki/Multi-core_processor \"Multi-core processor\").\n-   Ability to encrypt all user data.\n-   HTTPS stack improved with [Server Name Indication](https://en.wikipedia.org/wiki/Server_Name_Indication \"Server Name Indication\") (SNI).\n-   [Filesystem in Userspace](https://en.wikipedia.org/wiki/Filesystem_in_Userspace \"Filesystem in Userspace\") (FUSE; kernel module).\n-   Disallows applications from having to write access to secondary storage (memory cards on devices with internal primary storage) outside of designated, application-specific directories. Full access to primary internal storage is still allowed through a separate application-level permission.",
+    "date" : "February 22, 2011"
+  },
+  {
+    "args" : {
+      "API" : "12",
+      "Codename" : "Honeycomb"
+    },
+    "version" : "3.1",
+    "logs" : "-   UI refinements.\n-   Connectivity for USB accessories ([USB On-The-Go](https://en.wikipedia.org/wiki/USB_On-The-Go \"USB On-The-Go\")).\n-   Expanded Recent Applications list.\n-   Resizable Home screen widgets.\n-   Support for external keyboards and pointing devices.\n-   Support for joysticks and gamepads.\n-   Support for [FLAC](https://en.wikipedia.org/wiki/FLAC \"FLAC\") audio playback.\n-   High-performance Wi-Fi lock, maintaining high-performance Wi-Fi connections when the device screen is off.\n-   Support for HTTP proxy for each connected Wi-Fi access point.",
+    "date" : "May 10, 2011"
+  },
+  {
+    "args" : {
+      "API" : "13",
+      "Codename" : "Honeycomb"
+    },
+    "version" : "3.2",
+    "logs" : "-   Improved hardware support, including optimizations for a wider range of tablets.\n-   Increased ability of applications to access files on the SD card, e.g. for synchronization.\n-   Compatibility display mode for applications that have not been optimized for tablet screen resolutions.\n-   New display support functions, giving developers more control over display appearance on different Android devices.",
+    "date" : "July 15, 2011"
+  },
+  {
+    "args" : {
+      "API" : "13",
+      "Codename" : "Honeycomb"
+    },
+    "version" : "3.2.1",
+    "logs" : "-   Bug fixes and minor security, stability and Wi-Fi improvements.\n-   Update to [Android Market](https://en.wikipedia.org/wiki/Android_Market \"Android Market\") with automatic updates and easier-to-read Terms and Conditions text.\n-   Update to [Google Books](https://en.wikipedia.org/wiki/Google_Books \"Google Books\").\n-   Improved [Adobe Flash](https://en.wikipedia.org/wiki/Adobe_Flash \"Adobe Flash\") support in browser.\n-   Improved [Chinese](https://en.wikipedia.org/wiki/Chinese_language \"Chinese language\") handwriting prediction.",
+    "date" : "September 20, 2011"
+  },
+  {
+    "args" : {
+      "API" : "13",
+      "Codename" : "Honeycomb"
+    },
+    "version" : "3.2.2",
+    "logs" : "-   Bug fixes and other minor improvements for the Motorola Xoom 4G.",
+    "date" : "September 30, 2011"
+  },
+  {
+    "args" : {
+      "API" : "13",
+      "Codename" : "Honeycomb"
+    },
+    "version" : "3.2.4",
+    "logs" : "-   Pay As You Go for 3G and 4G tablets.",
+    "date" : "December 15, 2011"
+  },
+  {
+    "args" : {
+      "API" : "13",
+      "Codename" : "Honeycomb"
+    },
+    "version" : "3.2.6",
+    "logs" : "-   Fixed data connectivity issues when coming out of Airplane mode on the US 4G Motorola Xoom.",
+    "date" : "February 15, 2012"
+  },
+  {
+    "args" : {
+      "API" : "14",
+      "Codename" : "Ice Cream Sandwich"
+    },
+    "version" : "4.0",
+    "logs" : "-   Major refinements to the \"Holo\" interface with the new [Roboto](https://en.wikipedia.org/wiki/Roboto \"Roboto\") font family.\n-   Soft buttons from Android 3.x are now available for use on phones.\n-   Separation of widgets in a new tab, listed in a similar manner to applications.\n-   Easier-to-create folders, with a drag-and-drop style.\n-   Improved visual voicemail with the ability to speed up or slow down voicemail messages.\n-   Pinch-to-zoom functionality in the Calendar.\n-   Integrated screenshot capture (accomplished by holding down the Power and Volume-Down buttons).\n-   Improved error correction on the keyboard.\n-   Ability to access applications directly from the [lock screen](https://en.wikipedia.org/wiki/Lock_screen \"Lock screen\").\n-   Improved copy-and-paste functionality.\n-   Better voice integration and continuous, real-time speech-to-text dictation.\n-   Face Unlock, a feature that allows users to unlock handsets using [facial recognition software](https://en.wikipedia.org/wiki/Facial_recognition_software \"Facial recognition software\").\n-   Automatic syncing of browser with users' Chrome bookmarks.\n-   Data Usage section in settings that lets users set warnings when they approach a certain usage limit, and disable data use when the limit is exceeded.\n-   Ability to shut down applications from the recent apps list with a swipe.\n-   Improved camera application with zero shutter lag, time lapse settings, panorama mode, and the ability to zoom while recording.\n-   Built-in photo editor.\n-   New gallery layout, organized by location and person.\n-   Refreshed the \"People\" application with social network integration, status updates and hi-res images.\n-   [Android Beam](https://en.wikipedia.org/wiki/Android_Beam \"Android Beam\"), a [near-field communication](https://en.wikipedia.org/wiki/Near-field_communication \"Near-field communication\") feature allowing the rapid short-range exchange of web bookmarks, contact info, directions, YouTube videos and other data.\n-   Support for the [WebP](https://en.wikipedia.org/wiki/WebP \"WebP\") image format.\n-   Hardware acceleration of the UI.^[[107]](https://en.wikipedia.org/wiki/Android_version_history#cite_note-110)^\n-   [Wi-Fi Direct](https://en.wikipedia.org/wiki/Wi-Fi_Direct \"Wi-Fi Direct\").\n-   [1080p](https://en.wikipedia.org/wiki/1080p \"1080p\") video recording for stock Android devices.\n-   Android VPN Framework (AVF), and TUN (but not TAP) kernel module. Prior to 4.0, VPN software required a rooted Android device.",
+    "date" : "October 18, 2011"
+  },
+  {
+    "args" : {
+      "API" : "14",
+      "Codename" : "Ice Cream Sandwich"
+    },
+    "version" : "4.0.1",
+    "logs" : "-   Fixed minor bugs for the Samsung Galaxy Nexus.",
+    "date" : "October 19, 2011"
+  },
+  {
+    "args" : {
+      "API" : "14",
+      "Codename" : "Ice Cream Sandwich"
+    },
+    "version" : "4.0.2",
+    "logs" : "-   Fixed minor bugs on the Verizon Galaxy Nexus, the US launch of which was later delayed until December 2011.",
+    "date" : "November 28, 2011"
+  },
+  {
+    "args" : {
+      "API" : "15",
+      "Codename" : "Ice Cream Sandwich"
+    },
+    "version" : "4.0.3",
+    "logs" : "-   Numerous bug fixes and optimizations.\n-   Improvements to graphics, databases, spell-checking and Bluetooth functionality.\n-   New APIs for developers, including a social stream API in the Contacts provider.\n-   Calendar provider enhancements.\n-   New camera applications enhancing video stabilization and [QVGA](https://en.wikipedia.org/wiki/Quarter_Video_Graphics_Array \"Quarter Video Graphics Array\") resolution.\n-   Accessibility refinements such as improved content access for screen readers.",
+    "date" : "December 16, 2011"
+  },
+  {
+    "args" : {
+      "API" : "15",
+      "Codename" : "Ice Cream Sandwich"
+    },
+    "version" : "4.0.4",
+    "logs" : "-   Stability improvements.\n-   Better camera performance.\n-   Smoother screen rotation.\n-   Improved phone number recognition.",
+    "date" : "March 28, 2012"
+  },
+  {
+    "args" : {
+      "API" : "16",
+      "Codename" : "Jelly Bean"
+    },
+    "version" : "4.1",
+    "logs" : "-   Smoother user interface:\n    -   Vsync timing across all drawing and animation done by the Android framework, including application rendering, touch events, screen composition and display refresh.\n    -   Triple buffering in the graphics pipeline.\n    -   CPU input boost.\n    -   Synchronizing touch to vsync timing.\n-   Enhanced [accessibility](https://en.wikipedia.org/wiki/Accessibility \"Accessibility\").\n-   Bi-directional text and other language support.\n-   User-installable keyboard maps.\n-   Expandable notifications.\n-   TLS v1.1 and v1.2 support added.\n-   Ability to turn off notifications on an application-specific basis.\n-   Shortcuts and widgets can automatically be re-arranged or re-sized to allow new items to fit on home screens.\n-   Bluetooth data transfer for Android Beam.\n-   Tablets with smaller screens now use an expanded version of the interface layout and home screen used by phones.\n-   Improved camera application.\n-   Multichannel audio.\n-   The [Fraunhofer FDK AAC](https://en.wikipedia.org/wiki/Fraunhofer_FDK_AAC \"Fraunhofer FDK AAC\") codec becomes standard in Android, adding AAC 5.1 channel encoding/decoding.\n-   USB audio (for external sound [DACs](https://en.wikipedia.org/wiki/Digital-to-analog_converter \"Digital-to-analog converter\")).\n-   Audio chaining (also known as [gapless playback](https://en.wikipedia.org/wiki/Gapless_playback \"Gapless playback\")).\n-   Ability for other launchers to add widgets from the application drawer without requiring root access.",
+    "date" : "July 9, 2012"
+  },
+  {
+    "args" : {
+      "API" : "16",
+      "Codename" : "Jelly Bean"
+    },
+    "version" : "4.1.1",
+    "logs" : "-   Fixed a bug on the Nexus 7 regarding the inability to change screen orientation in any application.",
+    "date" : "July 9, 2012"
+  },
+  {
+    "args" : {
+      "API" : "16",
+      "Codename" : "Jelly Bean"
+    },
+    "version" : "4.1.2",
+    "logs" : "-   Lock/home screen rotation support.\n-   One-finger gestures to expand/collapse notifications.\n-   Bug fixes and performance enhancements.",
+    "date" : "October 9, 2012"
+  },
+  {
+    "args" : {
+      "API" : "17",
+      "Codename" : "Jelly Bean"
+    },
+    "version" : "4.2",
+    "logs" : "-   [Lock screen](https://en.wikipedia.org/wiki/Lock_screen \"Lock screen\") improvements, including widget support (removed again in 2014)\n-   Notification power controls (\"Quick Settings\").\n-   \"Daydream\" [screensavers](https://en.wikipedia.org/wiki/Screensaver \"Screensaver\"), showing information when idle or docked (later renamed to \"screen saver\" following the launch of the unrelated [Google Daydream](https://en.wikipedia.org/wiki/Google_Daydream \"Google Daydream\") VR platform in 2016).\n-   Multiple user accounts (tablets only).\n-   Rewritten [Bluetooth stack](https://en.wikipedia.org/wiki/Bluetooth_stack \"Bluetooth stack\"), switching from [Bluez](https://en.wikipedia.org/wiki/Bluez \"Bluez\") to [Broadcom](https://en.wikipedia.org/wiki/Broadcom \"Broadcom\") open source [BlueDroid](https://en.wikipedia.org/wiki/BlueDroid \"BlueDroid\"), allowing improved support for multiple displays and wireless display ([Miracast](https://en.wikipedia.org/wiki/Miracast \"Miracast\")).\n-   Native [right-to-left](https://en.wikipedia.org/wiki/Right-to-left \"Right-to-left\"), always-on [VPN](https://en.wikipedia.org/wiki/Virtual_Private_Network \"Virtual Private Network\") and application verification. A new [NFC](https://en.wikipedia.org/wiki/Near_field_communication \"Near field communication\") stack was added at the same time.\n-   Accessibility improvements: triple-tap to magnify the entire screen, pan and zoom with two fingers. Speech output and Gesture Mode navigation for blind users.\n-   New clock application with a built-in world clock, stop watch and timer.\n-   All devices now use the same interface layout, previously adapted from phones on 4.1 for smaller tablets (with centered software buttons, the system bar at the top of the screen, and a home screen with a dock and centered application menu), regardless of screen size.\n-   Increased number of extended notifications and Actionable Notifications for more applications, allowing users to respond to certain notifications within the notification bar and without launching the application directly.\n-   [SELinux](https://en.wikipedia.org/wiki/SELinux \"SELinux\") support.\n-   Premium [SMS](https://en.wikipedia.org/wiki/SMS \"SMS\") confirmation.\n-   Group Messaging support.",
+    "date" : "November 13, 2012"
+  },
+  {
+    "args" : {
+      "API" : "17",
+      "Codename" : "Jelly Bean"
+    },
+    "version" : "4.2.1",
+    "logs" : "-   Fixed a bug in the People application where December was not displayed on the date selector when adding an event to a contact.\n-   Added Bluetooth gamepads and joysticks as supported [HIDs](https://en.wikipedia.org/wiki/Human_interface_device \"Human interface device\") (Human interface devices).",
+    "date" : "November 27, 2012"
+  },
+  {
+    "args" : {
+      "API" : "17",
+      "Codename" : "Jelly Bean"
+    },
+    "version" : "4.2.2",
+    "logs" : "-   Fixed Bluetooth audio streaming bugs.\n-   Long-pressing the Wi-Fi and Bluetooth icons in Quick Settings now toggles the on/off state.\n-   New download notifications, which now show the percentage and estimated time remaining for active application downloads.\n-   New sounds for wireless charging and low battery.\n-   New Gallery application animation allows faster loading.\n-   USB debug whitelist.\n-   Bug fixes and performance enhancements.",
+    "date" : "February 11, 2013"
+  },
+  {
+    "args" : {
+      "API" : "18",
+      "Codename" : "Jelly Bean"
+    },
+    "version" : "4.3",
+    "logs" : "-   [Bluetooth Low Energy](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy \"Bluetooth Low Energy\") support.\n-   [Bluetooth Audio/Video Remote Control Profile (AVRCP) 1.3](https://en.wikipedia.org/wiki/AVRCP \"AVRCP\") support.\n-   [OpenGL ES 3.0](https://en.wikipedia.org/wiki/OpenGL_ES#OpenGL_ES_3.0 \"OpenGL ES\") support, allowing improved game graphics.\n-   Restricted access mode for new user profiles.\n-   Filesystem performance improvement by running the [fstrim](https://en.wikipedia.org/wiki/Trim_(computing) \"Trim (computing)\") command while a device is idle.\n-   Dial pad auto-complete in the Phone application.\n-   Volume for incoming calls (ringtone) and notification alerts is no longer adjustable separately.\n-   Improvements to Photo Sphere.\n-   Reworked camera UI, previously introduced on Google Play edition phones.\n-   Addition of \"[App Ops](https://en.wikipedia.org/wiki/App_Ops \"App Ops\")\", a fine-grained application permissions control system (hidden by default).\n-   [SELinux](https://en.wikipedia.org/wiki/SELinux \"SELinux\") enabled by default.\n-   [4K resolution](https://en.wikipedia.org/wiki/4K_resolution \"4K resolution\") support.\n-   Numerous security updates, performance enhancements, and bug fixes.\n-   System-level support for [geofencing](https://en.wikipedia.org/wiki/Geo-fence \"Geo-fence\") and Wi-Fi scanning APIs.\n-   Background Wi-Fi location still runs even when Wi-Fi is turned off.\n-   Developer logging and analyzing enhancements.\n-   Added support for five more languages.\n-   Changed [digital rights management](https://en.wikipedia.org/wiki/Digital_rights_management \"Digital rights management\") (DRM) APIs.\n-   [Right-to-left](https://en.wikipedia.org/wiki/Right-to-left \"Right-to-left\") (RTL) languages now supported.\n-   Clock in the status bar disappears if it is selected as a lockscreen widget.\n-   Native [emoji](https://en.wikipedia.org/wiki/Emoji \"Emoji\") support.",
+    "date" : "July 24, 2013"
+  },
+  {
+    "args" : {
+      "API" : "18",
+      "Codename" : "Jelly Bean"
+    },
+    "version" : "4.3.1",
+    "logs" : "-   Bug fixes and small tweaks for the Nexus 7 LTE.",
+    "date" : "October 3, 2013"
+  },
+  {
+    "args" : {
+      "API" : "19",
+      "Codename" : "KitKat"
+    },
+    "version" : "4.4",
+    "logs" : "-   Refreshed interface with white elements instead of blue.\n-   Clock no longer shows bold hours; all digits are thin. The H, M, and S markings for the stopwatch and timer have been removed, leaving just the numbers.\n-   Ability for applications to trigger translucency in the navigation and status bars.\n-   Ability for applications to use \"immersive mode\" to keep the navigation and status bars hidden while maintaining user interaction.\n-   Action overflow menu buttons are always visible, even on devices with a \"Menu\" key, which was officially deprecated by Android 4.0.\n-   Write access disabled for user-installed applications on external storage (i.e. [MicroSD](https://en.wikipedia.org/wiki/MicroSD \"MicroSD\")), except for their own directories inside `Android/data`.\n-   Purging of app data directories in user storage (internal user storage and MicroSD) upon uninstallation\n-   Optimizations for performance on devices with lower specifications, including [zRAM](https://en.wikipedia.org/wiki/Zram \"Zram\") support and \"low RAM\" device API.\n-   Wireless printing capability.\n-   NFC [host card emulation](https://en.wikipedia.org/wiki/Host_card_emulation \"Host card emulation\"), enabling a device to replace [smart cards](https://en.wikipedia.org/wiki/Smart_card \"Smart card\").\n-   WebViews are now based on the [Chromium](https://en.wikipedia.org/wiki/Chromium_(web_browser) \"Chromium (web browser)\") engine (feature parity with [Chrome for Android](https://en.wikipedia.org/wiki/Google_Chrome_for_Android \"Google Chrome for Android\") 30).\n-   Expanded functionality for notification listener services.\n-   Public API for developing and managing [text messaging](https://en.wikipedia.org/wiki/Short_Message_Service \"Short Message Service\") clients.\n-   Storage Access Framework, an API allowing apps to retrieve files in a consistent manner. As part of the framework, a new system file picker allows users to access files from various sources (including those exposed by apps, such as online storage services).\n-   New framework for UI transitions.\n-   Sensor batching, step detector and counter APIs.\n-   Settings application now makes it possible to select default text messaging and the home (launcher) application.\n-   Audio tunneling, audio monitoring and loudness enhancer.\n-   Built-in screen recording feature (primarily for developers, as usage of [ADB](https://en.wikipedia.org/wiki/Android_Debug_Bridge \"Android Debug Bridge\") is required).\n-   Native [infrared blaster](https://en.wikipedia.org/wiki/Infrared_blaster \"Infrared blaster\") API.\n-   Verified boot.\n-   Enforcing [SELinux](https://en.wikipedia.org/wiki/SELinux \"SELinux\").\n-   Expanded accessibility APIs and system-level [closed captioning](https://en.wikipedia.org/wiki/Closed_captioning \"Closed captioning\") settings.\n-   [Android Runtime](https://en.wikipedia.org/wiki/Android_Runtime \"Android Runtime\") (ART) introduced as a new experimental application [runtime environment](https://en.wikipedia.org/wiki/Runtime_environment \"Runtime environment\"), not enabled by default, as a replacement for the [Dalvik](https://en.wikipedia.org/wiki/Dalvik_(software) \"Dalvik (software)\") virtual machine.\n-   [Bluetooth Message Access Profile](https://en.wikipedia.org/wiki/Message_Access_Profile \"Message Access Profile\") (MAP) support.\n-   Disabled access to battery statistics by third-party applications.\n-   Settings application no longer uses a multi-pane layout on devices with larger screens.\n-   Wi-Fi and mobile data activity (TX/RX) indicators are moved to quick settings.\n-   Disables text wrapping in the WebView browser component.",
+    "date" : "October 31, 2013"
+  },
+  {
+    "args" : {
+      "API" : "19",
+      "Codename" : "KitKat"
+    },
+    "version" : "4.4.1",
+    "logs" : "-   Better application compatibility for the experimental Android Runtime (ART).\n-   Camera application now loads Google+ Photos instead of Gallery when swiping away from the camera view.\n-   Miscellaneous improvements and bug fixes.",
+    "date" : "December 5, 2013"
+  },
+  {
+    "args" : {
+      "API" : "19",
+      "Codename" : "KitKat"
+    },
+    "version" : "4.4.2",
+    "logs" : "-   Further security enhancements and bug fixes.\n-   Removal of the \"[App Ops](https://en.wikipedia.org/wiki/App_Ops \"App Ops\")\" application permissions control system, introduced in Android 4.3.",
+    "date" : "December 9, 2013"
+  },
+  {
+    "args" : {
+      "API" : "19",
+      "Codename" : "KitKat"
+    },
+    "version" : "4.4.3",
+    "logs" : "-   Refreshed the Dialer app's interface.\n-   Updated the Chromium-based WebView to version 33 (screencasting to DevTools, HTML5 Canvas hardware acceleration performance improvements, vibration API, HTML5 form validation, and an HTML5 datalist).\n-   Miscellaneous improvements and bug fixes.",
+    "date" : "June 2, 2014"
+  },
+  {
+    "args" : {
+      "API" : "19",
+      "Codename" : "KitKat"
+    },
+    "version" : "4.4.4",
+    "logs" : "-   [CVE-2014-0224](https://en.wikipedia.org/wiki/CVE-2014-0224 \"CVE-2014-0224\") fixed, eliminating an [OpenSSL](https://en.wikipedia.org/wiki/OpenSSL \"OpenSSL\") [man-in-the-middle](https://en.wikipedia.org/wiki/Man-in-the-middle_attack \"Man-in-the-middle attack\") vulnerability.",
+    "date" : "June 19, 2014"
+  },
+  {
+    "args" : {
+      "API" : "21",
+      "Codename" : "Lollipop"
+    },
+    "version" : "5.0.1",
+    "logs" : "-   A few bug fixes, including resolving issues with video playback and password failures handling.",
+    "date" : "December 2, 2014"
+  },
+  {
+    "args" : {
+      "API" : "21",
+      "Codename" : "Lollipop"
+    },
+    "version" : "5.0.2",
+    "logs" : "-   Fixes a bug with [TRIM](https://en.wikipedia.org/wiki/Trim_(computing) \"Trim (computing)\") support (introduced in Version 4.3), which prevented devices from running on-charger cleanups of file system allocations if the device was turned off at midnight, or if it was charged only when in use.\n-   Changes how alarms wake the CPU, and how alarms compete for system resources.",
+    "date" : "December 19, 2014"
+  },
+  {
+    "args" : {
+      "API" : "22",
+      "Codename" : "Lollipop"
+    },
+    "version" : "5.1",
+    "logs" : "-   Improvements and bug fixes to the Overview screen.\n-   Ability to join Wi-Fi networks and control paired Bluetooth devices from quick settings.\n-   Official support for [multiple SIM cards](https://en.wikipedia.org/wiki/Dual_SIM \"Dual SIM\").\n-   [Device protection](https://en.wikipedia.org/wiki/Anti-theft_system \"Anti-theft system\"): if a device is lost or stolen it will remain locked until the owner signs into their Google account, even if the device is reset to factory settings.\n-   [High-definition voice calls](https://en.wikipedia.org/wiki/Wideband_audio \"Wideband audio\"), available between compatible 4G LTE devices running Android 5.1.\n-   Improvements to the notification priority system, to more closely replicate the [silent mode](https://en.wikipedia.org/wiki/Silent_mode \"Silent mode\") that was removed from Android 5.0.",
+    "date" : "March 2, 2015"
+  },
+  {
+    "args" : {
+      "API" : "22",
+      "Codename" : "Lollipop"
+    },
+    "version" : "5.1.1",
+    "logs" : "-   Various bug fixes\n-   Native [Wi-Fi calling](https://en.wikipedia.org/wiki/Generic_Access_Network \"Generic Access Network\") support.",
+    "date" : "April 20, 2015"
+  },
+  {
+    "args" : {
+      "API" : "23",
+      "Codename" : "Marshmallow"
+    },
+    "version" : "6.0",
+    "logs" : "-   Precluded rudimentary [file manager](https://en.wikipedia.org/wiki/File_manager \"File manager\") (package name: `com.android.documentsui`), accessible from storage settings.\n-   [Memory card](https://en.wikipedia.org/wiki/Memory_card \"Memory card\") mounted to `/storage/????-????/` rather than `/storage/extSdCard/`, with a hexadecimal [volume serial number](https://en.wikipedia.org/wiki/Volume_serial_number \"Volume serial number\") in place of the [wildcard](https://en.wikipedia.org/wiki/Wildcard_character \"Wildcard character\") the question marks.\n-   Contextual search from keywords within apps.\n-   Introduction of Doze mode, which reduces CPU speed while the screen is off in order to save battery life.\n-   App Standby feature.\n-   Alphabetically accessible vertical application drawer.\n-   Application search bar and favorites.\n-   Native fingerprint reader support.\n-   Direct Share feature for target-specific sharing between apps.\n-   Renamed \"Priority\" mode to \"Do Not Disturb\" mode.\n-   App Linking for faster instinctive opening of links with corresponding applications.\n-   Larger Application folders with multiple pages.\n-   Post-install/run-time permission requests.\n-   [USB-C](https://en.wikipedia.org/wiki/USB-C \"USB-C\") support.\n-   Demo Mode feature for screenshot-capture usage.\n-   Automatic full data backup and restore for apps.\n-   4K display mode for apps.\n-   Adoptable External storage to behave like Internal Storage.\n-   [MIDI](https://en.wikipedia.org/wiki/MIDI \"MIDI\") support for musical instruments.\n-   Experimental multi-window feature.\n-   Support for actions by third-party apps in the text selection menu.\n-   App permissions now granted individually at run-time, not all-or-nothing at install time. Similar to [App Ops](https://en.wikipedia.org/wiki/App_Ops \"App Ops\").\n-   Miracast support dropped.\n-   Many new essential commands supported by Android's [Linux shell](https://en.wikipedia.org/wiki/Linux_shell \"Linux shell\") *(/bin/sh)*.\n-   No screen rotation during touch.",
+    "date" : "September 29, 2015"
+  },
+  {
+    "args" : {
+      "API" : "23",
+      "Codename" : "Marshmallow"
+    },
+    "version" : "6.0.1",
+    "logs" : "-   [Unicode 7.0](https://en.wikipedia.org/wiki/Unicode_7.0 \"Unicode 7.0\") & [8.0](https://en.wikipedia.org/wiki/Unicode_8.0 \"Unicode 8.0\") [emoji](https://en.wikipedia.org/wiki/Emoji \"Emoji\") support.\n-   Descriptions for USB connection options.\n-   Double-press the power button to open the camera.",
+    "date" : "December 7, 2015"
+  },
+  {
+    "args" : {
+      "API" : "24",
+      "Codename" : "Nougat"
+    },
+    "version" : "7.0",
+    "logs" : "-   Support for file-based encryption.\n-   [Unicode 9.0](https://en.wikipedia.org/wiki/Unicode_9.0 \"Unicode 9.0\") [emoji](https://en.wikipedia.org/wiki/Emoji \"Emoji\") and skin tone modifier support (and exposes a subset of [ICU4J](https://en.wikipedia.org/wiki/ICU4J \"ICU4J\") APIs).\n-   Ability to display color calibration.\n-   Ability to zoom in the screen.\n-   Ability to switch to the last opened app by double-tapping the overview button.\n-   Added an Emergency information part.\n-   Added the \"Clear All\" button to the Overview screen.\n-   Another system partition, which gets updated when not in use, allowing for seamless system updates.\n-   [Daydream](https://en.wikipedia.org/wiki/Google_Daydream \"Google Daydream\") virtual reality platform (VR interface).\n-   Improved Doze functionality, which aims to prolong battery life.\n-   Improvements to the file browser.\n-   Ability to [move files](https://en.wikipedia.org/wiki/File_operation \"File operation\") added to *Storage Access Framework*\n-   More Quick Settings options.\n-   Multi-window support, which supports floating apps on a desktop layout.\n-   New Data Saver mode, which can force apps to reduce bandwidth usage.\n-   New JIT Compiler, making for 75 percent faster app installations and a 50 percent reduction in compiled code size.\n-   Just in Time (JIT) compiler with code profiling to ART, which lets it constantly improve the performance of Android apps as they run.\n-   [Picture-in-picture](https://en.wikipedia.org/wiki/Picture-in-picture \"Picture-in-picture\") support for Android TV.\n-   Redesigned notification shade, featuring instant access to certain settings.\n-   Redesigned Overview screen.\n-   Replaced notification cards with notification sheets.\n-   Settings app navigation drawer.\n-   [Vulkan 3D](https://en.wikipedia.org/wiki/Vulkan_(API) \"Vulkan (API)\") rendering API.\n-   Multiple Device Locales\n-   Discontinuation of Android Camera V1 API\n-   Restricted file system access",
+    "date" : "August 22, 2016"
+  },
+  {
+    "args" : {
+      "API" : "25",
+      "Codename" : "Nougat"
+    },
+    "version" : "7.1",
+    "logs" : "-   Rearranged notification shade.\n-   \"Restart\" option added to power button menu\n-   Touch/display performance improvements.\n-   Moves (Fingerprint swipe down gesture -- opt-in).\n-   Opt-in with new hardware required:\n    -   Seamless A/B system updates.\n    -   Daydream VR mode.\n-   Developer features:\n    -   Shortcut manager APIs.\n    -   Circular app icons support.\n    -   Keyboard image insertion.\n    -   Fingerprint sensor gesture to open/close notification shade.\n    -   Manual storage manager Intent for apps.\n    -   Improved VR thread scheduling.\n    -   Enhanced wallpaper metadata.\n    -   Multi-endpoint call support.\n    -   Support for various MNO requirements.\n        -   PCDMA voice privacy property.\n        -   Source type support for Visual Voicemail.\n        -   Carrier config options for managing telephone videos.\n-   Manual storage manager -- identifies files and apps using storage.",
+    "date" : "October 4, 2016"
+  },
+  {
+    "args" : {
+      "API" : "25",
+      "Codename" : "Nougat"
+    },
+    "version" : "7.1.1",
+    "logs" : "-   New set of [emojis](https://en.wikipedia.org/wiki/Emoji) adding different skin tones and haircuts to existing ones.\n-   Send GIFs directly from the default keyboard.\n-   App shortcuts: Launch actions on apps by long-pressing the app icon.\n-   Developer Options: *Show CPU Usage* feature removed.",
+    "date" : "December 1, 2016"
+  },
+  {
+    "args" : {
+      "API" : "25",
+      "Codename" : "Nougat"
+    },
+    "version" : "7.1.2",
+    "logs" : "-   Battery usage alerts.",
+    "date" : "April 2, 2017"
+  },
+  {
+    "args" : {
+      "API" : "26",
+      "Codename" : "Oreo"
+    },
+    "version" : "8.0",
+    "logs" : "-   **Project Treble**, the biggest change to the foundations of Android to date: a modular architecture that makes it easier and faster for hardware makers to deliver Android updates.\n-   Picture-in-picture support.\n-   Support for Unicode 10.0 emoji (5.0) and replacement of all blob-shaped emojis by round ones with gradients and outlines.\n-   Redesigned Quick Settings and Settings with a white background and respectively black and Accent font colors.\n-   Restructured Settings by regrouping sections into similar entries.\n-   Adaptive icons\n-   Notification improvements.\n    -   Notification channels.\n    -   Notification dots (badges).\n    -   Notification snoozing.\n    -   Notification shade multi-colors (for music album art, messengers, etc.).\n-   System-wide Autofill framework.\n-   Support for [AAC](https://en.wikipedia.org/wiki/Advanced_Audio_Coding \"Advanced Audio Coding\"), [Sony](https://en.wikipedia.org/wiki/Sony \"Sony\")'s [LDAC](https://en.wikipedia.org/wiki/LDAC_(codec) \"LDAC (codec)\") and [Qualcomm](https://en.wikipedia.org/wiki/Qualcomm \"Qualcomm\")'s [aptX](https://en.wikipedia.org/wiki/AptX \"AptX\") and [aptX HD](https://en.wikipedia.org/wiki/AptX#aptX_HD \"AptX\") codecs.\n-   App-specific unknown sources.\n-   Multi-display support.\n-   2 times faster boot time compared to Nougat according to Google, testing on their Pixel devices.\n-   Apps background execution and location limits.\n-   Google Play Protect.\n-   Downloadable fonts.\n-   Integrated printing support.\n-   Color management (deep color and wide color gamut).\n-   Wi-Fi Assistant.",
+    "date" : "August 21, 2017"
+  },
+  {
+    "args" : {
+      "API" : "27",
+      "Codename" : "Oreo"
+    },
+    "version" : "8.1",
+    "logs" : "-   Neural networks API.\n-   Shared memory API.\n-   WallpaperColors API.\n-   Bluetooth battery level for connected devices, accessible in Quick Settings.\n-   **[Android Oreo (Go edition)](https://en.wikipedia.org/wiki/Android_Go \"Android Go\")**, a lightweight distribution of Android that runs better than normal Android on devices with less than 1 GB of RAM.\n-   Autofill framework updates.\n-   Programmatic Safe Browsing actions.\n-   Navigation buttons dim when not in use.\n-   Visual changes to 'Power Off' and 'Restart', including a new screen and floating toolbar.\n-   Toast messages are now white with the same existing transparency.\n-   Automatic light and dark themes.\n-   New Easter egg in the form of an official [Oreo cookie](https://en.wikipedia.org/wiki/Oreo \"Oreo\") picture.",
+    "date" : "December 5, 2017"
+  },
+  {
+    "args" : {
+      "API" : "28",
+      "Codename" : "Pie"
+    },
+    "version" : "9",
+    "logs" : "-   New user interface for the quick settings menu.\n-   The clock has moved to the left of the notification bar.\n-   The \"dock\" now has a semi-transparent background.\n-   Battery Saver no longer shows an orange overlay on the notification and status bars.\n-   A \"screenshot\" button has been added to the power options.\n-   A new \"Lockdown\" mode which disables biometric authentication once activated.\n-   Rounded corners across the UI.\n-   New transitions for switching between apps, or activities within apps.\n-   Richer messaging notifications, where a full conversation can be seen within a notification, full-scale images, and smart replies akin to Google's new app, Reply.\n-   Support for display cutouts.\n-   Redesigned volume slider.\n-   Battery percentage now shown in Always-On Display.\n-   Lock screen security changes include the possible return of an improved NFC Unlock.\n-   Experimental features (which are currently hidden within a menu called Feature Flags) such as a redesigned About Phone page in settings, and automatic Bluetooth enabling while driving.\n-   [DNS over TLS](https://en.wikipedia.org/wiki/DNS_over_TLS \"DNS over TLS\").\n-   A new optional gesture-based system interface, allowing users to navigate the OS using swipes more often than the traditional UI.\n-   Redesigned multitask app switcher with the Google search bar and app drawer built-in.\n-   Android Dashboard, which tells the user how much time they are spending on their device and in apps, and allows the user to set time limits on apps.\n-   \"Shush\", an enhanced version of Do Not Disturb mode activated by placing the phone face down, which mutes standard notifications.\n-   \"Adaptive Battery\" prediction, which makes use of Doze to hibernate user apps the OS determines the user will not use.\n-   Auto-Brightness feature modifies screen brightness based on user habits.\n-   Wind Down option lets Android users set a specific bedtime that enables Do Not Disturb and turns the entire phone's interface gray to discourage further use at night.\n-   [Vulkan 1.1](https://en.wikipedia.org/wiki/Vulkan#Vulkan_1.1 \"Vulkan\") support.\n-   Call recording options fully disabled",
+    "date" : "August 6, 2018"
+  },
+  {
+    "args" : {
+      "API" : "29",
+      "Codename" : "Q"
+    },
+    "version" : "10",
+    "logs" : "-   Revamped full-screen gesture navigation with new app open/close animations.\n-   *Scoped storage* restrictions\n-   New permissions required to access location in background and to access photo, video and audio files.\n-   Background apps can no longer jump into the foreground.\n-   Limited access to non-resettable device identifiers.\n-   Background (idle) access to camera, microphone and sensors disabled for more privacy protection with the side effect of disabling [antitheft](https://en.wikipedia.org/wiki/Antitheft \"Antitheft\") software.\n-   Sharing shortcuts, which allow sharing content with a contact directly.\n-   Floating settings panel, that allows changing system settings directly from apps.\n-   Dynamic depth format for photos, which allow changing background blur after taking a photo.\n-   Support for the [AV1](https://en.wikipedia.org/wiki/AV1 \"AV1\") video codec, the [HDR10+](https://en.wikipedia.org/wiki/HDR10%2B \"HDR10+\") video format and the [Opus](https://en.wikipedia.org/wiki/Opus_(audio_format) \"Opus (audio format)\") audio codec.\n-   Support for [aptX Adaptive](https://en.wikipedia.org/wiki/AptX#aptX_Adaptive \"AptX\"), [LHDC](https://en.wikipedia.org/wiki/LHDC_(codec)#LHDC \"LHDC (codec)\"), [LLAC](https://en.wikipedia.org/wiki/LHDC_(codec)#LLAC \"LHDC (codec)\"), [CELT](https://en.wikipedia.org/wiki/CELT \"CELT\") and AAC LATM codecs\n-   A native [MIDI](https://en.wikipedia.org/wiki/MIDI \"MIDI\") API, allowing interaction with music controllers.\n-   Better support for [biometric authentication](https://en.wikipedia.org/wiki/Biometric_authentication \"Biometric authentication\") in apps.\n-   Support for the [WPA3](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA3 \"Wi-Fi Protected Access\") Wi-Fi security protocol.\n-   Support for [foldable phones](https://en.wikipedia.org/wiki/Foldable_phone \"Foldable phone\").\n-   Support for Notification Bubbles.\n-   New system-wide dark theme/mode\n-   TLS v1.3 support added.\n-   Project Mainline, allows core OS components to be updated via the [Google Play Store](https://en.wikipedia.org/wiki/Google_Play_Store \"Google Play Store\"), without requiring a complete system update",
+    "date" : "September 3, 2019"
+  },
+  {
+    "args" : {
+      "API" : "30",
+      "Codename" : "R"
+    },
+    "version" : "11",
+    "logs" : "-   Chat bubbles.\n-   Screen recorder.\n-   Notification history.\n-   New permissions controls.\n-   API distinction between standalone 5G NR and non-standalone 5G.\n-   One-time permissions.\n-   Permissions auto-reset.\n-   Wireless [Android Auto](https://en.wikipedia.org/wiki/Android_Auto \"Android Auto\") on devices with 5GHz Wi-Fi.\n-   Increased number of updatable core OS components in Google Play from 12 to 21.\n-   Enterprise work profile privacy protections now apply on company-owned devices.\n-   Independent left and right edge sensitivity for gesture navigation.",
+    "date" : "September 8, 2020"
+  },
+  {
+    "args" : {
+      "API" : "31",
+      "Codename" : "S"
+    },
+    "version" : "12",
+    "logs" : "-   Easier Wi-Fi sharing.\n-   [AVIF](https://en.wikipedia.org/wiki/AVIF \"AVIF\") image support.\n-   Material You, an updated design language based on [Material Design](https://en.wikipedia.org/wiki/Material_Design \"Material Design\").\n-   Scrolling Screenshot.\n-   One Handed Mode.\n-   [Android Runtime](https://en.wikipedia.org/wiki/Android_Runtime \"Android Runtime\") (ART) module added to the updatable core OS components via Google Play, added functionality to existing modules.\n-   Area Magnification can zoom in any content on device.\n-   Extra Dim reduces brightness below minimum level.\n-   Bold Text.\n-   Greyscale.\n-   Mic and Camera indicator and toggle.\n-   Option to choose precise or approximate location.\n-   Privacy Dashboard.\n-   Gestures can work in immersive mode.\n-   Performance improvements to system services to improve transitions, power efficiency, and reduce app startup times.\n-   Third party app stores now have the ability to update apps without constantly asking the user for permission.",
+    "date" : "October 4, 2021"
+  },
+  {
+    "args" : {
+      "API" : "32",
+      "Codename" : "Sv2"
+    },
+    "version" : "12L",
+    "logs" : "-   Improvements specific for foldable phones, tablets, desktop-sized screens and Chromebooks, and modifications to the user interface to tailor it to larger screens.",
+    "date" : "March 7, 2022"
+  },
+  {
+    "args" : {
+      "API" : "33",
+      "Codename" : "T"
+    },
+    "version" : "13",
+    "logs" : "-   Apps are now required to request permission from the user before they are able to send notifications.\n-   The number of active apps is now shown at the bottom of the notifications panel, a tap on it opens a detailed panel which lets the user stop each of them.\n-   Support for [Bluetooth LE](https://en.wikipedia.org/wiki/Bluetooth_Low_Energy \"Bluetooth Low Energy\") Audio and the [LC3 audio codec](https://en.wikipedia.org/wiki/LC3_(codec) \"LC3 (codec)\").\n-   [ART](https://en.wikipedia.org/wiki/Android_Runtime \"Android Runtime\") update with a new [garbage collector](https://en.wikipedia.org/wiki/Garbage_collection_(computer_science) \"Garbage collection (computer science)\") (GC) utilizing the [Linux](https://en.wikipedia.org/wiki/Linux_kernel \"Linux kernel\") userfaultfd [system call](https://en.wikipedia.org/wiki/System_call \"System call\"). It reduces memory pressure, compiled code size, [jank](https://en.wikipedia.org/wiki/Jank_(web) \"Jank (web)\") and prevents the risk of killing apps because of low memory during GC. Other changes also improve app startup, reduce jank and improve performance. Because of the Mainline project, Android 12 ART will also be updated.",
+    "date" : "August 15, 2022"
+  },
+  {
+    "args" : {
+      "API" : "34",
+      "Codename" : "U"
+    },
+    "version" : "14",
+    "logs" : "In development",
+    "date" : "Future"
   }
 ]
