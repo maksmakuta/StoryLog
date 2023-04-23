@@ -1,0 +1,56 @@
+[
+  {
+    "args" : {
+      "Minimal Android Version" : "8.0",
+      "Target Android Version" : "12L"
+    },
+    "version" : "1.0",
+    "logs" : "- Initial version  \n- Added Android and iOS changelogs",
+    "date" : "August 8, 2022"
+  },
+  {
+    "args" : {
+     "Minimal Android Version" : "5.0",
+     "Target Android Version" : "12L"
+    },
+    "version" : "1.0.1",
+    "logs" : "- Bugfixes",
+    "date" : "August 11, 2022"
+  },
+  {
+    "args" : {
+      "Minimal Android Version" : "5.0",
+      "Target Android Version" : "12L"
+    },
+    "version" : "1.0.2",
+    "logs" : "- Bugfixes  \n- UI improvements  \n- add iOS 8.x-9.x changelogs",
+    "date" : "August 11, 2022"
+  },
+  {
+    "args" : {
+      "Minimal Android Version" : "5.0",
+      "Target Android Version" : "12L"
+    },
+    "version" : "1.1",
+    "logs" : "- Added iOS 10.x - 11.x changelogs",
+    "date" : "August 18, 2022"
+  },
+  {
+    "args" : {
+      "Minimal Android Version" : "5.0",
+      "Target Android Version" : "13"
+    },
+    "version" : "1.2",
+    "logs" : "- Add WearOS changelogs  \n- Added iOS 12-16 changelogs  \n- Added Android 13 changelogs  \n- Bugfixes  ",
+    "date" : "September 25, 2022"
+  },
+  {
+    "args" : {
+      "Minimal Android Version" : "5.0",
+      "Target Android Version" : "13"
+    },
+    "version" : "2.0",
+    "logs" : "- Redesign UI  \n- Move to universal model for versions  \n    - Use Markdown in changelogs text\n    - Dynamic values for any information\n    - Support for headers and items in lists (powered by RecyclerView)  \n- Make app runned by JSON (which means, you can add/edit information without changing app code)  \n- Add caching for images and files  \n- Add separate light/dark images for projects",
+    "date" : "April __, 2023"
+  }
+]

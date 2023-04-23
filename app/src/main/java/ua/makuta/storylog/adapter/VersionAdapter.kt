@@ -7,8 +7,9 @@ import ua.makuta.storylog.core.CoreAdapter
 import ua.makuta.storylog.databinding.IVersionBinding
 import ua.makuta.storylog.listeners.OnItemClickListener
 import ua.makuta.storylog.model.ModelVersion
+import ua.makuta.storylog.utils.Utils.dp
 
-class AppAdapter(
+class VersionAdapter(
     private val listener : OnItemClickListener<ModelVersion>? = null
 ) : CoreAdapter<ModelVersion,IVersionBinding>() {
 
@@ -23,8 +24,10 @@ class AppAdapter(
         if(item.args.containsKey("header")){
             if(item.args["header"] == "true"){
                 binding.textVersion.gravity = Gravity.CENTER
+                binding.card.strokeWidth = 0
             }
         }else{
+            binding.card.strokeWidth = 5.dp
             binding.textVersion.gravity = Gravity.START
             binding.root.setOnClickListener{
                 listener?.onItemClick(item)

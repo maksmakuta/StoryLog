@@ -10,7 +10,7 @@
       "icon": ["appdata/image/ios_dark.svg","appdata/image/ios_light.svg"],
       "title": "iOS",
       "desc": "Mobile OS made by Apple [in progress]",
-      "file": ""
+      "file": "appdata/os/ios.json"
     },
     {
       "icon": ["appdata/image/wear_os.svg"],
@@ -27,10 +27,10 @@
   ],
   "app": [
     {
-      "icon": ["appdata/image/storylog.png"],
+      "icon": ["app_icon"],
       "title": "StoryLog",
-      "desc": "App that show software evolution of OS, apps and games [in progress]",
-      "file": ""
+      "desc": "App that show software evolution of OS, apps and games",
+      "file": "appdata/app/storylog.json"
     }
   ],
   "game": [
