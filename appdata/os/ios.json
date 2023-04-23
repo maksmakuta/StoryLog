@@ -2,8 +2,8 @@
   {
     "args" : {
       "Builds" : "",
-      "Add devices" : "",
-      "Remove devices" : "",
+      "Added devices" : "",
+      "Removed devices" : "",
       "Supported devices" : "",
       "Initial devices" : "",
       "header" : "true"
@@ -14,17 +14,17 @@
   },
   {
     "args" : {
-      "Builds" : "1A543a",
-      "Initial devices" : "iPhone (1st generation)"
+      "Build" : "1A543a",
+      "Initial devices" : "iPhone (1st gen)"
     },
     "version" : "1.0",
-    "logs" : "-   Installed apps:\n    -   Text app to send and receive SMS messages\n    -   Calendar app, for creating and viewing events\n    -   Photos app, to view photos taken\n    -   Camera app, to take pictures with the iPhone's camera\n    -   YouTube app, to view YouTube videos\n    -   Stocks app, to view stocks\n    -   Maps app, for directions\n    -   Weather app, to view weather in selected areas\n    -   Clock app, to set alarms, timers, and stopwatches\n    -   Calculator app\n    -   Notes app, to record notes\n    -   Settings app, for configuring device settings\n    -   Phone app, to initiate phone calls\n    -   Mail app, to send and receive emails\n    -   Safari app, for web browsing\n    -   iPod app, to play back music added to the iPhone via iTunes\n-   Other features\n    -   Ability to switch between [cellular networks](https://en.wikipedia.org/wiki/Cellular_network \"Cellular network\") ([EDGE](https://en.wikipedia.org/wiki/EDGE \"EDGE\") only) and [Wi-Fi](https://en.wikipedia.org/wiki/Wi-Fi \"Wi-Fi\").",
+    "logs" : "-   Installed apps:\n    -   Text app to send and receive SMS messages\n    -   Calendar app, for creating and viewing events\n    -   Photos app, to view photos taken\n    -   Camera app, to take pictures with the iPhone's camera\n    -   YouTube app, to view YouTube videos\n    -   Stocks app, to view stocks\n    -   Maps app, for directions\n    -   Weather app, to view weather in selected areas\n    -   Clock app, to set alarms, timers, and stopwatches\n    -   Calculator app\n    -   Notes app, to record notes\n    -   Settings app, for configuring device settings\n    -   Phone app, to initiate phone calls\n    -   Mail app, to send and receive emails\n    -   Safari app, for web browsing\n    -   iPod app, to play back music added to the iPhone via iTunes\n-   Other features\n    -   Ability to switch between [cellular networks](https://en.wikipedia.org/wiki/Cellular_network \"Cellular network\") ([EDGE](https://en.wikipedia.org/wiki/EDGE \"EDGE\") only) and [Wi-Fi](https://en.wikipedia.org/wiki/Wi-Fi \"Wi-Fi\").",
     "date" : "June 29, 2007"
   },
   {
     "args" : {
-      "Builds" : "1C25",
-      "Supported devices" :"iPhone (1st generation)"
+      "Build" : "1C25",
+      "Supported devices" :"iPhone (1st gen)"
     },
     "version" : "1.0.1",
     "logs" : "-   Security update for Safari (including cross-site scripting, URL spoofing, and remote code execution)",
@@ -32,17 +32,17 @@
   },
   {
     "args" : {
-      "Builds" : "1C28",
-      "Supported devices" :"iPhone (1st generation)"
+      "Build" : "1C28",
+      "Supported devices" :"iPhone (1st gen)"
     },
     "version" : "1.0.2",
-    "logs" : "-   Bug fixes:\n    -   Items deleted on a user's iPhone are no longer re-synced after they have been deleted.\n    -   Multi-line addresses can now be processed in Maps.\n    -   Custom ringtones are no longer lost when an iPhone is restored.\n\n*Official release notes only say: \"Bug fixes\". No official security notes.",
+    "logs" : "-   Bug fixes:\n    -   Items deleted on a user's iPhone are no longer re-synced after they have been deleted.\n    -   Multi-line addresses can now be processed in Maps.\n    -   Custom ringtones are no longer lost when an iPhone is restored.\n\n*Official release notes only say: \"Bug fixes\". No official security notes.",
     "date" : "August 21, 2007"
   },
   {
     "args" : {
       "Builds" : "3A100a\n3A101a",
-      "Initial devices" : "iPod Touch (1st generation)"
+      "Initial devices" : "iPod Touch (1st gen)"
     },
     "version" : "1.1",
     "logs" : "Not available for iPhone.  \n-   Adds the iTunes Store app, allowing on-device purchase of music, movies, and ringtones.",
@@ -51,16 +51,16 @@
   {
     "args" : {
       "Builds" : "3A109a\n3A110a",
-      "Supported devices" : "iPhone (1st generation)\niPod Touch (1st generation)"
+      "Supported devices" : "iPhone (1st gen)\niPod Touch (1st gen)"
     },
     "version" : "1.1.1",
-    "logs" : "-   Added iTunes Wi-Fi Music Store\n-   Louder volume on speakerphone and receiver.\n-   Added home button double-click shortcut to phone favorites or to music controls.\n-   Double-tapping spacebar inserts a full-stop and space (\". \")\n-   Mail attachments can now be viewed in landscape, not just portrait.\n-   Stocks can be reordered in the Stocks app; cities can be reordered in the Weather app\n-   Battery level of the [iPhone Bluetooth Headset](https://en.wikipedia.org/wiki/IPhone_Bluetooth_Headset \"IPhone Bluetooth Headset\") is now shown in the status bar.\n-   Support for TV video out.\n-   Added \"Data Roaming\" on-off switch, to disable EDGE/GPRS when roaming internationally\n-   Changed time intervals for which the lock screen is disabled after repeated incorrect passcode inputs.\n-   Alert volume can be changed in Settings.\n-   The interface for the Calculator was redesigned.\n-   If the iPhone was jailbroken, all third-party apps installed through Installer.app are removed by the update.\n-   Fixes a bug that allowed an attacker in Bluetooth range to gain remote arbitrary code execution\n-   Fixes a bug where going to a link preceded by \"tel:\" in Mail will dial a phone number without confirmation\n-   Fixes a bug where disabling JavaScript in Safari would not take effect until Safari was restarted\n-   Fixes multiple bugs where visiting a malicious website led to cross-site scripting",
+    "logs" : "-   Added iTunes Wi-Fi Music Store\n-   Louder volume on speakerphone and receiver.\n-   Added home button double-click shortcut to phone favorites or to music controls.\n-   Double-tapping spacebar inserts a full-stop and space (\". \")\n-   Mail attachments can now be viewed in landscape, not just portrait.\n-   Stocks can be reordered in the Stocks app; cities can be reordered in the Weather app\n-   Battery level of the [iPhone Bluetooth Headset](https://en.wikipedia.org/wiki/IPhone_Bluetooth_Headset \"IPhone Bluetooth Headset\") is now shown in the status bar.\n-   Support for TV video out.\n-   Added \"Data Roaming\" on-off switch, to disable EDGE/GPRS when roaming internationally\n-   Changed time intervals for which the lock screen is disabled after repeated incorrect passcode inputs.\n-   Alert volume can be changed in Settings.\n-   The interface for the Calculator was redesigned.\n-   If the iPhone was jailbroken, all third-party apps installed through Installer.app are removed by the update.\n-   Fixes a bug that allowed an attacker in Bluetooth range to gain remote arbitrary code execution\n-   Fixes a bug where going to a link preceded by \"tel:\" in Mail will dial a phone number without confirmation\n-   Fixes a bug where disabling JavaScript in Safari would not take effect until Safari was restarted\n-   Fixes multiple bugs where visiting a malicious website led to cross-site scripting",
     "date" : "September 27, 2007"
   },
   {
     "args" : {
-      "Builds" : "3B48b",
-      "Supported devices" : "iPhone (1st generation)\niPod Touch (1st generation)"
+      "Build" : "3B48b",
+      "Supported devices" : "iPhone (1st gen)\niPod Touch (1st gen)"
     },
     "version" : "1.1.2",
     "logs" : "-   iTunes now shows the device's current battery level.\n-   International language and keyboard support.\n-   Patched the TIFF security bug.\n-   Adds custom ringtone field.\n-   Bug fixes.",
@@ -68,8 +68,8 @@
   },
   {
     "args" : {
-      "Builds" : "4A93",
-      "Supported devices" : "iPhone (1st generation)\niPod Touch (1st generation)"
+      "Build" : "4A93",
+      "Supported devices" : "iPhone (1st gen)\niPod Touch (1st gen)"
     },
     "version" : "1.1.3",
     "logs" : "Free update on iPhone, $19.95 fee on iPod Touch; commonly called the iPhone \"January '08 Update\" and January Software Upgrade by Apple.  \n-   Recent calls contact details now show most recent call times.\n-   'Locate Me' feature for Maps; determines the phone's approximate location using a combination of cellular triangulation and Wi-Fi data from Skyhook Wireless. Also adds hybrid map support, traffic information, and the 'Drop Pin' feature.\n-   Apps on the home screen can be rearranged and placed on multiple home screens (up to nine).\n-   iTunes gift cards can be redeemed on the iTunes Store.\n-   Movies downloaded through iTunes have chapter support.\n-   Music now supports lyrics.\n-   Web Clips can be added to (and subsequently removed from) the home screen.\n-   SMS messages can be sent to multiple contacts in the Messages app.\n-   SMS storage capacity increased from 1,000 to 75,000 messages.\n-   Defaults to IMAP for new Gmail accounts (formerly defaulted to POP3).\n-   Multi-touch keyboard (e.g. simultaneously pressing \"Shift\" + \"a\").\n-   The clock timer now remembers the last used options (bug fix).\n-   Incoming SMS messages now prompts the user to \"Close\" or \"Reply\" (formerly \"Ignore\" or \"Reply\"). Pressing either option now marks the message as \"seen\".\n-   Labels for contact data can now be deleted.\n-   Applications on the phone no longer run as root; they run as the user \"mobile\" instead.\n-   The ability to listen to music through a Bluetooth headset by going to Voicemail and choosing \"Bluetooth\" as the audio source no longer works (still works as long as phone is not locked or voicemail screen is active).\n-   Content on iPhone and iPod touch can now be manually managed in iTunes",
@@ -77,8 +77,8 @@
   },
   {
     "args" : {
-      "Builds" : "4A102",
-      "Supported devices" : "iPhone (1st generation)\niPod Touch (1st generation)"
+      "Build" : "4A102",
+      "Supported devices" : "iPhone (1st gen)\niPod Touch (1st gen)"
     },
     "version" : "1.1.4",
     "logs" : "-   Bug fixes and enhancements.\n-   SMS scramble order fix.\n-   More carriers names now fit without scrolling (for roaming on other carriers).\n-   The camera received several performance improvements.\n-   Interface speed improvements.",
@@ -86,11 +86,161 @@
   },
   {
     "args" : {
-      "Builds" : "4B1",
-      "Supported devices" : "iPhone (1st generation)\niPod Touch (1st generation)"
+      "Build" : "4B1",
+      "Supported devices" : "iPhone (1st gen)\niPod Touch (1st gen)"
     },
     "version" : "1.1.5",
     "logs" : "Security update for iPod Touch users who chose not to pay $9.95 to upgrade to the previously released iPhone OS 2.0.",
     "date" : "July 15, 2008"
+  },
+  {
+    "args" : {
+      "Build" : "5A347",
+      "Supported devices" : "iPhone (1st gen)\niPod Touch (1st gen)",
+      "Initial devices" : "iPhone 3G"
+    },
+    "version" : "2.0",
+    "logs" : "*Initial release on iPhone 3G; $9.95 upgrade for iPod touch*\n\n-   Added language support.\n    -   Norwegian, Swedish, Danish, Finnish, Polish, Dutch, Korean, and Brazilian Portuguese are now supported on iPhone after having been available on iPod Touch since the version 1.1.1 update.\n    -   More keyboard languages including Chinese, Korean, and Russian.\n    -   Support for Traditional and Simplified Chinese handwriting recognition.\n-   Mail, contacts, calendars\n    -   Grouped settings.\n    -   Mail\n        -   Added support for Push e-mail.\n        -   Ability to select an outgoing email account within Mail application.\n        -   Support for blind carbon copy (BCC) in Mail.\n        -   Added the ability to move / delete multiple emails.\n        -   Added the ability to view Microsoft Office attachments.\n        -   Added the ability to view iWork attachments, including Pages, Numbers, and Keynote.\n    -   Contacts\n        -   Contacts icon on \"Home\" screen (iPhone only, it was formerly on the iPod Touch).\n        -   Ability to search contacts.\n        -   Global Address List.\n        -   Push contacts.\n        -   Ability to import SIM contacts.\n    -   Calendar\n        -   Multiple calendars supported in Calendar with colour-coding (desktop colours only preserved if using Mobile Me).\n        -   New \"Calendar\" section in \"Settings\".\n        -   Push calendar.\n-   Enterprise enhancements\n    -   Enforced security policies.\n    -   Device configuration.\n    -   Remote wipe.\n-   iPod app\n    -   Video can be shown in either landscape orientation (instead of just landscape left).\n    -   Videos in playlists and music videos can be shown in portrait or landscape orientation.\n    -   Sound fade-out when exiting a video.\n-   Other\n    -   App Store, a digital storefront allowing users to buy or download apps.\n    -   Certificates and Identities.\n    -   WPA2 / 802.1X.\n    -   Ability to turn Wi-Fi back on while in Airplane mode.\n    -   Cisco IPsec VPN support.\n    -   Ability to take screen captures.\n    -   Ability to save pictures from Safari or Mail to Photos.\n    -   Support for the Bonjour service discovery protocol.\n    -   Support for the SVG vector graphics format.\n    -   Addition of Parental controls.\n    -   Password letters are momentarily visible while typing.\n    -   Ability to turn Location Services on or off.\n    -   Applications that use Location Services now prompt user for confirmation 3 times.\n    -   Tapping status bar to scroll to top shortcut.\n    -   Updated calculator with extra features in portrait mode, a scientific calculator in landscape mode and an updated icon.\n    -   Updated iTunes with a new icon and reordered category icons within iTunes application.\n    -   Camera now supports Geotagging.\n    -   YouTube plugin for Safari.",
+    "date" : "July 11, 2008"
+  },
+  {
+    "args" : {
+      "Build" : "5B108",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPod Touch (1st gen)"
+    },
+    "version" : "2.0.1",
+    "logs" : "**Bug fixes**\n\n-   Performance and stability of the Contacts and Calendar applications dramatically improved.\n-   Performance while flipping into landscape mode in Safari has been improved.\n-   Performance in Mail app has been improved.\n-   Release improves application crash rates.\n-   Faster keyboard responsiveness.",
+    "date" : "August 4, 2008"
+  },
+  {
+    "args" : {
+      "Build" : "5C1",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPod Touch (1st gen)"
+    },
+    "version" : "2.0.2",
+    "logs" : "**Bug fixes**\n\n-   Improved the communication with 3G networks.\n-   Transition from music list to Cover Flow has changed.\n-   Tilt to left from landscape no longer switch to portrait when watching video, fixes 2.0 bug.\n-   The \"Update All\" button in the App Store's update tab has been removed.",
+    "date" : "August 18, 2008"
+  },
+  {
+    "args" : {
+      "Builds" : "5F136\n5F137\n5F138",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPod Touch (1st gen)",
+      "Initial devices" : "iPod Touch (2nd gen)"
+    },
+    "version" : "2.1",
+    "logs" : "*Initial release on iPod Touch (2nd gen) (as 2.1.1); free of charge for iPod Touch users who upgraded to iPhone OS 2.0.'*\n\n-   Bug Fixes and Improvements\n    -   Security fix for the double-click home button exploit.\n    -   Fixed hangs and crashes for users with many third-party applications.\n    -   Faster installation speed and update speed of third-party apps.\n    -   Updating applications keeps their icons in place on the home screen.\n    -   Improvements to Mail stability.\n    -   Improved email reliability with POP and Exchange accounts.\n    -   Faster loading and searching of contacts.\n    -   Auto-correct now appears above the text instead of below (fixing a usability problem people were having where auto-correct would appear above the first row of keys).\n    -   Faster browsing in Safari, particularly when scrolling up or down on a web page.\n    -   Better battery life for most users.\n    -   Decrease in call set-up failures and calls dropping.\n    -   More accurate display of 3G signal strength.\n    -   Bug in the Calculator app that affected calculations involving Pi was fixed.\n-   24-hour clock is now usable with English (UK) language\n-   OS enhancements\n    -   Triple-click on the control button of headphones now jumps music to prior track played.\n    -   SMS app can alert up to two additional times if the user doesn't acknowledge an incoming text message (will play the alert sound/vibrate again after a period of time as if a new message just came in).\n    -   Update supporting languages.\n    -   Option to wipe all data from device after ten failed passcode attempts (after 5 attempts, the device will disable itself for 1 minute. After the 6th attempt, it will disable itself for 5 minutes. In the 10th attempt, it will wipe all data).\n    -   3G, EDGE, and GPRS indicators changed.\n    -   The camera can now be turned off within the restrictions page.\n    -   When taking a screenshot, there is now the camera shutter noise.\n    -   iPhone never gets locked when placed in dock or playing music.\n-   New application features\n    -   iPod: ability to create Genius playlists\n    -   More information provided within iPod Music lists (artist and album are now shown below song title when selecting music in addition to remaining time on podcasts).\n    -   More information is provided for audiobooks, such as displaying time left in active audiobook.\n    -   New podcasts and videos had \"filled\" blue bubbles next to them to indicate that they were new, now if the user has \"half-played\" a podcast or video, it will include a half filled blue bubble.\n    -   Sound from iPod now fades out if the user starts syncing device with iTunes.\n    -   Bookmarked home screen apps open in full screen.\n-   iPod Touch only\n    -   Settings for individual speaker sounds. Sounds can no longer be turned off en masse. All sounds must be turned off individually to mute sounds.\n    -   New speaker sound effect when sending mail.\n-   iPod Touch (2nd gen) only\n    -   Nike+iPod support.\n-   Improved the communication with 3G networks.\n-   Transition from music list to Cover Flow has changed.\n-   Tilt to left from landscape no longer switch to portrait when watching video, fixes 2.0 bug.\n-   The \"Update All\" button in the App Store's update tab has been removed.",
+    "date" : "September 9-12, 2008"
+  },
+  {
+    "args" : {
+      "Builds" : "5G77\n5G77a",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPod Touch (1st gen)\niPod Touch (2nd gen)"
+    },
+    "version" : "2.2",
+    "logs" : "*Free update for iPod Touch owners that upgraded to iPhone OS 2.0 or 2.1.*\n\n-   Maps\n    -   Google Street View.\n    -   Public transit and walking directions.\n    -   Display address of dropped pins.\n    -   Share location via email.\n    -   Cache of recent locations.\n-   Mail\n    -   Resolve isolated issues with scheduled fetching of email.\n    -   Improved formatting of wide HTML email.\n-   App Store\n    -   \"Categories\" section has been altered to display icons instead of a list.\n    -   Individual applications pages now have 'Tell A Friend' and 'Report A Problem' buttons.\n    -   In an app's description, multiple screen shots can now be viewed, instead of just one.\n    -   \"Update All\" button added to \"Updates\" section.\n    -   Option added to rate an application that is about to be deleted.\n    -   Improved touch response when purchasing or downloading an application.\n    -   Application icons display the install progress \"in place\" while updating, rather than on the last position of the page.\n-   Safari\n    -   Improved stability and performance of Safari.\n    -   Layout changes for the address bar in Safari\n-   iPod\n    -   The edit/clear icons on the on-the-go playlist have been changed.\n    -   Podcasts now are being shown in catalogs.\n    -   Users can no longer delete audiobooks via the device.\n    -   Audiobooks without artwork are now shown with a book icon instead of a note icon.\n-   Contacts\n    -   US phone numbers now group correctly (e.g., 1111 2222, formerly this would have shown as 1 111222 2).\n-   Other\n    -   Podcasts are now available for download or stream in the iTunes application (over Wi-Fi and cellular networks).\n    -   Decrease in call set-up failures and call drops.\n    -   Improved sound quality of visual voicemail messages.\n    -   Visual voicemail unavailability is shown in a screen instead of voicemail button not working.\n    -   Improved performance overall, especially noticeable in Notes and Camera applications.\n    -   Emoji for SoftBank users in Japan. Can also be enabled in all other countries using apps from the App Store.\n    -   Pressing the Home button from any Home screen goes to the first Home screen.\n    -   Preference to turn on/off keyboard auto-correction.\n    -   New languages are supported.\n    -   Shows Update/Restore progress when update using iTunes.\n    -   Security improvement.\n    -   Developers can pipe video out to an external device.\n    -   Better shift-key behavior.\n    -   Automatic WebClip icon change.\n    -   Locked screen screenshots.\n    -   Ability to record from devices connected through the dock port.\n-   iPod Touch (2nd gen) only\n-   Line-in recording / audio has been enabled through the headphone jack.\n    -   The Remote button has been added to Nike + iPod, allowing control of other devices, such as the Apple TV.",
+    "date" : "November 21, 2008"
+  },
+  {
+    "args" : {
+      "Builds" : "5H11\n5H11a",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPod Touch (1st gen)\niPod Touch (2nd gen)"
+    },
+    "version" : "2.2.1",
+    "logs" : "-   Fixed Safari crashes\n-   Images saved from Mail now appear correctly in the Camera Roll.\n-   Updates the baseband to patch security exploit that allowed unofficial SIM-unlock of the [iPhone 3G](https://en.wikipedia.org/wiki/IPhone_3G \"IPhone 3G\")\n-   iPod Touch only\n    -   Fixed issue that caused some Apple Lossless (ALAC) audio files to skip during playback.",
+    "date" : "January 27, 2009"
+  },
+  {
+    "args" : {
+      "Build" : "7A341",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPod Touch (1st gen)\niPod Touch (2nd gen)",
+      "Initial devices" : "iPhone 3GS"
+    },
+    "version" : "3.0",
+    "logs" : "*Initial release on iPhone 3GS; paid $4.95 upgrade on iPod Touch*\n\n-   Cut, copy, paste added\n    -   Tap and hold for select/select all menu (copy menu in photos).\n    -   Double tap for cut/copy/paste menu all over iOS (SMS, email, Notes, etc.).\n        -   Two point draggable selection handles displayed to better make a selection.\n    -   Undo by shaking.\n    -   In Photos options menu select the copy button to select multiple photos to copy.\n-   More/System/Navigation\n    -   Turn-by-turn Navigation.\n    -   Lithium-ion polymer battery usage up to 5% better.\n    -   A-GPS accuracy improved (+5% better).\n    -   Earth magnetic compass support.\n        -   Compass App.\n-   Maps\n    -   Features iPhone users got in iPhone OS 2.2 were added for the iPod Touch in iPhone OS 3.0 (e.g. Google Street View, public transit and walking directions, displaying the address of a dropped pin, sharing location via email, and a cache of recent locations). Changed behavior when routing directions and showing steps.\n-   Stocks\n    -   Landscape mode that enabled viewing detailed price and change information by dragging one or two fingers across the full-screen chart.\n    -   Metadata display for detailed information about the symbol, including full company/fund name, market capitalization, price to earning ratio, dividend yield, and statistics about the day and year price range.\n    -   Table of news stories from various internet sources related to the selected symbol.\n-   YouTube\n    -   Can now log into account.\n        -   View subscriptions, Favorites, My Videos, History, and Playlists\n        -   Comment on videos, rate videos\n-   Phone\n    -   Recent Calls now show more details (call length, etc.).\n    -   Ability to change/set \"own number\" (my number) in the SIM card. Will be displayed in the Contacts list and iTunes, and possibly used for MMS identification.\n    -   Contacts are editable via Recent Calls.\n-   Photos\n    -   Videos can be trimmed directly from Camera app.\n    -   Photos options menu changed (new UI, added copy button).\n        -   Can now delete multiple photos at once.\n-   Camera\n    -   Video recording in Camera app.\n    -   Camera gets autofocus. To change focus target, users tap on a different object.\n    -   Thumbnail of the prior photo captured on the camera roll shortcut.\n-   Camera Roll\n    -   Categorization by All, Photos and Videos.\n-   App Store\n    -   Installs new apps from the second home page on. They can still be moved to the first homepage manually.\n    -   Screenshot browsing method has changed.\n-   SMS application renamed to Messages\n    -   Application icon was slightly modified, it no longer has the letters \"SMS\".\n    -   Sending progress bar has been moved to the title bar and does not cover up the screen.\n    -   Sending queue (compose a new message(s) while sending others).\n    -   Select single or multiple messages to forward or delete.\n    -   SMS entry text box have unlimited lines (actually limited by the screen).\n    -   MMS functionality including sending [vCards](https://en.wikipedia.org/wiki/VCard \"VCard\"), pictures, audio files, video (depends on mobile network availability).\n        -   Optional Subject line in the Messages settings.\n        -   Photos can be taken/sent directly from the Messages app.\n        -   MMS messages are played/viewed in the Messages app.\n-   Mail, contacts, calendars, MobileMe\n-   MobileMe now has a \"Find My iPhone\" option, allowing MobileMe users (via the online service) to remotely locate device and wipe data.\n    -   CalDAV Calendar support.\n    -   LDAP Contacts support.\n    -   iCalendar Subscription support.\n    -   \"Load Remote Image\" option for mail, to prevent spam.\n    -   iWork '09 attachment support.\n    -   Mail several photos in the same message.\n    -   Mail can now be composed in other apps without leaving the current app (only if the developer allows this).\n    -   It's now possible to store IM account information for a contact for the following services: AOL Instant Messenger, Yahoo! Messenger, MSN Messenger, ICQ, and XMPP.\n    -   Users can now view or create 'Invitees' on a Calendar event.\n-   Safari\n    -   Better support for Internet standards and now scores a 97/100 in the Acid3 test.\n    -   Renders JavaScript from 3 to 16 times faster depending on circumstances.\n    -   Support for HTML5.\n    -   New features in Settings such as AutoFill, and Anti phishing.\n    -   Pressing and holding a link gives three options: Open, Open in New Page and Copy.\n    -   View subscriptions.\n    -   The last page is now closable, which will result in a new blank page opening (won't save page info on exit, increases available memory).\n-   Bluetooth\n    -   Bluetooth enabled for iPod Touch (2nd gen).\n    -   AVRCP: Play/Pause/Stop for iPod app (no Next/Back yet).\n        -   Device side audio control still enabled but does not affect audio stream.\n    -   PBAP: wireless phone book access (for use with vehicle head units).\n    -   PAN: personal networking for tethering and ad hoc connections between mobile devices (multi-player gaming).\n-   iPod\n    -   Shake to shuffle songs in iPod app.\n    -   Search through iPod.\n    -   Scrubbing through tracks can now be done at 4 variable rates as user moves finger down the screen, and the speed is displayed on screen (\"Hi-Speed\", \"Half Speed\", \"Quarter Speed\", \"Fine\").\n    -   (When Bluetooth is enabled and a paired audio device is present) Audio output menu added to \"Now Playing\" screen and Home button iPod controls.\n    -   Location dot while playing video/music now glows while scrubbing the track/video.\n    -   Podcasts\n        -   More details shown: time remaining, etc.\n        -   Can be played at \"1⁄2x\", 1x, or \"2x\" speed (actual speeds are 0.8x, 1x, and 1.5x).\n        -   30 second rewind button.\n        -   Can be emailed.\n-   Improved language support.\n    -   Added support for new languages such as Arabic, Greek, Hebrew, Indonesian, Malay, Portuguese, Romanian, Thai, and more.\n    -   Foreign language keyboards extended to cover additional characters.\n-   New Developer APIs\n    -   Push notifications for 3rd party applications.\n    -   Support for new Bluetooth services and profiles including A2DP, LDAP, peer-to-peer file sharing, and Bonjour\n    -   New APIs in the Maps application allow developers to build it into software.\n    -   Developers can now use the CoreLocation API to create applications with Turn-by-Turn Navigation.\n    -   API support for serial I/O through the Dock Connector.\n    -   3rd party apps now have access to iPod music library.\n    -   Support for outbound audio and video streaming.\n    -   In-App Purchase (IAP) API for paid applications (free apps always remain free).\n        -   Sign in with iTunes account.\n        -   Buy service subscriptions or app add-ons.\n-   Spotlight Search\n    -   Saves its last search results and offers options for excluding applications from searches.\n    -   Partial search for mail, iPod, contacts, events, notes, apps, and web clips.\n-   iTunes/sync.\n    -   iTunes version 8.2.\n    -   iTunes account creation on device.\n        -   Can now sign out of iTunes account and use a different iTunes account.\n        -   iTunes account info can be accessed and edited.\n        -   Can now read and write reviews for content on iTunes.\n        -   Movies, TV shows, audiobooks, and iTunes U content can now be purchased on iTunes Wi-Fi store.\n    -   Notes syncing.\n    -   Voice memos syncing (audio files added to a \"Voice Memos\" playlist).\n    -   Backups can now be encrypted and password protected.\n-   Tethering over USB and Bluetooth (depends on mobile network ability).\n    -   USB tethering auto activated when connected to USB on iTunes 8.2+ (if tethering is enabled in iPhone settings and by phone's carrier).\n    -   iTunes 8.2 now includes a USB driver for iPhone tethering.\n    -   Full access to iPhone possible while tethered.\n    -   (In Windows) iPhone shows up as a standard ethernet connection.\n-   Accessibility settings (for the visually/aurally impaired) (iPhone 3GS only).\n    -   VoiceOver gesture-based screen reader. Touch screen to hear a description of the item under your finger, then double-tap, drag, or flick to control iPhone. Speaks 21 languages and works with all apps.\n    -   Zoom, magnifies entire screen on any app up to 5 times normal size. Move left, right, up, and down to view any portion of the screen close-up.\n    -   White on Black, changes display to white on black (instead of the normal black on white), works in any app, and alongside Zoom and VoiceOver.\n    -   Mono Audio, if users hearing is limited in one ear, routes both right- and left-channel audio into both earbuds, so both channels can be heard in either ear.\n    -   Speak Auto-text, works with VoiceOver to automatically speak auto-corrections and auto-capitalizations.\n-   Other\n    -   Devices can now connect to Wi-Fi hotspots that use authentication automatically.\n    -   Locate Me for the iPod Touch accuracy improved.\n    -   Restrictions have been updated and now block \"Current Location\" and allows setting what content is appropriate for iPod music/videos/TV shows and apps.\n    -   11 home screen pages instead of 9. Now can store 180 apps (including native applications. i.e. Phone, iPod, Safari).\n    -   Adds Voice Control (ability to voice dial and control iPod).\n    -   Nike+ Support.\n    -   Stopwatch now shows both the total running time and the current lap time in the upper part of the clock app.\n    -   Landscape mode added to several applications---Messages (SMS), Mail, Stocks, Contacts, and Notes.\n    -   Right to left support.\n    -   Numeric battery percentage view.\n    -   Holding the home button will no longer force quit an unresponsive application. To force quit an application in 3.0 hold the sleep/wake button until the red power off slider appears. Then hold down the home button to quit the unresponsive application.\n    -   Screen captures are no longer numbered separately from photos taken with the camera application; all new images in the camera roll now use a common numbering sequence.\n    -   Allows app developers to access third-party accessories attached to iPhone\n    -   Voice Memos\n        -   New native app.\n        -   Voice memos can be trimmed directly from app.",
+    "date" : "June 17, 2009"
+  },
+  {
+    "args" : {
+      "Build" : "7A400",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPhone 3GS\niPod Touch (1st gen)\niPod Touch (2nd gen)"
+    },
+    "version" : "3.0.1",
+    "logs" : "-   Patched SMS vulnerability\n-   Bug fixes",
+    "date" : "July 31, 2009"
+  },
+  {
+    "args" : {
+      "Build" : "7A400",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPhone 3GS\niPod Touch (1st gen)\niPod Touch (2nd gen)"
+    },
+    "version" : "3.0.1",
+    "logs" : "-   Patched SMS vulnerability\n-   Bug fixes",
+    "date" : "July 31, 2009"
+  },
+  {
+    "args" : {
+      "Builds" : "7C144\n7C145\n7C146",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPhone 3GS\niPod Touch (1st gen)\niPod Touch (2nd gen)",
+      "Initial devices" : "iPod Touch (2nd gen 8GB)\niPod Touch (3rd gen)"
+    },
+    "version" : "3.1",
+    "logs" : "*Initial release on iPod Touch (2nd gen 8 GB) and iPod Touch (3rd gen). Version 3.1.1 on iPod Touch (3rd gen). Free for iPhone OS 3.0 users; $4.95 for iPod Touch users who stayed on iPhone OS 2.0*\n\n-   Improved Wi-Fi for iPhone 3G with Bluetooth turned on.\n-   Ask to Join Networks toggle is hidden unless Wi-Fi is on.\n-   Faster boot up time and various speed improvements.\n-   Trimming video clips on the iPhone 3GS now offers the ability to save the edited version as a copy rather than simply overwriting the original file.\n-   Safari now has a toggle for \"Fraud Protection\" under its Settings pane.\n-   The Bulgarian keyboard now uses the Bulgarian State/National Standard layout instead of the QWERTY layout.\n-   On iPod Touch (2nd gen) the Voice Memos app now successfully records audio if a microphone is connected after starting the application.\n-   Numbers inside Notes have more options when tap and hold is triggered: Call, Text Message, Create New Contact, Add to Existing Contact.\n-   Voice control over Bluetooth is now available, allowing users to initiate calls and control music playback via Bluetooth headsets (however, voice control while plugged into car audio systems no longer works).\n-   Improves reception.\n-   Fast forward and rewind from headphones.\n-   Improved Exchange calendar syncing.\n-   Home screens can be customized on iTunes 9.\n-   Developer Extras.\n    -   Improvements to OpenGL and Quartz.\n    -   APIs allow third party apps to access videos and edit them.\n        -   Gives programmers their choice of video recording quality.\n    -   A pair of new app interface classes that are known to relate to graphics, but which haven't had their functions identified.\n-   New camera APIs.\n-   Calendar event alerts will be shown also with a pop-up, much like push notifications.\n-   Enables connectivity to devices for development purposes wirelessly instead of needing tethering via the dock connector.\n-   Ability to save videos from Mail or MMS.\n-   Ability to copy and paste full quality videos from camera into email.\n-   Anti-phishing in Safari.\n-   Under usage tab in settings, can view data sent and received over tethering.\n-   Instruments over Wi-Fi.\n-   New enhancements to Core Audio in iPhone.\n-   Failover support for HTTP live streaming.\n-   iPod Touch (3rd gen) features:\n    -   Voice control\n    -   Accessibility features from iPhone 3GS, such as VoiceOver.\n-   Accessibility features can be toggled on or off by triple-clicking the Home button.\n-   Option to practice VoiceOver gestures.\n-   Fixed an issue that caused app icons to display incorrectly.\n-   Genius Mixes.\n-   Genius Recommendations for Apps.\n-   Sync videos to albums.\n-   iTunes U content organization.\n-   Redeem Gift Cards in App Store.\n-   Display available iTunes account credit.\n-   Enhanced iTunes support.\n-   Ability to copy and paste telephone numbers in dialer application.\n-   Sponsored links in Maps.\n-   Direct copy of contact info.\n-   Bug fixes.\n-   Security improvements.\n-   Now fully supports device encryption for Exchange.\n-   Uses a new baseband which patches the exploit formerly used to unlock the iPhone 3G/3GS.\n-   Adds separate usage metering for tethering data.",
+    "date" : "September 9, 2009"
+  },
+  {
+    "args" : {
+      "Build" : "7D11",
+      "Supported devices" : "iPhone (1st gen)\niPhone 3G\niPhone 3GS\niPod Touch (1st gen)\niPod Touch (2nd gen)\niPod Touch (2nd gen 8GB)\niPod Touch (3rd gen)"
+    },
+    "version" : "3.1.2",
+    "logs" : "-   Attempt to resolve sporadic issue that may cause iPhone / iPod Touch to not wake from sleep.\n-   Fixes intermittent issue that may interrupt cellular network services until restart.\n-   Fixes bug that could cause occasional crash during video streaming.",
+    "date" : "October 8, 2009"
+  },
+  {
+    "args" : {
+      "Build" : "7E18",
+      "Supported devices" : "iPhone 3G\niPhone 3GS\niPod Touch (2nd gen)\niPod Touch (2nd gen 8GB)\niPod Touch (3rd gen)",
+      "Removed devices" : "iPhone (1st gen)\niPod Touch (1st gen)"
+    },
+    "version" : "3.1.3",
+    "logs" : "*Final release supported on iPhone (1st gen) and iPod Touch (1st gen)*\n\n-   Improves accuracy of reported battery level on iPhone 3GS.\n-   Fixes issue where third-party apps would not launch in some instances.\n-   Fixes bug that may cause an app to crash when using the Japanese Kana keyboard layout.\n-   Fixes security bugs in Core Audio, ImageIO, Recovery Mode and WebKit.\n-   Uses a new baseband which patches an exploit formerly used for jailbreaking the iPhone 3G/3GS.",
+    "date" : "February 2, 2010"
+  },
+  {
+    "args" : {
+      "Build" : "7B367",
+      "Initial devices" : "iPad (1st gen)"
+    },
+    "version" : "3.2",
+    "logs" : "*Initial release on iPad (1st gen).*\n\n-   Initial support for landscape home screens.\n-   Includes new frameworks for recognizing custom gestures, custom keyboards, etc.\n-   Allows display output to an externally connected display for compatible 3rd party apps.\n-   Allows user to change home screen background.\n-   Adds Terrain view in Maps application.\n-   Location-based services rely on Apple's own databases instead services of Google and Skyhook Wireless.\n-   Allows transferring files between a computer and the device for a shared (per app) document store that all applications can access (iOS file sharing). Only available for the iPad.\n-   Allows use of Apple Bluetooth keyboard (possibly other keyboards).\n-   Includes a built-in dictionary which can be used in iWork, iBooks, and possibly other apps.\n-   The Dock can now hold up to six icons.\n-   The iPod app allows users to create and name custom playlists.\n-   Safari's new thumbnail view allows users to navigate to up to nine active pages (similar to Top Sites on Safari for [OS X](https://en.wikipedia.org/wiki/OS_X \"OS X\")).\n-   Places in the Photos app allows the user to view their photos by location (needs iPhoto '09).\n-   720p HD videos are available in the YouTube app.\n-   Share YouTube videos to Facebook.\n-   Wallpaper support for iPad (1st Generation).",
+    "date" : "April 3, 2010"
+  },
+  {
+    "args" : {
+      "Build" : "7B405",
+      "Supported devices" : "iPad (1st gen)"
+    },
+    "version" : "3.2.1",
+    "logs" : "-   Better Wi-Fi connection.\n-   Bug fix in Mail so it does not crash any more when doing copy-and-paste from a one-page PDF document.\n-   Bug fix in Video playback so that videos no longer freeze in certain situations.\n-   Better reliability when using the iPad Dock Adapter to VGA.\n-   Added Bing as a search engine in Safari.",
+    "date" : "July 15, 2010"
+  },
+  {
+    "args" : {
+      "Build" : "7B500",
+      "Supported devices" : "iPad (1st gen)"
+    },
+    "version" : "3.2.2",
+    "logs" : "-   Patches PDF exploit which allowed jailbreaking through Safari.",
+    "date" : "August 11, 2010"
+  },
+  {
+    "args" : {
+      "Build" : "8A293",
+      "Supported devices" : "iPhone 3G\niPhone 3GS\niPod Touch (2nd gen)\niPod Touch (2nd gen 8GB)\niPod Touch (3rd gen)\niPad (1st gen)",
+      "Initial devices" : "iPhone 4"
+    },
+    "version" : "4.0",
+    "logs" : "*Initial release on [iPhone 4](https://en.wikipedia.org/wiki/IPhone_4 \"IPhone 4\")*\n\n*Drops support for [iPhone (1st gen)](https://en.wikipedia.org/wiki/IPhone_(1st_gen) \"IPhone (1st gen)\") and [iPod Touch (1st gen)](https://en.wikipedia.org/wiki/IPod_Touch_(1st_gen) \"IPod Touch (1st gen)\")*\n\n-   Multitasking \n    -   User interface for app switching by double clicking Home button.\n    -   Portrait orientation lock.\n    -   iPod control widget.\n-   FaceTime direct video calling ability over Wi-Fi (iPhone 4 and later, iPod Touch (4th gen), and OS X users).\n-   iBooks sync support through iTunes for iPhone and iPod Touch.\n-   iAd mobile advertising network.\n-   Settings\n    -   App-specific location settings.\n    -   Cellular data toggle (on-off).\n    -   \"Complex Password\" setting: passwords with alphabet characters and numbers.\n    -   Simple Passcode Lock (4 digit number) option.\n    -   New wallpapers.\n    -   Wallpaper available for Home screen.\n    -   New wallpaper preview for Home screen and lock screen.\n    -   Support for Internet tethering.\n    -   New Gmail and Exchange icons in Mail, Contacts, Calendars account settings.\n    -   Support multiple Exchange accounts.\n    -   Custom Dictionary.\n    -   Airplane Mode for iPod Touch.\n    -   Separated Sounds settings from General settings.\n-   Home screen\n    -   Ability to categorize apps into folders with default folder naming based on category name in App Store.\n    -   Up to 2,160 instead of 180 visible apps (12 apps per folder).\n    -   Folder name supports up to 13 characters.\n    -   Custom Home screen wallpaper.\n    -   Dock redesigned to that of the iPad dock.\n    -   Rate on deleting app removed.\n    -   Default Utilities folder which contains the Clock, Calculator, Voice Memos and Compass apps.\n    -   Revised scrolling on the Home Screen.\n-   Camera\n    -   Up to 5x digital (as opposed to optical) zoom feature on the Camera app.\n    -   Tap to focus during video.\n-   Photos\n    -   Categorized by Albums, Faces, Events and Places (under iPhoto in OS X).\n    -   Support landscape mode.\n-   Camera Roll\n    -   Support landscape mode.\n-   App Store\n    -   Ability to gift apps.\n-   Maps\n    -   Unified \"locate me\" icon.\n    -   Background location icon shown on status bar.\n-   iPod\n    -   Playlist creation on device.\n    -   Nested playlists.\n    -   Lyrics and Podcast info in Settings.\n    -   Bluetooth headsets now support volume control.\n    -   Album art displayed in Album view.\n-   Notes\n    -   Notes syncing with MobileMe, Gmail IMAP and Yahoo! Mail.\n    -   Accounts management appears if syncing is enabled.\n    -   Notes setting below Mail, Contacts, Calendars Settings if syncing is enabled.\n    -   Moved search box into title bar.\n-   Calendar\n    -   Birthday calendar.\n    -   CalDAV invitations.\n    -   Ability to edit which calendar an event is located in after the initial saving.\n    -   Ability to select any combination of calendar categories to view.\n-   Contacts\n    -   Unified info by linking contacts from different accounts.\n    -   CardDAV.\n    -   Streamlined \"New Contact\" screen.\n-   Spotlight\n    -   Search on the Web or Wikipedia.\n    -   Search Messages.\n-   Safari\n    -   Bing is now an official search option, along with Google and Yahoo!.\n    -   Recent searches below search field.\n    -   Top hit in search.\n    -   Suggestions appear below search field for all 3 search engines.\n    -   Unified \"Search\" keyboard button when search field being used.\n    -   In-page audio playback.\n-   Voice control\n    -   The ability to ask what the current time is.\n-   YouTube\n    -   Rotate and zoom videos in vertical and horizontal position.\n    -   Latest 480p for smoother and quicker video playback.\n-   Accessibility\n    -   Larger fonts in Contacts, Mail, Messages and Notes.\n-   Message\n    -   Include a Search bar.\n    -   Character count (can be enabled or disabled in Settings > Messages screen).\n    -   Failed SMS notification.\n    -   Option to toggle off the ability to send group messages.\n-   added a new app dock\n-   Mail\n    -   Unified inboxes.\n    -   Edit from outbox.\n    -   Support for multiple Exchange accounts.\n    -   File and delete Mail search results.\n    -   Organize by thread in Mail.\n    -   Quick look attachments.\n    -   Open attachments by registered filetype with corresponding apps from the App Store.\n    -   Smart links for dates and addresses.\n    -   Contact pictures in emails.\n    -   Create Calendar events from dates within emails.\n-   International\n    -   Spell check.\n    -   Added Cangjie and Wubihua keyboards for Simplified and Traditional Chinese.\n    -   Text replacement between Simplified and Traditional Chinese.\n    -   Switch keyboard shortcut (holding the \"Earth\" button on keyboard for a while).\n    -   Added support for Danish voice control.\n    -   New languages added (Catalan, Hungarian, Vietnamese).\n-   Other\n    -   Support for Apple Bluetooth keyboards.\n    -   Persistent Wi-Fi.\n    -   Added support for iBooks application.\n    -   Wake on wireless.\n    -   Auto-join and auto-login and IPv6 on individual Wi-Fi networks setting.\n    -   Enhanced data protection.\n    -   Wireless app distribution.\n    -   Mobile device management.\n    -   SSL VPN support (both Juniper and Cisco).\n    -   Microsoft Exchange Server 2010 support.\n    -   Improved Bluetooth driver for A2DP devices.\n    -   Improved iOS animations.",
+    "date" : "June 21, 2010"
   }
 ]
