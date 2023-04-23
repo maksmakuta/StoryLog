@@ -2,6 +2,7 @@ package ua.makuta.storylog.utils
 
 import android.content.Context
 import android.content.res.Configuration
+import android.content.res.Resources
 import android.util.Log
 import android.view.View
 import android.view.View.GONE
@@ -13,9 +14,8 @@ import androidx.viewbinding.ViewBinding
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.material.snackbar.Snackbar
-import com.google.gson.Gson
-import com.google.gson.GsonBuilder
 import io.noties.markwon.Markwon
+import kotlin.math.roundToInt
 
 object Utils {
 
@@ -45,11 +45,10 @@ object Utils {
     }
 
     fun Fragment.snack(@StringRes str : Int,anchor : View? = null){
-        val s = Snackbar
-            .make(this.requireView(),getString(str),Snackbar.LENGTH_SHORT)
-            if(anchor != null)
-                s.anchorView = anchor
-            s.show()
+        val s = Snackbar.make(this.requireView(),getString(str),Snackbar.LENGTH_SHORT)
+        if(anchor != null)
+            s.anchorView = anchor
+        s.show()
     }
 
     fun Context.isDarkTheme(): Boolean {
@@ -61,8 +60,6 @@ object Utils {
         return this.root.context
     }
 
-    val gson : Gson
-        get() = GsonBuilder()
-            .serializeNulls()
-            .create()
+    val Number.dp: Int
+        get() = ((this.toInt() / Resources.getSystem().displayMetrics.density).roundToInt())
 }

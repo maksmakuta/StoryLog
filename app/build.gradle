@@ -1,14 +1,14 @@
 plugins {
     id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
     id 'org.jetbrains.kotlin.android'
     id 'androidx.navigation.safeargs.kotlin'
-    id 'com.google.gms.google-services'
 }
 
-apply plugin: 'com.google.firebase.crashlytics'
-
 android {
-    compileSdkVersion "android-UpsideDownCake" // android 14
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "ua.makuta.storylog"
@@ -48,7 +48,8 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3'
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
 
-    implementation 'com.google.android.material:material:1.10.0-alpha01'
+    //noinspection GradleDependency
+    implementation 'com.google.android.material:material:1.9.0-rc01'
     implementation 'com.google.android.gms:play-services-ads:22.0.0'
 
     implementation platform("com.google.firebase:firebase-bom:31.5.0")

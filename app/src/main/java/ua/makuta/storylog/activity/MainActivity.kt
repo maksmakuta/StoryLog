@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity(), OnNavigationListener {
                         .setCancelable(false)
                         .setTitle(R.string.no_internet)
                         .setMessage(R.string.no_internet_msg)
-                        .setNeutralButton(android.R.string.ok){d,_ ->
+                        .setPositiveButton(android.R.string.ok){d,_ ->
                             finish()
                             d.dismiss()
                         }

@@ -3,6 +3,7 @@ package ua.makuta.storylog.adapter
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import coil.load
+import ua.makuta.storylog.R
 import ua.makuta.storylog.core.CoreAdapter
 import ua.makuta.storylog.databinding.IItemBinding
 import ua.makuta.storylog.listeners.OnItemClickListener
@@ -25,7 +26,11 @@ class MenuAdapter(
         if(item.icon.isNotEmpty()) {
             item.icon.apply {
                 if(size == 1){
-                    binding.projectIcon.load("$BASE_URL${this[0]}")
+                    if(this.first() == "app_icon"){
+                        binding.projectIcon.load(R.mipmap.ic_launcher)
+                    }else {
+                        binding.projectIcon.load("$BASE_URL${this[0]}")
+                    }
                 }else{
                     if(!binding.ctx().isDarkTheme()){
                         binding.projectIcon.load("$BASE_URL${this[0]}")
