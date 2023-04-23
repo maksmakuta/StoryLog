@@ -9,4 +9,6 @@
     <string name="title_details">Details :</string>
     <string name="title_changelog">Changelog :</string>
     <string name="div_sign">:</string>
+    <string name="no_internet">No Internet connection</string>
+    <string name="no_internet_msg">App doensn\'t work without internet connection, please enable internet or/and give this app internet access</string>
 </resources>

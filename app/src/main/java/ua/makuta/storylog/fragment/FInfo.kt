@@ -13,7 +13,6 @@ import ua.makuta.storylog.core.CoreFragment
 import ua.makuta.storylog.databinding.FInfoBinding
 import ua.makuta.storylog.utils.Utils.ARGS_TITLE
 import ua.makuta.storylog.utils.Utils.gone
-import ua.makuta.storylog.utils.Utils.load
 import ua.makuta.storylog.utils.Utils.markdown
 
 class FInfo : CoreFragment<FInfoBinding>() {

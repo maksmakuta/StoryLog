@@ -7,6 +7,7 @@ import androidx.core.os.bundleOf
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.google.android.gms.ads.MobileAds
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import ua.makuta.storylog.R
 import ua.makuta.storylog.databinding.AMainBinding
 import ua.makuta.storylog.enums.DataType
@@ -48,12 +49,28 @@ class MainActivity : AppCompatActivity(), OnNavigationListener {
             }
             true
         }
-
+        vm.checkNetwork()
     }
 
     override fun onStart() {
         super.onStart()
-        vm.loadMenu()
+        vm.hasInternet.observe(this){
+            if(it != null){
+                if(it){
+                    vm.loadMenu()
+                }else{
+                    MaterialAlertDialogBuilder(this)
+                        .setCancelable(false)
+                        .setTitle(R.string.no_internet)
+                        .setMessage(R.string.no_internet_msg)
+                        .setNeutralButton(android.R.string.ok){d,_ ->
+                            finish()
+                            d.dismiss()
+                        }
+                        .show()
+                }
+            }
+        }
     }
 
     override fun onStop() {

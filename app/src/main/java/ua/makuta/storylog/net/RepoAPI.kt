@@ -1,11 +1,13 @@
 package ua.makuta.storylog.net
 
+import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Path
-import ua.makuta.storylog.model.ModelVersion
+import ua.makuta.storylog.StoryApp
 import ua.makuta.storylog.model.ModelMenu
+import ua.makuta.storylog.model.ModelVersion
 
 interface RepoAPI {
 
@@ -19,8 +21,14 @@ interface RepoAPI {
 
 const val BASE_URL = "https://raw.githubusercontent.com/maksmakuta/StoryLog/dev/"
 
+
+private val client: OkHttpClient = OkHttpClient.Builder()
+    .cache(StoryApp.cache())
+    .build()
+
 val storyNet : RepoAPI = Retrofit.Builder()
     .baseUrl(BASE_URL)
+    .client(client)
     .addConverterFactory(GsonConverterFactory.create())
     .build()
     .create(RepoAPI::class.java)
