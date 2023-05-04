@@ -1390,11 +1390,165 @@
   {
     "args" : {
       "Build" : "17A577",
-      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod Touch (7th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 4\niPad Mini (5th gen)\niPad Air 2\niPad Air (3rd gen)\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\"",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod Touch (7th gen)",
       "Initial devices" : "iPhone 11\niPhone 11 Pro\niPhone 11 Pro Max"
     },
     "version" : "13.0",
-    "logs" : "Initial release on [iPhone 11](https://en.wikipedia.org/wiki/IPhone_11 \"IPhone 11\"), [iPhone 11 Pro](https://en.wikipedia.org/wiki/IPhone_11_Pro \"IPhone 11 Pro\"), and [iPhone 11 Pro Max](https://en.wikipedia.org/wiki/IPhone_11_Pro_Max \"IPhone 11 Pro Max\")\n\n-   Introduces Dark Mode\n-   Introduces \"Sign in with Apple\", allowing users to link accounts to their Apple ID\n-   Introduces Apple Arcade\n-   Integrates Siri and Shortcuts\n-   Adds more Memoji customization options\n-   Redesigns the CarPlay Dashboard\n-   Adds custom fonts to the App Store\n-   Enables external drive support in the Files app\n-   Enables SMB support in the Files app\n-   Enables extraction and compression of .zip archives\n-   Adds \"Allow Once\" location permission\n-   Redesigns volume control in the upper-left corner to be less unobtrusive\n-   Adds 38 more keyboard languages\n-   Adds Voice Control\n-   Introduces Low Data Mode, to reduce data usage over cellular networks\n-   Introduces Optimized Battery Charging, which learns from your charging behavior to only charge your device when you need it\n-   Find My iPhone and Find My Friends are combined into one app",
+    "logs" : "Initial release on [iPhone 11](https://en.wikipedia.org/wiki/IPhone_11 \"IPhone 11\"), [iPhone 11 Pro](https://en.wikipedia.org/wiki/IPhone_11_Pro \"IPhone 11 Pro\"), and [iPhone 11 Pro Max](https://en.wikipedia.org/wiki/IPhone_11_Pro_Max \"IPhone 11 Pro Max\")\n\n-   Introduces Dark Mode\n-   Introduces \"Sign in with Apple\", allowing users to link accounts to their Apple ID\n-   Introduces Apple Arcade\n-   Integrates Siri and Shortcuts\n-   Adds more Memoji customization options\n-   Redesigns the CarPlay Dashboard\n-   Adds custom fonts to the App Store\n-   Enables external drive support in the Files app\n-   Enables SMB support in the Files app\n-   Enables extraction and compression of .zip archives\n-   Adds \"Allow Once\" location permission\n-   Redesigns volume control in the upper-left corner to be less unobtrusive\n-   Adds 38 more keyboard languages\n-   Adds Voice Control\n-   Introduces Low Data Mode, to reduce data usage over cellular networks\n-   Introduces Optimized Battery Charging, which learns from your charging behavior to only charge your device when you need it\n-   Find My iPhone and Find My Friends are combined into one app\n\n *Apple made special OS for iPads - iPadOS*",
     "date" : "September 19, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "17A844",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.1",
+    "logs" : "-   Allows AirDrop transfers by pointing iPhones at one another for iPhone 11, iPhone 11 Pro, and iPhone 11 Pro Max\n-   Allows sharing Apple Maps ETA while a route is in progress\n-   Fixes bug that allows malicious websites to read browsing history",
+    "date" : "September 24, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "17A854",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.1.1",
+    "logs" : "-   Addresses an issue that prevented iPhones from restoring from backups\n-   Addresses an issue that caused rapid battery draining\n-   Addresses an issue that re-enabled Safari search suggestions after they were disabled",
+    "date" : "September 27, 2019"
+  },
+  {
+    "args" : {
+      "Builds" : "17A860\n17A861",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.1.2",
+    "logs" : "-   Fixes bug where the progress bar for restoring iCloud backups would not vanish after the backup was successfully loaded\n-   Fixes a bug where display calibration data may be lost",
+    "date" : "September 30, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "17A878",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.1.3",
+    "logs" : "-   Fixes an issue where iPhones may not ring or vibrate when receiving a call\n-   Fixes an issue where Apple Watches may not successfully pair",
+    "date" : "October 15, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "17B84",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.2",
+    "logs" : "-   Introduces Deep Fusion, which uses the A13 Bionic Neural Engine to capture photos in much better detail\n-   Adds 70 new emojis, along with skin tones\n-   Adds AirPods Pro support\n-   Adds options to control Siri and Dictation recordings\n-   Fixes bug that allowed AirDrop transfers to be forcefully accepted when the recipient is in Everyone mode\n-   Provides support for new HomePod features\n    -   The ability for HomePod to recognize the voices of different family members to provide a personalized experience\n    -   Handoff music, podcasts or phone calls by bringing the iPhone close to HomePod\n    -   Add music to HomeKit scenes\n    -   Play relaxing high-quality soundtracks with Ambient Sounds\n    -   Set sleep timers to fall asleep to music or Ambient Sounds",
+    "date" : "October 28, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "17B102",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.2.2",
+    "logs" : " - Fixes a bug that caused background apps to quit unexpectedly",
+    "date" : "November 7, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "17B111",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.2.3",
+    "logs" : "-   Fixes issue where search within Mail, Files, and Notes may not function\n-   Fixes a bug where attachments may not display correctly in the Messages details view",
+    "date" : "November 18, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "17C54",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.3",
+    "logs" : "-   Adds more parental controls features to Screen Time, such as limits on who the child can call, message, or FaceTime\n-   Adds French language option for Stocks in Canada\n-   Fixes bug where phone calls initiated by Siri may be initiated on the wrong cellular plan for devices with two active plans",
+    "date" : "December 10, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "17D50",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.3.1",
+    "logs" : "-   Fixes issue in Screen Time where allowed contacts may be added without a passcode (if one is enabled)\n-   Addresses an issue where a delay between pushing the capture button and recording a photo with Deep Fusion on iPhone 11 and iPhone 11 Pro",
+    "date" : "January 28, 2020"
+  },
+  {
+    "args" : {
+      "Builds" : "17E255\n17E8255",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)",
+      "Initial devices" : "iPhone SE (2nd gen)"
+    },
+    "version" : "13.4",
+    "logs" : "*Initial release on [iPhone SE (2nd generation)](https://en.wikipedia.org/wiki/IPhone_SE_(2nd_generation) \"IPhone SE (2nd generation)\")*\n\n-   Introduces 9 new Memojis\n-   Adds iCloud Drive folder sharing from Files, along with Google Drive-like permissions\n-   Adds third-party navigation app support for CarPlay\n-   Adds predictive typing support for Arabic\n-   Fixes issue where Photos may report using more storage than they actually do\n-   Fixes an issue in Settings where cellular data is incorrectly reported as off\n-   Fixes issue where Reply to Messages on Lock Screen is still allowed when disabled\n-   Fixed issue where Private browsing history is saved in Screen Time",
+    "date" : "March 24, 2020"
+  },
+  {
+    "args" : {
+      "Builds" : "17E262\n17E8258",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone SE (2nd gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.4.1",
+    "logs" : " - Fixes a bug where selecting Bluetooth from the Quick Actions menu on the home screen may fail",
+    "date" : "April 7, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "17F75",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone SE (2nd gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.5",
+    "logs" : "-   Automatically presents passcode field when swiping up on the Lock Screen when wearing a mask on Face ID Devices, this also works with other apps that support signing in with Face ID\n-   Introduces Exposure Notification API support for contact tracing and bug fixes\n-   Fixes a bug where a user's video in FaceTime may not be paused if they exit the app while a call request is being received",
+    "date" : "May 20, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "17F80",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone SE (2nd gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.5.1",
+    "logs" : "-   Patches a bug that allowed the unc0ver jailbreak to work",
+    "date" : "June 1, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "17G68",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone SE (2nd gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.6",
+    "logs" : "-   Adds digital car key support\n-   Adds setting to automatically download updates when on Wi-Fi\n-   Fixes an issue that caused data roaming to appear disabled on eSIM plans when it was active",
+    "date" : "July 15, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "17G80",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone SE (2nd gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.6.1",
+    "logs" : "-   Fixes a bug that caused DeathRow to not be emptied when iPhone storage capacity is nearing full\n-   Fixes a bug that caused displays to have a green tint due to poor thermal management\n-   Fixes a bug that caused Exposure Notifications to be disabled",
+    "date" : "August 12, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "17H35",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone SE (2nd gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "13.7",
+    "logs" : "-   Allows use of the Exposure Notifications system without the need of an app",
+    "date" : "September 1, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "18A373",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone SE (2nd gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPhone 11\niPhone 11 Pro\niPhone 11 Pro Max\niPod Touch (7th gen)"
+    },
+    "version" : "14.0",
+    "logs" : "-   Introduces widgets which can be placed on the home screen, of varying sizes\n-   Introduces App Library, which automatically organizes apps into categories, and allows apps to not be put on the home screen by default\n-   Incoming Phone and FaceTime calls now appear as a banner on the top of the screen\n-   Picture-in-Picture allows watching a video or taking a FaceTime call while using another app\n-   Up to 9 Messages conversations can now be pinned\n-   New Memoji options for hairstyles, headwear styles, age, face coverings, and stickers\n-   A recording indicator is displayed in the status bar whenever an app is using the camera or microphone\n-   Limited Photos library allows apps to only access select photos instead of all photos\n-   Improved QR code reading to better recognize small or warped ones\n-   Improved video quality with up to 1080p on iPhone X and later\n-   External drives can now be encrypted with APFS\n-   A new Listen Now tab has been added to Music to show your favorite albums, artists, and songs\n-   Autoplay finds similar songs for you\n-   Notes can now be pinned\n-   The default mail and web browser apps can now be changed\n-   Fixed a bug that allowed local users to recover deleted messages\n-   Fixes a bug that prevented Screen Time screen lock from engaging\n-   Fixes a bug that allowed Safari address bar spoofing after visiting a malicious website",
+    "date" : "September 16, 2020"
   }
 ]
