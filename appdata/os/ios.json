@@ -984,5 +984,417 @@
     "version" : "11.0",
     "logs" : "*Initial release on [iPhone 8](https://en.wikipedia.org/wiki/IPhone_8 \"IPhone 8\") and [iPhone 8 Plus](https://en.wikipedia.org/wiki/IPhone_8_plus \"IPhone 8 plus\")*\n\n*Drops support for [iPad (4th generation)](https://en.wikipedia.org/wiki/IPad_(4th_generation) \"IPad (4th generation)\"), [iPhone 5](https://en.wikipedia.org/wiki/IPhone_5 \"IPhone 5\") and [iPhone 5C](https://en.wikipedia.org/wiki/IPhone_5C \"IPhone 5C\")*\n\n-   32-bit iOS applications are now no longer supported\n-   Many app icons are redesigned, becoming more simple\n-   Battery icon is redesigned\n-   Cellular signal strength is displayed with 4 bars in ascending scale, rather than 5 dots\n-   The Music player on Lock Screen is no longer full-screen\n-   Screenshots can be edited via cropping, drawing, and more right after taking by tapping the small window that appears after taking a screenshot\n-   Photos can be encoded with HEIF and HEVC to take up less space\n-   Portrait Mode on supported devices supports [HDR](https://en.wikipedia.org/wiki/High_dynamic_range \"High dynamic range\"), True Tone flash, and [OIS](https://en.wikipedia.org/wiki/Optical_image_stabilisation \"Optical image stabilisation\"), or Optical Image Stabilization\n-   The App Store has been redesigned\n-   Introduces Do Not Disturb while Driving to automatically disable notifications when driving, silence the phone, and keep the display off, and sending an optional autoreply sent to certain contacts via [iMessage](https://en.wikipedia.org/wiki/IMessage \"IMessage\") when they texted.\n-   Dock on iPad shows recently used apps\n-   Files app is introduced which allows browsing, searching, and organizing of both on-device and iCloud Drive files\n-   HomeKit supports sprinklers, faucets, and AirPlay 2 speakers\n-   Augmented Reality apps on the App Store allow placing virtual objects in the real world, such as [Pokémon Go](https://en.wikipedia.org/wiki/Pok%C3%A9mon_Go \"Pokémon Go\")\n-   Control Center is redesigned to have all toggles on one page\n-   Control Center can be customized depending on a user's needs\n-   Screen recording was added, which could be enabled by adding it to the control center\n-   Fixes multiple bugs that allowed an application to execute arbitrary code with kernel privileges\n-   Prevents an attacker in a privileged network position from erasing a device in the process of setting up a Microsoft Exchange account\n-   Fixes many bugs that allowed applications to execute arbitrary code with kernel privileges\n-   Fixes multiple bugs that caused unpacking of a maliciously crafted archive to grant arbitrary code execution\n-   Fixes a multitude of bugs that caused processing maliciously crafted XML to grant arbitrary code execution\n-   Fixes multiple bugs where processing of maliciously crafted images led to denial-of-service\n-   Prevents a remote attacker from executing arbitrary code\n-   Fixes many bugs that caused processing of maliciously crafted web content to lead to arbitrary code execution\n-   Fixes an address bar spoofing bug\n-   Fixes a bug chain that allowed arbitrary code execution on baseband, which led to arbitrary code execution with kernel privileges in userspace",
     "date" : "September 19, 2017"
+  },
+  {
+    "args" : {
+      "Builds" : "15A402\n15A403\n15A8391",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\"",
+      "Initial devices" : "iPhone X"
+    },
+    "version" : "11.0.1",
+    "logs" : "*Initial release on [iPhone X](https://en.wikipedia.org/wiki/IPhone_X \"IPhone X\"), preinstalled only*\n\n-   Fixes an issue with [Exchange](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server \"Microsoft Exchange Server\") email servers where email would fail to send",
+    "date" : "September 26, 2017"
+  },
+  {
+    "args" : {
+      "Build" : "15A421",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.0.2",
+    "logs" : "*Not available for download on [iPhone X](https://en.wikipedia.org/wiki/IPhone_X \"IPhone X\")*\n\n-   Fixes an issue on [iPhone 8](https://en.wikipedia.org/wiki/IPhone_8 \"IPhone 8\") and [iPhone 8 Plus](https://en.wikipedia.org/wiki/IPhone_8_plus \"IPhone 8 plus\") where a crackling sound would occur during a phone call\n-   Fixes an issue where some photos could end up becoming hidden\n-   Fixes an issue where some email attachments would not open",
+    "date" : "October 3, 2017"
+  },
+  {
+    "args" : {
+      "Build" : "15A432",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.0.3",
+    "logs" : "*Not available for download on [iPhone X](https://en.wikipedia.org/wiki/IPhone_X \"IPhone X\")*\n\n-   Fixes an issue where haptic feedback was not working on some devices\n-   Fixes an issue where touch was not working properly due to the displays not being replaced with genuine Apple displays",
+    "date" : "October 11, 2017"
+  },
+  {
+    "args" : {
+      "Builds" : "15B93\n15B101",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.1",
+    "logs" : "*Initial IPSW release for [iPhone X](https://en.wikipedia.org/wiki/IPhone_X \"IPhone X\")*\n\n-   Added over 70 new emoji characters\n-   Fixes and improvements to VoiceOver rotor\n-   Fixes an issue where some photos could become blurry\n-   Fixes an issue where Live Photo effects would play slowly\n-   Fixes an issue where already cleared notifications sent from the Mail app could reappear on the Lock Screen\n-   Fixes an issue on Apple Watch where app icons would refuse to appear in notifications",
+    "date" : "October 31, 2017"
+  },
+  {
+    "args" : {
+      "Build" : "15B150",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.1.1",
+    "logs" : "-   Fixes an issue with keyboard auto-correct\n-   Fixes an issue where Hey Siri would stop working",
+    "date" : "November 9, 2017"
+  },
+  {
+    "args" : {
+      "Build" : "15B202",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.1.2",
+    "logs" : "-   Fixes an issue where a rapid drop in temperature caused problems with the touch screen of the iPhone X\n-   Fixes an issue where distortion could be caused in Live Photos and videos captured on the iPhone X",
+    "date" : "November 16, 2017"
+  },
+  {
+    "args" : {
+      "Build" : "15C114",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.2",
+    "logs" : "-   Added support for Apple Pay Cash (USA only)\n-   Improved wireless charging on the iPhone 8, iPhone 8 Plus and iPhone X\n-   Added three new Live Wallpapers for the iPhone X\n-   Fixes an issue that could cause the keyboard to appear slowly\n-   Fixes an issue in Calculator app where rapidly typing numbers could lead to incorrect calculation results",
+    "date" : "December 2, 2017"
+  },
+  {
+    "args" : {
+      "Build" : "15C153",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.2.1",
+    "logs" : "Fixes an issue where remote access could unexpectedly be disabled for shared users in the Home app",
+    "date" : "December 13, 2017"
+  },
+  {
+    "args" : {
+      "Build" : "15C202",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.2.2",
+    "logs" : "Improves security of Safari and WebKit to mitigate the effects of Spectre",
+    "date" : "January 8, 2018"
+  },
+  {
+    "args" : {
+      "Build" : "15D60",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.2.5",
+    "logs" : "-   Adds support for HomePod\n-   Siri can now read the News, with options for a general overview and more specific categories (US, UK, and Australia only)\n-   Fixes a bug that caused Messages conversations to appear out of order\n-   Fixes a bug that caused the CarPlay Now Playing controls to not respond if a track change button was pressed rapidly multiple times\n-   Fixes an issue that caused Mail notifications from [Exchange](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server \"Microsoft Exchange Server\") accounts to vanish from [iPhone X](https://en.wikipedia.org/wiki/IPhone_X \"IPhone X\") if unlocked with [Face ID](https://en.wikipedia.org/wiki/Face_ID \"Face ID\")",
+    "date" : "January 23, 2018"
+  },
+  {
+    "args" : {
+      "Build" : "15D100",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.2.6",
+    "logs" : "-   Fixes a bug that caused rendering the character \"జ్ఞా\" to crash Messages\n-   Fixes an issue where third-party apps failed to connect to external accessories",
+    "date" : "February 19, 2018"
+  },
+  {
+    "args" : {
+      "Builds" : "15E216\n15E218",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\"",
+      "Initial devices" : "iPad (6th gen)"
+    },
+    "version" : "11.3",
+    "logs" : "*Initial release on [iPad (6th generation)](https://en.wikipedia.org/wiki/IPad_(6th_generation) \"IPad (6th generation)\")*\n\n-   Augmented Reality\n    -   Introduces ARKit 1.5, granting developers the ability to place virtual objects on vertical surfaces, such as walls or doors, in addition to horizontal surfaces\n    -   Adds the ability to detect and implement images, such as movie posters or artwork, into Augmented Reality experiences\n-   iPhone Battery Health (Beta)\n    -   Displays information about an iPhone's battery, such as its current maximum capacity and if the battery is still supporting peak performance capabilities\n    -   Indicates if the iPhone Performance Management feature is turned on, while including the option to disable the feature is desired\n    -   Gives a recommendation if the battery inside of the iPhone should be replaced\n-   iPad Charge Management\n    -   Maintains the health of the battery when it has been connected to power for extended periods of time\n-   Animoji\n    -   Introduces four new Animoji characters: Lion, Bear, Dragon and a Skull\n-   Safari\n    -   Warnings are now shown when accessing unencrypted webpages\n-   Keyboard\n    -   Introduces two new Shuangpin keyboard layouts\n    -   Improves the Japanese and Chinese keyboards on 4.7-inch and 5.5-inch devices\n    -   Users can now switch back to the keyboard from dictation mode with one tap\n-   Adds support for using AML for Emergency SOS\n-   Podcasts episodes can now be played with a single tap\n-   Fixes a bug where the Lock Screen would blank itself except for the wallpaper\n-   Fixes a bug where parents were prevented from using Face ID to approve Ask to Buy requests\n-   Fixes a bug where audio would fail to play in cars if the app was in the background",
+    "date" : "March 29, 2018"
+  },
+  {
+    "args" : {
+      "Build" : "15E302",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.3.1",
+    "logs" : "-   Fixes an issue where on iPhone 8 devices where touch input would not register due to the displays being services with non-genuine\n-   Fixes a bug that allowed applications to elevate privileges\n-   Fixes two bugs where processing of maliciously crafted web content led to arbitrary code execution",
+    "date" : "April 24, 2018"
+  },
+  {
+    "args" : {
+      "Build" : "15F79",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.4",
+    "logs" : "-   Adds support for AirPlay 2\n-   Adds support for pairing of HomePod Stereo\n-   Allows storing of messages, photos, and more in iCloud\n-   Allows teachers to assign students reading activities in iBooks via the Schoolwork app\n-   Fixes a bug where health data failed to sync\n-   Fixes an issue where app icons may appear in the wrong locations\n-   Fixes a bug that caused CarPlay audio to distort\n-   Fixes a bug where an application may be able to elevate privileges\n-   Fixes multiple bugs where processing of maliciously crafted web content led to arbitrary code execution\n-   Fixes many bugs where applications could gain arbitrary code execution with kernel privileges\n-   Fixes bugs where local users could read persistent account identifiers\n-   Fixes a bug that allowed Siri to be enabled from lock screen, and thus display notifications that would be otherwise hidden",
+    "date" : "May 29, 2018"
+  },
+  {
+    "args" : {
+      "Build" : "15G77",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "11.4.1",
+    "logs" : "-   Fixes a bug that caused users to not read the last known location of AirPods in Find My iPhone\n-   Improves reliability of [Exchange](https://en.wikipedia.org/wiki/Microsoft_Exchange_Server \"Microsoft Exchange Server\") account services\n-   Fixes a bug that caused cookies to fail to delete\n-   Fixes a bug that allowed an application to elevate privileges\n-   Fixes multiple bugs that allowed for arbitrary code execution with kernel privileges\n-   Fixes a bug that allowed a phone call to be forcefully initiated\n-   Fixes multiple bugs that allowed for address bar spoofing\n-   Fixes multiple bugs that caused processing of maliciously crafted web content to lead to arbitrary code execution\n-   Fixes an app sandbox escape",
+    "date" : "July 9, 2018"
+  },
+  {
+    "args" : {
+      "Builds" : "16A366\n16A367",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\"",
+      "Initial devices" : "iPhone XS\niPhone XS Max\niPhone XR"
+    },
+    "version" : "12.0",
+    "logs" : "Initial release on [iPhone XR](https://en.wikipedia.org/wiki/IPhone_XR \"IPhone XR\"), [iPhone XS](https://en.wikipedia.org/wiki/IPhone_XS \"IPhone XS\") and [XS Max](https://en.wikipedia.org/wiki/IPhone_XS \"IPhone XS\")\n\n-   Allows searching for photos based on their geotag information\n-   Introduces Memoji, a customizable Animoji\n-   Adds a Deliver Quietly feature for the Do Not Disturb feature, which silently delivers notifications\n-   Adds the Siri Suggestions panel to Lock Screen and Search\n-   Enables Siri to turn on the flashlight\n-   Introduces the Measure app, which uses Augmented Reality to measure objects and spaces\n-   Speed and performance improvements.\n-   Fixes a bug that allows applications to read the user's Apple ID\n-   Fixes a bug that allows maliciously crafted iBooks file to access user information\n-   Fixes a bug that allowed local users to recover deleted messages\n-   Fixes a bug that prevented a user from deleting browser history",
+    "date" : "September 17, 2018"
+  },
+  {
+    "args" : {
+      "Builds" : "16A404\n16A405",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\""
+    },
+    "version" : "12.0.1",
+    "logs" : "-   Fixes an issue where some iPhone XS devices did not immediately start charging when connected to a Lightning cable that was capable of charging.\n-   Resolves an issue that caused some iPhone XS units to rejoin Wi-Fi networks at 2.4 GHz instead of 5 GHz.\n-   Restores the original position of the \".?123\" key on the iPad.\n-   Fixes an issue where subtitles failed to appear in some 3rd party video apps.\n-   Fixes an issue where Bluetooth could become unavailable.\n-   Strengthens the security on the lock screen due to local attackers being able to access photos, contacts, and the share function on a locked device.",
+    "date" : "October 8, 2018"
+  },
+  {
+    "args" : {
+      "Builds" : "16B92\n16B93\n16B94",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro 10.5\"",
+      "Initial devices" : "iPad Pro (3rd gen)"
+    },
+    "version" : "12.1",
+    "logs" : "*Initial release on [iPad Pro (3rd generation)](https://en.wikipedia.org/wiki/IPad_Pro_(3rd_generation) \"IPad Pro (3rd generation)\")*\n\n-   Introduces Group FaceTime support, which allows up to 32 simultaneous participants in a call.\n-   Adds dual SIM support using eSIMs for the iPhone XS, iPhone XS Max, and iPhone XR.\n-   Introduces Depth Control in Camera preview for iPhone XS, iPhone XS Max, and iPhone XR.\n-   Fixes a bug where messages were merged into one thread if two users were signed into the same Apple ID on separate devices,\n-   Resolves an issue where a contact name could fail to appear alongside a phone number.\n-   Fixes a bug where no family members could be added or removed from Family Sharing.\n-   Adds the ability for an iPhone XS, iPhone XS Max, or iPhone XR to detect if the battery installed is a genuine Apple battery\n-   Adds a performance management feature to prevent sudden shutdowns for an iPhone 8, iPhone 8 Plus, or iPhone X, with the ability to disable this.\n-   Fixes bug that allows a remote attacker to forcefully initiate a FaceTime call.",
+    "date" : "October 30, 2018"
+  },
+  {
+    "args" : {
+      "Build" : "16C50",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\""
+    },
+    "version" : "12.1.1",
+    "logs" : "-   Adds the ability to use separate carriers with dual SIM functionality.\n-   Allows Live Photo capture during one-to-one FaceTime calls.\n-   Allows switching between front and rear cameras with one tap in FaceTime.\n-   Fixes an issue where Face ID may become unavailable.\n-   Fixes issue where time zones did not update automatically.\n-   Fixes issue in Messages that prevented predictive text suggestions when using Chinese or Japanese keyboards.\n-   Increased lock screen security to prevent local attackers from accessing Contacts from the lock screen.\n-   Fixes bug that prevents fully deleting browser history.",
+    "date" : "December 5, 2018"
+  },
+  {
+    "args" : {
+      "Builds" : "16C101\n16C104",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR"
+    },
+    "version" : "12.1.2",
+    "logs" : "Only for iPhones\n\n-   Fixes bugs with eSIM activation for iPhone XS, iPhone XS Max, and iPhone XR.\n-   Fixes an issue where cellular connectivity was affected in Turkey for iPhone XS, iPhone XS Max, and iPhone XR.",
+    "date" : "December 17, 2018"
+  },
+  {
+    "args" : {
+      "Builds" : "16D39\n16D40",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\""
+    },
+    "version" : "12.1.3",
+    "logs" : "-   Fixes issue that may cause artifacting in images sent from the Share Sheet.\n-   Fixes issue that caused some CarPlay systems to disconnect from iPhone XS, iPhone XS Max, and iPhone XR.\n-   Fixes another issue that allowed a remote attacker to forcefully initiate a FaceTime call.",
+    "date" : "January 22, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "16D57",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\""
+    },
+    "version" : "12.1.4",
+    "logs" : "-   Fixes a bug where the initiator of a Group FaceTime call can force all of the recipients to answer.",
+    "date" : "February 7, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "16E227",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Air\niPad Air 2\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\"",
+      "Initial devices" : "iPad Air (3rd gen)\niPad Mini (5th gen)"
+    },
+    "version" : "12.2",
+    "logs" : "Initial release on [iPad Air (3rd gen)](https://en.wikipedia.org/wiki/IPad_Air_(3rd_generation) \"IPad Air (3rd gen)\") and [iPad Mini (5th gen)](https://en.wikipedia.org/wiki/IPad_Mini_(5th_generation) \"IPad Mini (5th generation)\")\n\n-   Introduces Apple News+, a subscription service for Apple news.\n-   Enables Ask Siri to allow play any video, show, movie, sports game, or channel on a Apple TV.\n-   Introduces four new Animoji faces - owl, boar, giraffe, shark, for iPhone X and later.\n-   Adds AirPlay controls into Control Center\n-   Adds support for the AirPods (2nd generation).\n-   Adds support for Air Quality Index in the [US](https://en.wikipedia.org/wiki/United_States \"United States\"), [UK](https://en.wikipedia.org/wiki/United_Kingdom \"United Kingdom\"), and [India](https://en.wikipedia.org/wiki/India \"India\").\n-   Fixes bug where the reported size of large apps, System, and Other could be reported incorrectly in the iPhone Storage section of settings.\n-   Fixes a bug where an attacker could intercept network traffic.\n-   Fixes a bug where websites could access sensor information without user consent.\n-   Fixes a bug where websites could access the microphone without the microphone usage indicator being shown.",
+    "date" : "March 25, 2019"
+  },
+  {
+    "args" : {
+      "Builds" : "16F156\n16F8155",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Mini (5th gen)\niPad Air\niPad Air 2\niPad Air (3rd gen)\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\"",
+      "Initial devices" : " iPod Touch (7th gen)"
+    },
+    "version" : "12.3",
+    "logs" : "Initial release on [iPod Touch (7th generation)](https://en.wikipedia.org/wiki/IPod_Touch_(7th_generation) \"IPod Touch (7th generation)\")\n\n-   Introduces AirPlay 2\n-   Introduces the Apple TV app, which lets users access Apple TV shows from their iPhone or iPad.\n-   Fixes bugs where apps could cause unexpected shutdowns\n-   the TV app was removed and replaced by apple TV.",
+    "date" : "May 13, 2019"
+  },
+  {
+    "args" : {
+      "Builds" : "16F203\n16F8202",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPod Touch (7th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Mini (5th gen)\niPad Air\niPad Air 2\niPad Air (3rd gen)\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\""
+    },
+    "version" : "12.3.1",
+    "logs" : "-   Fixes bug preventing use of VoLTE calls\n-   Fixes issue that allowed messages from unknown senders to appear in Messages despite Filter Unknown Senders being enabled\n-   Fixes issue that prevented the Report Junk link from appearing in a message from an unknown sender",
+    "date" : "May 24, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "16F250",
+      "Supported devices" : "iPhone 8 Plus"
+    },
+    "version" : "12.3.2",
+    "logs" : " - Exclusive to the iPhone 8 Plus, resolving an issue that could cause Camera to capture Portrait mode photos without depth effect on some devices",
+    "date" : "June 10, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "16G77",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPod Touch (7th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Mini (5th gen)\niPad Air\niPad Air 2\niPad Air (3rd gen)\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\""
+    },
+    "version" : "12.4",
+    "logs" : "-  Adds support for the [Apple Card](https://en.wikipedia.org/wiki/Apple_Card \"Apple Card\").\n-   Adds the ability to wirelessly transfer data between iPhones running iOS 12.4 or newer in Setup.\n-   Makes all of the downloaded magazines in News available offline.",
+    "date" : "July 22, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "16G102",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod touch (6th gen)\niPod Touch (7th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 2\niPad Mini 3\niPad Mini 4\niPad Mini (5th gen)\niPad Air\niPad Air 2\niPad Air (3rd gen)\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\""
+    },
+    "version" : "12.4.1",
+    "logs" : " - Undoes a vulnerability fix reversal from the previous release",
+    "date" : "August 26, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "16G114",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.4.2",
+    "logs" : " - Fixes bug that allows applications to read restricted memory",
+    "date" : "September 26, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "16G130",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.4.3",
+    "logs" : " - Fixes bug that allows AirDrop transfers to be forcefully accepted when the receiver is in Everyone mode",
+    "date" : "October 28, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "16G140",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.4.4",
+    "logs" : " - Fixes bug that allows a malicious video sent by FaceTime to lead to arbitrary code execution",
+    "date" : "December 10, 2019"
+  },
+  {
+    "args" : {
+      "Build" : "16G161",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.4.5",
+    "logs" : " - Security fixes, no published CVE entries",
+    "date" : "January 28, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "16G183",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.4.6",
+    "logs" : " - Security fixes, no published CVE entries",
+    "date" : "March 24, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "16G192",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.4.7",
+    "logs" : " - Fixes bugs in the Mail app that allowed kernel corruption and panics",
+    "date" : "May 20, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "16G201",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.4.8",
+    "logs" : " - Security fixes, no published CVE entries",
+    "date" : "July 15, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "16H5",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.4.9",
+    "logs" : "-   Fixes bug that allowed users in Group FaceTime to enable video without being notified of it.\n-   Fixes bug that allowed maliciously crafted font to gain arbitrary code execution.\n-   Fixes bugs with the kernel that allows disclosing of kernel memory and arbitrary code execution with kernel privileges.",
+    "date" : "November 5, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "16H20",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.5",
+    "logs" : "-   Adds opt-in for [COVID-19](https://en.wikipedia.org/wiki/COVID-19 \"COVID-19\") exposure notifications on [iPhone 5S](https://en.wikipedia.org/wiki/IPhone_5S \"IPhone 5S\") and [iPhone 6/6 Plus](https://en.wikipedia.org/wiki/IPhone_6 \"IPhone 6\").\n-   Fixes bug where unauthorized code execution led to violation of authentication policy.",
+    "date" : "December 14, 2020"
+  },
+  {
+    "args" : {
+      "Build" : "16H22",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.5.1",
+    "logs" : " - Fixes an issue where Exposure Notifications could incorrectly display logging profile language on the iPhone 5S and the iPhone 6/6 Plus.",
+    "date" : "January 11, 2021"
+  },
+  {
+    "args" : {
+      "Build" : "16H30",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.5.2",
+    "logs" : " - Fixes bug where processing of maliciously crafted web content may lead to universal cross-site scripting",
+    "date" : "March 26, 2021"
+  },
+  {
+    "args" : {
+      "Build" : "16H41",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.5.3",
+    "logs" : " - Fixes bugs where processing of maliciously crafted web content may lead to arbitrary code execution.",
+    "date" : "May 3, 2021"
+  },
+  {
+    "args" : {
+      "Build" : "16H50",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.5.4",
+    "logs" : "-   Fixes bugs where processing of maliciously crafted web content may lead to arbitrary code execution.\n-   Fixes bug where processing of maliciously crafted security certificate may lead to arbitrary code execution.",
+    "date" : "June 14, 2021"
+  },
+  {
+    "args" : {
+      "Build" : "16H62",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.5.5",
+    "logs" : "-   Fixes bug where processing a maliciously crafted PDF leads to arbitrary code execution.\n-   Fixes bug where processing maliciously crafted web content may lead to arbitrary code execution.\n-   Fixes bug where a malicious application is able to gain arbitrary code execution with kernel privileges.",
+    "date" : "September 23, 2021"
+  },
+  {
+    "args" : {
+      "Build" : "16H71",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.5.6",
+    "logs" : "-   Fixes bug where processing maliciously crafted web content may lead to arbitrary code execution.",
+    "date" : "August 31, 2022"
+  },
+  {
+    "args" : {
+      "Build" : "16H81",
+      "Supported devices" : "iPhone 5S\niPhone 6\niPhone 6 Plus\niPod touch (6th gen)\niPad Mini 2\niPad Mini 3\niPad Air"
+    },
+    "version" : "12.5.7",
+    "logs" : "-   Fixes a vulnerability where processing maliciously crafted web content may lead to arbitrary code execution.",
+    "date" : "January 23, 2023"
+  },
+  {
+    "args" : {
+      "Build" : "17A577",
+      "Supported devices" : "iPhone 6S\niPhone 6S Plus\niPhone 7\niPhone 7 Plus\niPhone 8\niPhone 8 Plus\niPhone SE (1st gen)\niPhone X\niPhone XS\niPhone XS Max\niPhone XR\niPod Touch (7th gen)\niPad (5th gen)\niPad (6th gen)\niPad Mini 4\niPad Mini (5th gen)\niPad Air 2\niPad Air (3rd gen)\niPad Pro 12.9\" (1st gen)\niPad Pro 12.7\" (2nd gen)\niPad Pro (3rd gen)\niPad Pro 10.5\"",
+      "Initial devices" : "iPhone 11\niPhone 11 Pro\niPhone 11 Pro Max"
+    },
+    "version" : "13.0",
+    "logs" : "Initial release on [iPhone 11](https://en.wikipedia.org/wiki/IPhone_11 \"IPhone 11\"), [iPhone 11 Pro](https://en.wikipedia.org/wiki/IPhone_11_Pro \"IPhone 11 Pro\"), and [iPhone 11 Pro Max](https://en.wikipedia.org/wiki/IPhone_11_Pro_Max \"IPhone 11 Pro Max\")\n\n-   Introduces Dark Mode\n-   Introduces \"Sign in with Apple\", allowing users to link accounts to their Apple ID\n-   Introduces Apple Arcade\n-   Integrates Siri and Shortcuts\n-   Adds more Memoji customization options\n-   Redesigns the CarPlay Dashboard\n-   Adds custom fonts to the App Store\n-   Enables external drive support in the Files app\n-   Enables SMB support in the Files app\n-   Enables extraction and compression of .zip archives\n-   Adds \"Allow Once\" location permission\n-   Redesigns volume control in the upper-left corner to be less unobtrusive\n-   Adds 38 more keyboard languages\n-   Adds Voice Control\n-   Introduces Low Data Mode, to reduce data usage over cellular networks\n-   Introduces Optimized Battery Charging, which learns from your charging behavior to only charge your device when you need it\n-   Find My iPhone and Find My Friends are combined into one app",
+    "date" : "September 19, 2019"
   }
 ]

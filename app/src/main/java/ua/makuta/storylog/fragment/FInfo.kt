@@ -45,6 +45,7 @@ class FInfo : CoreFragment<FInfoBinding>() {
                     detailsAdapter.clear()
                     val tmp = arrayListOf<Pair<String, String>>()
                     it.args.map { item -> Pair(item.key, item.value) }.toCollection(tmp)
+                    tmp.add(0,Pair("Date",it.date))
                     detailsAdapter.addAll(tmp)
                 }else{
                     binding.details.gone()

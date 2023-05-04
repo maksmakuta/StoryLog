@@ -51,6 +51,15 @@
     },
     "version" : "2.0",
     "logs" : "- Redesign UI  \n- Move to universal model for versions  \n    - Use Markdown in changelogs text\n    - Dynamic values for any information\n    - Support for headers and items in lists (powered by RecyclerView)  \n- Make app runned by JSON (which means, you can add/edit information without changing app code)  \n- Add caching for images and files  \n- Add separate light/dark images for projects",
-    "date" : "April __, 2023"
+    "date" : "April 24, 2023"
+  },
+  {
+    "args" : {
+      "Minimal Android Version" : "5.0",
+      "Target Android Version" : "14"
+    },
+    "version" : "2.0.1",
+    "logs" : "- Bugfixes:\n    - Show date in details\n    - Change repository url\n    - Add Android 14 pre-support",
+    "date" : "May 4, 2023"
   }
 ]

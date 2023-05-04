@@ -19,8 +19,7 @@ interface RepoAPI {
 
 }
 
-const val BASE_URL = "https://raw.githubusercontent.com/maksmakuta/StoryLog/dev/"
-
+const val BASE_URL = "https://raw.githubusercontent.com/maksmakuta/StoryLog/app/"
 
 private val client: OkHttpClient = OkHttpClient.Builder()
     .cache(StoryApp.cache())

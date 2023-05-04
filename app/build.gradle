@@ -14,8 +14,8 @@ android {
         applicationId "ua.makuta.storylog"
         minSdk 21
         targetSdk 33
-        versionCode 200
-        versionName "2.0"
+        versionCode 201
+        versionName "2.0.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -62,7 +62,6 @@ dependencies {
     implementation "io.noties.markwon:core:4.6.2"
     implementation("io.coil-kt:coil:2.3.0")
     implementation("io.coil-kt:coil-svg:2.3.0")
-    implementation 'androidx.recyclerview:recyclerview-selection:1.1.0'
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
