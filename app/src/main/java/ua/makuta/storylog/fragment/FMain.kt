@@ -58,8 +58,14 @@ class FMain : CoreFragment<FMainBinding>(), OnItemClickListener<ModelMenuItem> {
         }
     }
 
-    override fun onStop() {
-        super.onStop()
+//    override fun onStop() {
+//        super.onStop()
+//        menuAdapter.clear()
+//        mainVM.data.removeObservers(this)
+//    }
+
+    override fun onPause() {
+        super.onPause()
         menuAdapter.clear()
         mainVM.data.removeObservers(this)
     }
@@ -75,7 +81,7 @@ class FMain : CoreFragment<FMainBinding>(), OnItemClickListener<ModelMenuItem> {
                 )
             )
         }else{
-            snack(R.string.error_no_file)
+            snack(R.string.error_no_file,listener.onView())
         }
     }
 

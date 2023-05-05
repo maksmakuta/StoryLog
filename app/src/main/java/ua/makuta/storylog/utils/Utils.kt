@@ -23,6 +23,8 @@ object Utils {
     const val ARGS_TITLE    = "args_title"
     const val ARGS_TYPE     = "args_type"
 
+    const val VER_HEADER = "header"
+
     fun View.gone(){
         this.visibility = GONE
     }

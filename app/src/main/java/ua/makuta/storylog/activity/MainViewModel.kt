@@ -1,11 +1,5 @@
 package ua.makuta.storylog.activity
 
-import android.content.Context
-import android.net.ConnectivityManager
-import android.net.Network
-import android.net.NetworkCapabilities
-import android.net.NetworkRequest
-import androidx.core.content.ContextCompat.getSystemService
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -19,7 +13,6 @@ import ua.makuta.storylog.model.ModelMenu
 import ua.makuta.storylog.model.ModelVersion
 import ua.makuta.storylog.net.BASE_URL
 import ua.makuta.storylog.net.storyNet
-import ua.makuta.storylog.utils.Utils.logger
 import java.io.IOException
 
 class MainViewModel : ViewModel() {
@@ -51,7 +44,6 @@ class MainViewModel : ViewModel() {
         viewModelScope.launch {
             val appData = storyNet.getMenu()
             data.postValue(appData)
-            logger("data : $appData")
         }
     }
 
@@ -59,7 +51,6 @@ class MainViewModel : ViewModel() {
         viewModelScope.launch {
             val tmp = storyNet.getFile(name)
             arrData.postValue(tmp)
-            logger("data : $tmp")
         }
     }
 }

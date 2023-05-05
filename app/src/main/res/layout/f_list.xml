@@ -2,14 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <TextView
+    <com.google.android.material.appbar.MaterialToolbar
         android:id="@+id/title"
         android:gravity="center"
+        style="@style/Widget.Material3.Toolbar"
+        android:visibility="gone"
         android:textColor="?colorOnSurface"
         android:textSize="24sp"
+        app:titleCentered="true"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

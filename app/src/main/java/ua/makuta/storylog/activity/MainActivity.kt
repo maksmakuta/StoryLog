@@ -1,6 +1,7 @@
 package ua.makuta.storylog.activity
 
 import android.os.Bundle
+import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.os.bundleOf
@@ -90,5 +91,7 @@ class MainActivity : AppCompatActivity(), OnNavigationListener {
             binding.navBar.visible()
         }
     }
+
+    override fun onView(): View = binding.navBar
 
 }

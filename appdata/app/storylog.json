@@ -59,7 +59,7 @@
       "Target Android Version" : "14"
     },
     "version" : "2.0.1",
-    "logs" : "- Bugfixes:\n    - Show date in details\n    - Change repository url\n    - Add Android 14 pre-support",
-    "date" : "May 4, 2023"
+    "logs" : "- Bugfixes:\n    - Show date in details\n    - Fix snackbar position\n - Add dynamic titles on scrolling\n - Change repository url\n - Add Android 14 pre-support",
+    "date" : "May 5, 2023"
   }
 ]
