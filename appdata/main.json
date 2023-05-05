@@ -9,7 +9,7 @@
     {
       "icon": ["appdata/image/ios_dark.svg","appdata/image/ios_light.svg"],
       "title": "iOS",
-      "desc": "Mobile OS made by Apple [in progress]",
+      "desc": "Mobile OS made by Apple",
       "file": "appdata/os/ios.json"
     },
     {

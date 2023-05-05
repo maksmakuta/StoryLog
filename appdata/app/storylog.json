@@ -58,7 +58,7 @@
       "Minimal Android Version" : "5.0",
       "Target Android Version" : "14"
     },
-    "version" : "2.0.1",
+    "version" : "2.1",
     "logs" : "- Bugfixes:\n    - Show date in details\n    - Fix snackbar position\n - Add dynamic titles on scrolling\n - Change repository url\n - Add Android 14 pre-support",
     "date" : "May 5, 2023"
   }
