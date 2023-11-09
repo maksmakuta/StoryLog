@@ -4,6 +4,10 @@
  
 Full changelog of Android, IOS, WearOS and Android Wear taken from Wikipedia
 
+#### Support
+
+You can add more changelogs using pull requests, author don't have much time to do it by self
+
 ## Author 
  
  Maks Makuta (```maksmakuta```) 2023 (C)
