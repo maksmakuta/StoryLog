@@ -206,5 +206,13 @@
     "version" : "3.5",
     "logs" : "-   Integration with Fitbit\n-   Improved Google Assistant\n-   Added new watch faces\n\nRemoved:\n\n-   Compatibility with iPhones",
     "date" : "October 2022"
+  },
+  {
+    "args" : {
+      "Based on" : "Android 13"
+    },
+    "version" : "4.0",
+    "logs" : "-   Material You\n-   Animated Tiles\n-   New XML watch face format\n-   Improved battery life\n-   Native backups\n-   App permission syncing with connected phone\n-   More granular permission handling for health data\n-   Improved golf tracking",
+    "date" : "July 2023"
   }
 ]
